@@ -11,7 +11,7 @@ This enables you, for example, to make the MultiTerm lookup and editing function
 | <!----> | <!----> | <!----> | <!----> |
 | --- | --- | --- | --- |
 | **Component** | **MultiTerm version** | **API Version** | **Main Class** |
-| TRADOS MultiTerm 16.0 Client API | 2021 SR2 | 11.0 | Sdl.MultiTerm.TMO.Interop.Application (C#)<br> MultiTermIX (VBA) |
+| TRADOS MultiTerm 17.0 Client API | 2022 | 11.0 | Sdl.MultiTerm.TMO.Interop.Application (C#)<br> MultiTermIX (VBA) |
 
 
 The corresponding DLL library can be found in your SDL Common Files installation folder, e.g.: *C:\Program Files (x86)\Common Files\SDL\MultiTerm16\Sdl.MultiTerm.TMO.dll*

@@ -34,5 +34,5 @@ In order for you to make a contribution directly please follow the next steps:
 - Our documentation automatically fills in the product name and other details so you don't have to make the changes manually if we decide to update the product name. Use the '<var:VariableName>' construct to tell our documentation engine to fill in the info for you. Here are the constructs available at this point:
 
       <var:ProductName> - The product name, for example MultiTerm
-      <var:ProductNameWithEdition> - The official product release name including the edition, for example 'MultiTerm 2021'
+      <var:ProductNameWithEdition> - The official product release name including the edition, for example 'MultiTerm 2022'
       
