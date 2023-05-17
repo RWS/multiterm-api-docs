@@ -26,13 +26,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("CF7AC07F-C27E-4E1A-8B29-22568FDB079C")]
+      [Guid("5FC172B0-3213-40AF-8915-024CCBD88539")]
 
       public class IndexPermissionsClass : IndexPermissions, IIndexPermissions
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("CF7AC07F-C27E-4E1A-8B29-22568FDB079C")>
+      <Guid("5FC172B0-3213-40AF-8915-024CCBD88539")>
 
       Public Class IndexPermissionsClass
           Implements IndexPermissions, IIndexPermissions
@@ -59,7 +59,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: CF7AC07F-C27E-4E1A-8B29-22568FDB079C
+      value: 5FC172B0-3213-40AF-8915-024CCBD88539
   modifiers.csharp:
   - public
   - class

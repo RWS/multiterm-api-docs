@@ -29,13 +29,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("44EA8A4B-C5AA-42D2-8A14-0EBC15F38A9B")]
+      [Guid("A769BA2C-8F84-418D-9AAD-ADEFE279773B")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class ExportDefinitionsClass : ExportDefinitions, IExportDefinitions, IEnumerable
     content.vb: >-
-      <Guid("44EA8A4B-C5AA-42D2-8A14-0EBC15F38A9B")>
+      <Guid("A769BA2C-8F84-418D-9AAD-ADEFE279773B")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -60,7 +60,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 44EA8A4B-C5AA-42D2-8A14-0EBC15F38A9B
+      value: A769BA2C-8F84-418D-9AAD-ADEFE279773B
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

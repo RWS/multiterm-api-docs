@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("3179ED04-16DF-4092-A9AE-23E6CE9E98F6")]
+      [Guid("A22B43AB-3E16-4665-83A3-491B22CA2F59")]
 
       public interface IncompleteEntries : IIncompleteEntries, IEnumerable
     content.vb: >-
-      <Guid("3179ED04-16DF-4092-A9AE-23E6CE9E98F6")>
+      <Guid("A22B43AB-3E16-4665-83A3-491B22CA2F59")>
 
       Public Interface IncompleteEntries
           Inherits IIncompleteEntries
@@ -37,7 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 3179ED04-16DF-4092-A9AE-23E6CE9E98F6
+      value: A22B43AB-3E16-4665-83A3-491B22CA2F59
   modifiers.csharp:
   - public
   - interface

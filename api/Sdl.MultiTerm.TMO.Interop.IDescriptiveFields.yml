@@ -23,11 +23,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("D086110E-03EE-4E5E-9516-C3F4402B7DE7")]
+      [Guid("3CC098B6-6800-4FEB-8B1F-AFF63EDA358B")]
 
       public interface IDescriptiveFields : IEnumerable
     content.vb: >-
-      <Guid("D086110E-03EE-4E5E-9516-C3F4402B7DE7")>
+      <Guid("3CC098B6-6800-4FEB-8B1F-AFF63EDA358B")>
 
       Public Interface IDescriptiveFields
           Inherits IEnumerable
@@ -36,7 +36,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: D086110E-03EE-4E5E-9516-C3F4402B7DE7
+      value: 3CC098B6-6800-4FEB-8B1F-AFF63EDA358B
   modifiers.csharp:
   - public
   - interface

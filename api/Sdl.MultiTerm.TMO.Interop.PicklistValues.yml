@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("F5EB04FB-C819-46DD-87CD-349FC8389176")]
+      [Guid("26536232-D4E2-43B4-8036-0124FDDE3576")]
 
       public interface PicklistValues : IPicklistValues, IEnumerable
     content.vb: >-
-      <Guid("F5EB04FB-C819-46DD-87CD-349FC8389176")>
+      <Guid("26536232-D4E2-43B4-8036-0124FDDE3576")>
 
       Public Interface PicklistValues
           Inherits IPicklistValues
@@ -37,7 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: F5EB04FB-C819-46DD-87CD-349FC8389176
+      value: 26536232-D4E2-43B4-8036-0124FDDE3576
   modifiers.csharp:
   - public
   - interface

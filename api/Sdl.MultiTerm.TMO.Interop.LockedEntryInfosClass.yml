@@ -23,13 +23,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("56CD6331-5534-4529-8D7D-D532C7E787DD")]
+      [Guid("10410857-A7E8-45B7-BEE1-DFCAEBB8BE5A")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class LockedEntryInfosClass : LockedEntryInfos, ILockedEntryInfos, IEnumerable
     content.vb: >-
-      <Guid("56CD6331-5534-4529-8D7D-D532C7E787DD")>
+      <Guid("10410857-A7E8-45B7-BEE1-DFCAEBB8BE5A")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -54,7 +54,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 56CD6331-5534-4529-8D7D-D532C7E787DD
+      value: 10410857-A7E8-45B7-BEE1-DFCAEBB8BE5A
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

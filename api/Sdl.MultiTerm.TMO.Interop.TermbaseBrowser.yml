@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("34F4380A-AF30-4BF8-AEFA-C83632F588A3")]
+      [Guid("1AD0E924-AC2F-4D01-A719-D80577C210C0")]
 
       public interface TermbaseBrowser : ITermbaseBrowser
     content.vb: >-
-      <Guid("34F4380A-AF30-4BF8-AEFA-C83632F588A3")>
+      <Guid("1AD0E924-AC2F-4D01-A719-D80577C210C0")>
 
       Public Interface TermbaseBrowser
           Inherits ITermbaseBrowser
@@ -42,7 +42,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 34F4380A-AF30-4BF8-AEFA-C83632F588A3
+      value: 1AD0E924-AC2F-4D01-A719-D80577C210C0
   modifiers.csharp:
   - public
   - interface

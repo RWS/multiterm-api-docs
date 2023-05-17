@@ -28,13 +28,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("A74B1C72-9F3D-48EE-ABCB-B8AD08357175")]
+      [Guid("B4E6B1B2-D542-45A8-B005-6AE24116F16E")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class LayoutDefinitionsClass : LayoutDefinitions, ILayoutDefinitions, IEnumerable
     content.vb: >-
-      <Guid("A74B1C72-9F3D-48EE-ABCB-B8AD08357175")>
+      <Guid("B4E6B1B2-D542-45A8-B005-6AE24116F16E")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -59,7 +59,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: A74B1C72-9F3D-48EE-ABCB-B8AD08357175
+      value: B4E6B1B2-D542-45A8-B005-6AE24116F16E
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

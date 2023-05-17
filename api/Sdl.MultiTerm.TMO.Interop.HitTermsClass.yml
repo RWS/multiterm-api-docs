@@ -25,13 +25,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("276BEB50-B2E0-407D-9879-B14FEB5E149C")]
+      [Guid("BCAB79F5-26BB-4BBE-87A1-BAD325236D87")]
 
       public class HitTermsClass : HitTerms, IHitTerms, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("276BEB50-B2E0-407D-9879-B14FEB5E149C")>
+      <Guid("BCAB79F5-26BB-4BBE-87A1-BAD325236D87")>
 
       Public Class HitTermsClass
           Implements HitTerms, IHitTerms, IEnumerable
@@ -59,7 +59,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 276BEB50-B2E0-407D-9879-B14FEB5E149C
+      value: BCAB79F5-26BB-4BBE-87A1-BAD325236D87
   modifiers.csharp:
   - public
   - class

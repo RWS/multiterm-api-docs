@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("3D875F6B-68CF-49DB-9DAE-D953C6F1AE81")]
+      [Guid("AC18465D-33B5-44BA-B4DD-621068BF21B5")]
 
       public interface LayoutDefinition : ILayoutDefinition
     content.vb: >-
-      <Guid("3D875F6B-68CF-49DB-9DAE-D953C6F1AE81")>
+      <Guid("AC18465D-33B5-44BA-B4DD-621068BF21B5")>
 
       Public Interface LayoutDefinition
           Inherits ILayoutDefinition
@@ -47,7 +47,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 3D875F6B-68CF-49DB-9DAE-D953C6F1AE81
+      value: AC18465D-33B5-44BA-B4DD-621068BF21B5
   modifiers.csharp:
   - public
   - interface

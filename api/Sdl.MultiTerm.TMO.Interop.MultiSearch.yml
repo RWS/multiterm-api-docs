@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("EE0C2A2B-E349-42C1-B414-CAF2CD91224C")]
+      [Guid("C277D430-8313-49D4-88AD-9BC11006070D")]
 
       public interface MultiSearch : IMultiSearch
     content.vb: >-
-      <Guid("EE0C2A2B-E349-42C1-B414-CAF2CD91224C")>
+      <Guid("C277D430-8313-49D4-88AD-9BC11006070D")>
 
       Public Interface MultiSearch
           Inherits IMultiSearch
@@ -48,7 +48,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: EE0C2A2B-E349-42C1-B414-CAF2CD91224C
+      value: C277D430-8313-49D4-88AD-9BC11006070D
   modifiers.csharp:
   - public
   - interface

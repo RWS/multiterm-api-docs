@@ -33,11 +33,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("0018F8A4-CF2E-4C49-BA8A-89EAAE25F02A")]
+      [Guid("5B7B009A-C410-494C-8305-E7147DE9844C")]
 
       public interface ITermbaseSearch
     content.vb: >-
-      <Guid("0018F8A4-CF2E-4C49-BA8A-89EAAE25F02A")>
+      <Guid("5B7B009A-C410-494C-8305-E7147DE9844C")>
 
       Public Interface ITermbaseSearch
   attributes:
@@ -45,7 +45,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 0018F8A4-CF2E-4C49-BA8A-89EAAE25F02A
+      value: 5B7B009A-C410-494C-8305-E7147DE9844C
   modifiers.csharp:
   - public
   - interface

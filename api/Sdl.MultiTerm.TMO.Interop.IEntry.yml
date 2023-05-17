@@ -41,11 +41,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("7C71928D-1851-49CE-8A1C-47A15840E4D2")]
+      [Guid("444B20C4-8E01-4D10-B13B-EDFE57FC2F07")]
 
       public interface IEntry
     content.vb: >-
-      <Guid("7C71928D-1851-49CE-8A1C-47A15840E4D2")>
+      <Guid("444B20C4-8E01-4D10-B13B-EDFE57FC2F07")>
 
       Public Interface IEntry
   attributes:
@@ -53,7 +53,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 7C71928D-1851-49CE-8A1C-47A15840E4D2
+      value: 444B20C4-8E01-4D10-B13B-EDFE57FC2F07
   modifiers.csharp:
   - public
   - interface

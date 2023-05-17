@@ -33,13 +33,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("D5D0CC70-6D55-403C-870E-22B8A54B569D")]
+      [Guid("DE17843D-BD98-48D4-B5EE-84BE20FC47D3")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class InputModelDefinitionClass : InputModelDefinition, IInputModelDefinition
     content.vb: >-
-      <Guid("D5D0CC70-6D55-403C-870E-22B8A54B569D")>
+      <Guid("DE17843D-BD98-48D4-B5EE-84BE20FC47D3")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -63,7 +63,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: D5D0CC70-6D55-403C-870E-22B8A54B569D
+      value: DE17843D-BD98-48D4-B5EE-84BE20FC47D3
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

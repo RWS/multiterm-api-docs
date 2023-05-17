@@ -25,11 +25,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("0DE38117-86FA-49CE-9242-B85C90568620")]
+      [Guid("A3D821E1-F96A-4B8A-8DE7-FC3DCD72705A")]
 
       public interface IHitTerm
     content.vb: >-
-      <Guid("0DE38117-86FA-49CE-9242-B85C90568620")>
+      <Guid("A3D821E1-F96A-4B8A-8DE7-FC3DCD72705A")>
 
       Public Interface IHitTerm
   attributes:
@@ -37,7 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 0DE38117-86FA-49CE-9242-B85C90568620
+      value: A3D821E1-F96A-4B8A-8DE7-FC3DCD72705A
   modifiers.csharp:
   - public
   - interface

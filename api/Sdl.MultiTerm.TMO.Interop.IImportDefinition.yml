@@ -32,11 +32,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("91E53329-70EE-402B-884C-E37434B09D34")]
+      [Guid("6B82985D-D195-4822-B868-2163C7855AA0")]
 
       public interface IImportDefinition
     content.vb: >-
-      <Guid("91E53329-70EE-402B-884C-E37434B09D34")>
+      <Guid("6B82985D-D195-4822-B868-2163C7855AA0")>
 
       Public Interface IImportDefinition
   attributes:
@@ -44,7 +44,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 91E53329-70EE-402B-884C-E37434B09D34
+      value: 6B82985D-D195-4822-B868-2163C7855AA0
   modifiers.csharp:
   - public
   - interface

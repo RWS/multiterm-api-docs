@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("7CDBD469-5F26-4F3E-A6BB-6FAF05CAF8C5")]
+      [Guid("CC19DE6C-8D08-4F9A-9E19-E943560AC070")]
 
       public interface TermbaseAccessPermissions : ITermbaseAccessPermissions
     content.vb: >-
-      <Guid("7CDBD469-5F26-4F3E-A6BB-6FAF05CAF8C5")>
+      <Guid("CC19DE6C-8D08-4F9A-9E19-E943560AC070")>
 
       Public Interface TermbaseAccessPermissions
           Inherits ITermbaseAccessPermissions
@@ -43,7 +43,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 7CDBD469-5F26-4F3E-A6BB-6FAF05CAF8C5
+      value: CC19DE6C-8D08-4F9A-9E19-E943560AC070
   modifiers.csharp:
   - public
   - interface

@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C")]
+      [Guid("F73E1BA8-F054-4608-B0B8-3BD6EF52FE5F")]
 
       public interface Index : IIndex
     content.vb: >-
-      <Guid("4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C")>
+      <Guid("F73E1BA8-F054-4608-B0B8-3BD6EF52FE5F")>
 
       Public Interface Index
           Inherits IIndex
@@ -40,7 +40,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 4A3BC576-3C63-49BF-ACBE-B5EA97CDC53C
+      value: F73E1BA8-F054-4608-B0B8-3BD6EF52FE5F
   modifiers.csharp:
   - public
   - interface

@@ -26,11 +26,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("C2C021D6-378D-4A3C-A537-0F146882184E")]
+      [Guid("DFEBA392-441D-41FB-81AF-0D8E69BCA7FB")]
 
       public enum MtFieldType
     content.vb: >-
-      <Guid("C2C021D6-378D-4A3C-A537-0F146882184E")>
+      <Guid("DFEBA392-441D-41FB-81AF-0D8E69BCA7FB")>
 
       Public Enum MtFieldType
   attributes:
@@ -38,7 +38,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: C2C021D6-378D-4A3C-A537-0F146882184E
+      value: DFEBA392-441D-41FB-81AF-0D8E69BCA7FB
   modifiers.csharp:
   - public
   - enum

@@ -25,13 +25,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("D72077F1-36D9-4163-9477-459501F88432")]
+      [Guid("B923A143-AD8E-416B-AC8D-8647C6C526C8")]
 
       public class LockedEntryInfoClass : LockedEntryInfo, ILockedEntryInfo
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("D72077F1-36D9-4163-9477-459501F88432")>
+      <Guid("B923A143-AD8E-416B-AC8D-8647C6C526C8")>
 
       Public Class LockedEntryInfoClass
           Implements LockedEntryInfo, ILockedEntryInfo
@@ -58,7 +58,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: D72077F1-36D9-4163-9477-459501F88432
+      value: B923A143-AD8E-416B-AC8D-8647C6C526C8
   modifiers.csharp:
   - public
   - class

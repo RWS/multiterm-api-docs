@@ -28,11 +28,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("34006FF0-484A-4293-8150-F84FD66CF306")]
+      [Guid("813515F9-F3F9-4A67-97AC-D6DB70F1F0C0")]
 
       public interface ISearchInfo
     content.vb: >-
-      <Guid("34006FF0-484A-4293-8150-F84FD66CF306")>
+      <Guid("813515F9-F3F9-4A67-97AC-D6DB70F1F0C0")>
 
       Public Interface ISearchInfo
   attributes:
@@ -40,7 +40,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 34006FF0-484A-4293-8150-F84FD66CF306
+      value: 813515F9-F3F9-4A67-97AC-D6DB70F1F0C0
   modifiers.csharp:
   - public
   - interface

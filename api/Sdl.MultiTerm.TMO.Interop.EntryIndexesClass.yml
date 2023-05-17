@@ -26,13 +26,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("CEF5643C-ADC7-4905-9D6D-33AC250415DB")]
+      [Guid("7A447F1D-3E21-4594-BFE4-A90F4C02515B")]
 
       public class EntryIndexesClass : EntryIndexes, IEntryIndexes, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("CEF5643C-ADC7-4905-9D6D-33AC250415DB")>
+      <Guid("7A447F1D-3E21-4594-BFE4-A90F4C02515B")>
 
       Public Class EntryIndexesClass
           Implements EntryIndexes, IEntryIndexes, IEnumerable
@@ -60,7 +60,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: CEF5643C-ADC7-4905-9D6D-33AC250415DB
+      value: 7A447F1D-3E21-4594-BFE4-A90F4C02515B
   modifiers.csharp:
   - public
   - class

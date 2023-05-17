@@ -25,13 +25,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("A4F81D0C-9DE1-42C2-9984-852D04FAB29E")]
+      [Guid("3578D5F0-94AE-4F04-987D-CB13FA151E6B")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class HitTermClass : HitTerm, IHitTerm
     content.vb: >-
-      <Guid("A4F81D0C-9DE1-42C2-9984-852D04FAB29E")>
+      <Guid("3578D5F0-94AE-4F04-987D-CB13FA151E6B")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -55,7 +55,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: A4F81D0C-9DE1-42C2-9984-852D04FAB29E
+      value: 3578D5F0-94AE-4F04-987D-CB13FA151E6B
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

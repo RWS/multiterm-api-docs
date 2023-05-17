@@ -30,13 +30,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("CA1D07C1-3403-4675-8B4A-A68D9A01820E")]
+      [Guid("B4B8CCB7-0D4D-4A9F-8E48-B56091423FC5")]
 
       public class FilterDefinitionsClass : FilterDefinitions, IFilterDefinitions, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("CA1D07C1-3403-4675-8B4A-A68D9A01820E")>
+      <Guid("B4B8CCB7-0D4D-4A9F-8E48-B56091423FC5")>
 
       Public Class FilterDefinitionsClass
           Implements FilterDefinitions, IFilterDefinitions, IEnumerable
@@ -64,7 +64,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: CA1D07C1-3403-4675-8B4A-A68D9A01820E
+      value: B4B8CCB7-0D4D-4A9F-8E48-B56091423FC5
   modifiers.csharp:
   - public
   - class

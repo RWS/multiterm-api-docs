@@ -30,13 +30,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("95017217-3A89-4D3F-83B4-A38B68B39AC6")]
+      [Guid("E7714BC1-8EE1-44DA-9F91-5D9F96B601B0")]
 
       public class InputModelDefinitionsClass : InputModelDefinitions, IInputModelDefinitions, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("95017217-3A89-4D3F-83B4-A38B68B39AC6")>
+      <Guid("E7714BC1-8EE1-44DA-9F91-5D9F96B601B0")>
 
       Public Class InputModelDefinitionsClass
           Implements InputModelDefinitions, IInputModelDefinitions, IEnumerable
@@ -64,7 +64,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 95017217-3A89-4D3F-83B4-A38B68B39AC6
+      value: E7714BC1-8EE1-44DA-9F91-5D9F96B601B0
   modifiers.csharp:
   - public
   - class

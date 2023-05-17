@@ -22,11 +22,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("DC1193C0-1D88-424D-8278-7666A1ED3B23")]
+      [Guid("889006DA-BF29-4F76-AD24-F69588B6F1C8")]
 
       public enum MtIndexGuessing
     content.vb: >-
-      <Guid("DC1193C0-1D88-424D-8278-7666A1ED3B23")>
+      <Guid("889006DA-BF29-4F76-AD24-F69588B6F1C8")>
 
       Public Enum MtIndexGuessing
   attributes:
@@ -34,7 +34,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: DC1193C0-1D88-424D-8278-7666A1ED3B23
+      value: 889006DA-BF29-4F76-AD24-F69588B6F1C8
   modifiers.csharp:
   - public
   - enum

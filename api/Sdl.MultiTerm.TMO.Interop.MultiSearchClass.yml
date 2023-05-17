@@ -36,13 +36,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("049374C0-BA6F-4796-9CD6-28BB144D9FDB")]
+      [Guid("66D61D96-AB67-4530-ABFF-52B2B4FD869D")]
 
       public class MultiSearchClass : MultiSearch, IMultiSearch
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("049374C0-BA6F-4796-9CD6-28BB144D9FDB")>
+      <Guid("66D61D96-AB67-4530-ABFF-52B2B4FD869D")>
 
       Public Class MultiSearchClass
           Implements MultiSearch, IMultiSearch
@@ -69,7 +69,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 049374C0-BA6F-4796-9CD6-28BB144D9FDB
+      value: 66D61D96-AB67-4530-ABFF-52B2B4FD869D
   modifiers.csharp:
   - public
   - class

@@ -25,13 +25,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("253C76A1-E5C4-4A3C-B99B-F0653221449F")]
+      [Guid("C0EACA02-21C3-4D16-9D85-E74C635CB1FD")]
 
       public class IndexesClass : Indexes, IIndexes, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("253C76A1-E5C4-4A3C-B99B-F0653221449F")>
+      <Guid("C0EACA02-21C3-4D16-9D85-E74C635CB1FD")>
 
       Public Class IndexesClass
           Implements Indexes, IIndexes, IEnumerable
@@ -59,7 +59,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 253C76A1-E5C4-4A3C-B99B-F0653221449F
+      value: C0EACA02-21C3-4D16-9D85-E74C635CB1FD
   modifiers.csharp:
   - public
   - class

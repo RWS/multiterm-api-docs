@@ -22,11 +22,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("66BAE712-3B95-48A5-B2A1-2838C8AE0DE0")]
+      [Guid("DB6B5D56-823C-41D8-AF3F-EA8134FCFC5B")]
 
       public enum MtTaskType
     content.vb: >-
-      <Guid("66BAE712-3B95-48A5-B2A1-2838C8AE0DE0")>
+      <Guid("DB6B5D56-823C-41D8-AF3F-EA8134FCFC5B")>
 
       Public Enum MtTaskType
   attributes:
@@ -34,7 +34,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 66BAE712-3B95-48A5-B2A1-2838C8AE0DE0
+      value: DB6B5D56-823C-41D8-AF3F-EA8134FCFC5B
   modifiers.csharp:
   - public
   - enum

@@ -22,11 +22,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("AACA5A15-7751-4D18-B19E-38293D07A619")]
+      [Guid("0487305B-973E-4565-B5A8-203F6FAC0566")]
 
       public enum MtBrowseDirection
     content.vb: >-
-      <Guid("AACA5A15-7751-4D18-B19E-38293D07A619")>
+      <Guid("0487305B-973E-4565-B5A8-203F6FAC0566")>
 
       Public Enum MtBrowseDirection
   attributes:
@@ -34,7 +34,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: AACA5A15-7751-4D18-B19E-38293D07A619
+      value: 0487305B-973E-4565-B5A8-203F6FAC0566
   modifiers.csharp:
   - public
   - enum

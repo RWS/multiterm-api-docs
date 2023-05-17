@@ -25,13 +25,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("EFFA5864-1DDE-497B-9A51-7416483A15E1")]
+      [Guid("5FF92BCA-BAEF-4D5F-9CD6-4A8C610997A6")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class EntryIndexClass : EntryIndex, IEntryIndex
     content.vb: >-
-      <Guid("EFFA5864-1DDE-497B-9A51-7416483A15E1")>
+      <Guid("5FF92BCA-BAEF-4D5F-9CD6-4A8C610997A6")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -55,7 +55,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: EFFA5864-1DDE-497B-9A51-7416483A15E1
+      value: 5FF92BCA-BAEF-4D5F-9CD6-4A8C610997A6
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("B960E41C-1B46-4A58-BDBC-BA05F80AB96D")]
+      [Guid("45591EF8-DA3B-46B5-B02F-CBA903CC442E")]
 
       public interface IndexPermissions : IIndexPermissions
     content.vb: >-
-      <Guid("B960E41C-1B46-4A58-BDBC-BA05F80AB96D")>
+      <Guid("45591EF8-DA3B-46B5-B02F-CBA903CC442E")>
 
       Public Interface IndexPermissions
           Inherits IIndexPermissions
@@ -38,7 +38,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: B960E41C-1B46-4A58-BDBC-BA05F80AB96D
+      value: 45591EF8-DA3B-46B5-B02F-CBA903CC442E
   modifiers.csharp:
   - public
   - interface

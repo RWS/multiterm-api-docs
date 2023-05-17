@@ -30,13 +30,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("16F0E573-F8B8-4C35-B4D3-391FC66B06E6")]
+      [Guid("914B39B6-6E05-482C-845A-DA876900F56C")]
 
       public class ImportDefinitionsClass : ImportDefinitions, IImportDefinitions, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("16F0E573-F8B8-4C35-B4D3-391FC66B06E6")>
+      <Guid("914B39B6-6E05-482C-845A-DA876900F56C")>
 
       Public Class ImportDefinitionsClass
           Implements ImportDefinitions, IImportDefinitions, IEnumerable
@@ -64,7 +64,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 16F0E573-F8B8-4C35-B4D3-391FC66B06E6
+      value: 914B39B6-6E05-482C-845A-DA876900F56C
   modifiers.csharp:
   - public
   - class

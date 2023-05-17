@@ -33,13 +33,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("F5D44792-A458-45B3-8049-6DF7D9A0B471")]
+      [Guid("A66C51CB-6537-46D9-84E7-160AB3850D1B")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class LayoutDefinitionClass : LayoutDefinition, ILayoutDefinition
     content.vb: >-
-      <Guid("F5D44792-A458-45B3-8049-6DF7D9A0B471")>
+      <Guid("A66C51CB-6537-46D9-84E7-160AB3850D1B")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -63,7 +63,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: F5D44792-A458-45B3-8049-6DF7D9A0B471
+      value: A66C51CB-6537-46D9-84E7-160AB3850D1B
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

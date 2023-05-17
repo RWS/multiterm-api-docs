@@ -23,13 +23,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("34A5DC84-7713-4FC0-9B73-8440FE3C8388")]
+      [Guid("33F77D1D-0F9F-4ED8-97BB-2DD14DA12D1E")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class DescriptiveFieldsClass : DescriptiveFields, IDescriptiveFields, IEnumerable
     content.vb: >-
-      <Guid("34A5DC84-7713-4FC0-9B73-8440FE3C8388")>
+      <Guid("33F77D1D-0F9F-4ED8-97BB-2DD14DA12D1E")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -54,7 +54,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 34A5DC84-7713-4FC0-9B73-8440FE3C8388
+      value: 33F77D1D-0F9F-4ED8-97BB-2DD14DA12D1E
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

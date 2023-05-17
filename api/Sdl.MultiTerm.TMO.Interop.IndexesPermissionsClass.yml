@@ -27,13 +27,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("1FE157BA-51C9-4033-A8C7-AAB1E6B01F35")]
+      [Guid("34BDD29E-ADCE-4F1F-B6BB-927529BBEE5E")]
 
       public class IndexesPermissionsClass : IndexesPermissions, IIndexesPermissions, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("1FE157BA-51C9-4033-A8C7-AAB1E6B01F35")>
+      <Guid("34BDD29E-ADCE-4F1F-B6BB-927529BBEE5E")>
 
       Public Class IndexesPermissionsClass
           Implements IndexesPermissions, IIndexesPermissions, IEnumerable
@@ -61,7 +61,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 1FE157BA-51C9-4033-A8C7-AAB1E6B01F35
+      value: 34BDD29E-ADCE-4F1F-B6BB-927529BBEE5E
   modifiers.csharp:
   - public
   - class

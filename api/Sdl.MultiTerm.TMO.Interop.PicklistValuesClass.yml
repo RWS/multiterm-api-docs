@@ -25,13 +25,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("03D3A87F-336E-4A91-B77A-09AADCD6DC27")]
+      [Guid("041E5DC4-D22F-41F4-B597-FA488A9A2586")]
 
       public class PicklistValuesClass : PicklistValues, IPicklistValues, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("03D3A87F-336E-4A91-B77A-09AADCD6DC27")>
+      <Guid("041E5DC4-D22F-41F4-B597-FA488A9A2586")>
 
       Public Class PicklistValuesClass
           Implements PicklistValues, IPicklistValues, IEnumerable
@@ -59,7 +59,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 03D3A87F-336E-4A91-B77A-09AADCD6DC27
+      value: 041E5DC4-D22F-41F4-B597-FA488A9A2586
   modifiers.csharp:
   - public
   - class

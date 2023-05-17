@@ -30,13 +30,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("0131B20B-7BA9-4940-A2E2-5BA6E9BB9379")]
+      [Guid("64BA73F1-76D6-43DB-AA43-6ECE4998B9C0")]
 
       public class SearchInfoClass : SearchInfo, ISearchInfo
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("0131B20B-7BA9-4940-A2E2-5BA6E9BB9379")>
+      <Guid("64BA73F1-76D6-43DB-AA43-6ECE4998B9C0")>
 
       Public Class SearchInfoClass
           Implements SearchInfo, ISearchInfo
@@ -63,7 +63,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 0131B20B-7BA9-4940-A2E2-5BA6E9BB9379
+      value: 64BA73F1-76D6-43DB-AA43-6ECE4998B9C0
   modifiers.csharp:
   - public
   - class

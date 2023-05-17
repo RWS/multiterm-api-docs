@@ -28,13 +28,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("3BF20243-E8E3-447B-943E-FFE97F30743D")]
+      [Guid("E8C8785E-4DCE-4B5A-B0AC-4C381B97BC5E")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class TermbaseBrowserClass : TermbaseBrowser, ITermbaseBrowser
     content.vb: >-
-      <Guid("3BF20243-E8E3-447B-943E-FFE97F30743D")>
+      <Guid("E8C8785E-4DCE-4B5A-B0AC-4C381B97BC5E")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -58,7 +58,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 3BF20243-E8E3-447B-943E-FFE97F30743D
+      value: E8C8785E-4DCE-4B5A-B0AC-4C381B97BC5E
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

@@ -25,13 +25,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("F9B76AB2-E1EF-48EF-9ED2-5F05737B7EAD")]
+      [Guid("E295CFE1-8272-4FA2-B945-3FDBE1E30C7A")]
 
       public class HomonymsClass : Homonyms, IHomonyms, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("F9B76AB2-E1EF-48EF-9ED2-5F05737B7EAD")>
+      <Guid("E295CFE1-8272-4FA2-B945-3FDBE1E30C7A")>
 
       Public Class HomonymsClass
           Implements Homonyms, IHomonyms, IEnumerable
@@ -59,7 +59,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: F9B76AB2-E1EF-48EF-9ED2-5F05737B7EAD
+      value: E295CFE1-8272-4FA2-B945-3FDBE1E30C7A
   modifiers.csharp:
   - public
   - class

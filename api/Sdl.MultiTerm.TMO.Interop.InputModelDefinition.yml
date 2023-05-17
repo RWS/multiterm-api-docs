@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("6D2C1DA7-B5A3-4859-967A-F6DE4144A22B")]
+      [Guid("604603F4-8DE3-4ED5-8576-9458AE6D2B1F")]
 
       public interface InputModelDefinition : IInputModelDefinition
     content.vb: >-
-      <Guid("6D2C1DA7-B5A3-4859-967A-F6DE4144A22B")>
+      <Guid("604603F4-8DE3-4ED5-8576-9458AE6D2B1F")>
 
       Public Interface InputModelDefinition
           Inherits IInputModelDefinition
@@ -47,7 +47,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 6D2C1DA7-B5A3-4859-967A-F6DE4144A22B
+      value: 604603F4-8DE3-4ED5-8576-9458AE6D2B1F
   modifiers.csharp:
   - public
   - interface

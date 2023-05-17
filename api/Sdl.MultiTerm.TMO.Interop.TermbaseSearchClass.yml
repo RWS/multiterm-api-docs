@@ -35,13 +35,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("3F9C1C88-74B7-44A9-8925-D59CD29B4A38")]
+      [Guid("525939CC-1CA4-4BC7-B2AC-8D1FADEEEAC3")]
 
       public class TermbaseSearchClass : TermbaseSearch, ITermbaseSearch
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("3F9C1C88-74B7-44A9-8925-D59CD29B4A38")>
+      <Guid("525939CC-1CA4-4BC7-B2AC-8D1FADEEEAC3")>
 
       Public Class TermbaseSearchClass
           Implements TermbaseSearch, ITermbaseSearch
@@ -68,7 +68,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 3F9C1C88-74B7-44A9-8925-D59CD29B4A38
+      value: 525939CC-1CA4-4BC7-B2AC-8D1FADEEEAC3
   modifiers.csharp:
   - public
   - class

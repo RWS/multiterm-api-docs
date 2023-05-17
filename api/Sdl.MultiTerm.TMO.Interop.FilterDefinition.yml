@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("C01F2685-E732-4823-BE9C-9BC91D749B11")]
+      [Guid("7E567D94-BB6F-497E-A8EA-2BCF26016B75")]
 
       public interface FilterDefinition : IFilterDefinition
     content.vb: >-
-      <Guid("C01F2685-E732-4823-BE9C-9BC91D749B11")>
+      <Guid("7E567D94-BB6F-497E-A8EA-2BCF26016B75")>
 
       Public Interface FilterDefinition
           Inherits IFilterDefinition
@@ -47,7 +47,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: C01F2685-E732-4823-BE9C-9BC91D749B11
+      value: 7E567D94-BB6F-497E-A8EA-2BCF26016B75
   modifiers.csharp:
   - public
   - interface

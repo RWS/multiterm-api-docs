@@ -23,11 +23,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("13E24CD4-3484-4B88-983C-32E061C0320A")]
+      [Guid("C9D70C7D-28FC-4EA6-B41B-B55BC11A4F68")]
 
       public interface IHitTerms : IEnumerable
     content.vb: >-
-      <Guid("13E24CD4-3484-4B88-983C-32E061C0320A")>
+      <Guid("C9D70C7D-28FC-4EA6-B41B-B55BC11A4F68")>
 
       Public Interface IHitTerms
           Inherits IEnumerable
@@ -36,7 +36,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 13E24CD4-3484-4B88-983C-32E061C0320A
+      value: C9D70C7D-28FC-4EA6-B41B-B55BC11A4F68
   modifiers.csharp:
   - public
   - interface

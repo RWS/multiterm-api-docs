@@ -25,13 +25,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("8F0C059E-8B4B-437F-9B75-AFF02067E7B8")]
+      [Guid("DC8000C5-14FE-4E45-A5D4-90EE24378069")]
 
       public class IncompleteEntriesClass : IncompleteEntries, IIncompleteEntries, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("8F0C059E-8B4B-437F-9B75-AFF02067E7B8")>
+      <Guid("DC8000C5-14FE-4E45-A5D4-90EE24378069")>
 
       Public Class IncompleteEntriesClass
           Implements IncompleteEntries, IIncompleteEntries, IEnumerable
@@ -59,7 +59,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 8F0C059E-8B4B-437F-9B75-AFF02067E7B8
+      value: DC8000C5-14FE-4E45-A5D4-90EE24378069
   modifiers.csharp:
   - public
   - class

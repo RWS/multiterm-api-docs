@@ -26,13 +26,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("E64B9878-7E71-421B-97E4-69EBAE473D49")]
+      [Guid("EA8C6FE8-DE54-4439-B307-428A9CBEC53D")]
 
       public class EntryFieldsClass : EntryFields, IEntryFields, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("E64B9878-7E71-421B-97E4-69EBAE473D49")>
+      <Guid("EA8C6FE8-DE54-4439-B307-428A9CBEC53D")>
 
       Public Class EntryFieldsClass
           Implements EntryFields, IEntryFields, IEnumerable
@@ -60,7 +60,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: E64B9878-7E71-421B-97E4-69EBAE473D49
+      value: EA8C6FE8-DE54-4439-B307-428A9CBEC53D
   modifiers.csharp:
   - public
   - class

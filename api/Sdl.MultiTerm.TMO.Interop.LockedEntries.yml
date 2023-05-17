@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("C04D9944-CE8E-478C-9A13-DAEA0CCD1F6C")]
+      [Guid("91B179E0-A3D0-4916-8117-77D8BF7B6EB8")]
 
       public interface LockedEntries : ILockedEntries, IEnumerable
     content.vb: >-
-      <Guid("C04D9944-CE8E-478C-9A13-DAEA0CCD1F6C")>
+      <Guid("91B179E0-A3D0-4916-8117-77D8BF7B6EB8")>
 
       Public Interface LockedEntries
           Inherits ILockedEntries
@@ -37,7 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: C04D9944-CE8E-478C-9A13-DAEA0CCD1F6C
+      value: 91B179E0-A3D0-4916-8117-77D8BF7B6EB8
   modifiers.csharp:
   - public
   - interface

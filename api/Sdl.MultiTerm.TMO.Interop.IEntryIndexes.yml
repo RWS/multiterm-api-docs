@@ -24,11 +24,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("D3A93CA9-D179-432B-BDF3-07296CBD4C00")]
+      [Guid("2DADAC67-004F-49C7-90E0-10045397B0C9")]
 
       public interface IEntryIndexes : IEnumerable
     content.vb: >-
-      <Guid("D3A93CA9-D179-432B-BDF3-07296CBD4C00")>
+      <Guid("2DADAC67-004F-49C7-90E0-10045397B0C9")>
 
       Public Interface IEntryIndexes
           Inherits IEnumerable
@@ -37,7 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: D3A93CA9-D179-432B-BDF3-07296CBD4C00
+      value: 2DADAC67-004F-49C7-90E0-10045397B0C9
   modifiers.csharp:
   - public
   - interface

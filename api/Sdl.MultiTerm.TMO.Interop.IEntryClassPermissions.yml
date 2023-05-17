@@ -25,11 +25,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3")]
+      [Guid("03F7F4B4-2CA6-43E0-BEA9-11F442766B87")]
 
       public interface IEntryClassPermissions
     content.vb: >-
-      <Guid("D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3")>
+      <Guid("03F7F4B4-2CA6-43E0-BEA9-11F442766B87")>
 
       Public Interface IEntryClassPermissions
   attributes:
@@ -37,7 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3
+      value: 03F7F4B4-2CA6-43E0-BEA9-11F442766B87
   modifiers.csharp:
   - public
   - interface

@@ -22,11 +22,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("C0939EAA-5E76-40AE-9963-DACD0F1C923D")]
+      [Guid("943ECD85-B1C2-4502-886A-C2ED4312BECE")]
 
       public enum MtLockingState
     content.vb: >-
-      <Guid("C0939EAA-5E76-40AE-9963-DACD0F1C923D")>
+      <Guid("943ECD85-B1C2-4502-886A-C2ED4312BECE")>
 
       Public Enum MtLockingState
   attributes:
@@ -34,7 +34,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: C0939EAA-5E76-40AE-9963-DACD0F1C923D
+      value: 943ECD85-B1C2-4502-886A-C2ED4312BECE
   modifiers.csharp:
   - public
   - enum

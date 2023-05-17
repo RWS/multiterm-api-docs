@@ -31,13 +31,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("70A0931D-FB10-48B0-B997-C3932B0C1A84")]
+      [Guid("7392345C-8782-4B2D-BE4B-2F42A2EEF3ED")]
 
       public class TermbasesClass : Termbases, ITermbases, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("70A0931D-FB10-48B0-B997-C3932B0C1A84")>
+      <Guid("7392345C-8782-4B2D-BE4B-2F42A2EEF3ED")>
 
       Public Class TermbasesClass
           Implements Termbases, ITermbases, IEnumerable
@@ -65,7 +65,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 70A0931D-FB10-48B0-B997-C3932B0C1A84
+      value: 7392345C-8782-4B2D-BE4B-2F42A2EEF3ED
   modifiers.csharp:
   - public
   - class

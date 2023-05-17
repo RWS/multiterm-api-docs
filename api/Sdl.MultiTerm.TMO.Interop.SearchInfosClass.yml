@@ -23,13 +23,13 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("19E7C637-0343-429C-8219-56B40EAFB184")]
+      [Guid("4443A8CD-17D5-401D-BB53-74112CA01A70")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class SearchInfosClass : SearchInfos, ISearchInfos, IEnumerable
     content.vb: >-
-      <Guid("19E7C637-0343-429C-8219-56B40EAFB184")>
+      <Guid("4443A8CD-17D5-401D-BB53-74112CA01A70")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
@@ -54,7 +54,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 19E7C637-0343-429C-8219-56B40EAFB184
+      value: 4443A8CD-17D5-401D-BB53-74112CA01A70
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:

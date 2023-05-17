@@ -29,13 +29,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("EBC65D81-6CCC-4415-ADED-2BFFA6C8D9E6")]
+      [Guid("FE3E8DDD-FCBC-4C49-AD89-025BE4084097")]
 
       public class TermbaseDefinitionClass : TermbaseDefinition, ITermbaseDefinition
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("EBC65D81-6CCC-4415-ADED-2BFFA6C8D9E6")>
+      <Guid("FE3E8DDD-FCBC-4C49-AD89-025BE4084097")>
 
       Public Class TermbaseDefinitionClass
           Implements TermbaseDefinition, ITermbaseDefinition
@@ -62,7 +62,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: EBC65D81-6CCC-4415-ADED-2BFFA6C8D9E6
+      value: FE3E8DDD-FCBC-4C49-AD89-025BE4084097
   modifiers.csharp:
   - public
   - class

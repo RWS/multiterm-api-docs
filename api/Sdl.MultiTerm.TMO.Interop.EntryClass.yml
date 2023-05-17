@@ -43,13 +43,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("434639DD-B8A9-480B-9961-E2770275F7B6")]
+      [Guid("09826715-96A8-43B1-9A41-9067DB9D0A6A")]
 
       public class EntryClass : Entry, IEntry
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("434639DD-B8A9-480B-9961-E2770275F7B6")>
+      <Guid("09826715-96A8-43B1-9A41-9067DB9D0A6A")>
 
       Public Class EntryClass
           Implements Entry, IEntry
@@ -76,7 +76,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 434639DD-B8A9-480B-9961-E2770275F7B6
+      value: 09826715-96A8-43B1-9A41-9067DB9D0A6A
   modifiers.csharp:
   - public
   - class

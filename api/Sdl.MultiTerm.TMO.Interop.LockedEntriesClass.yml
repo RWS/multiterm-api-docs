@@ -25,13 +25,13 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("7133BA36-98B3-4520-9EEB-22F5293ABE81")]
+      [Guid("E698B1A2-4564-4927-83D6-CD5641D620F2")]
 
       public class LockedEntriesClass : LockedEntries, ILockedEntries, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("7133BA36-98B3-4520-9EEB-22F5293ABE81")>
+      <Guid("E698B1A2-4564-4927-83D6-CD5641D620F2")>
 
       Public Class LockedEntriesClass
           Implements LockedEntries, ILockedEntries, IEnumerable
@@ -59,7 +59,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 7133BA36-98B3-4520-9EEB-22F5293ABE81
+      value: E698B1A2-4564-4927-83D6-CD5641D620F2
   modifiers.csharp:
   - public
   - class

@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("47F0DBF4-ECE4-41AD-8F88-799B41E6D5D9")]
+      [Guid("F67D7F80-95D1-4174-8691-7C2859CA9874")]
 
       public interface Homonym : IHomonym
     content.vb: >-
-      <Guid("47F0DBF4-ECE4-41AD-8F88-799B41E6D5D9")>
+      <Guid("F67D7F80-95D1-4174-8691-7C2859CA9874")>
 
       Public Interface Homonym
           Inherits IHomonym
@@ -37,7 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 47F0DBF4-ECE4-41AD-8F88-799B41E6D5D9
+      value: F67D7F80-95D1-4174-8691-7C2859CA9874
   modifiers.csharp:
   - public
   - interface

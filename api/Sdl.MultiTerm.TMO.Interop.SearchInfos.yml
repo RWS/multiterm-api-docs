@@ -20,11 +20,11 @@ items:
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("949405C9-EE75-4D50-9308-9A4FD3A7EFF7")]
+      [Guid("0D1FDE0E-40E2-4F56-A945-EC894301B123")]
 
       public interface SearchInfos : ISearchInfos, IEnumerable
     content.vb: >-
-      <Guid("949405C9-EE75-4D50-9308-9A4FD3A7EFF7")>
+      <Guid("0D1FDE0E-40E2-4F56-A945-EC894301B123")>
 
       Public Interface SearchInfos
           Inherits ISearchInfos
@@ -37,7 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 949405C9-EE75-4D50-9308-9A4FD3A7EFF7
+      value: 0D1FDE0E-40E2-4F56-A945-EC894301B123
   modifiers.csharp:
   - public
   - interface
