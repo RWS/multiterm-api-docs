@@ -31,10 +31,10 @@ jobs:
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
-      - name: Download docfx
+      - name: install docfx
         run: |
-          curl -L https://github.com/dotnet/docfx/releases/latest/download/docfx.zip -o docfx.zip
-          unzip -d .docfx docfx.zip
+          choco install docfx 
+          docfx init -q
 
       - name: build _site
         run: .docfx/docfx.exe
