@@ -67,8 +67,7 @@
     "template": [
       "RWSDocsTemplate"
     ],
-    "postProcessors": [ "ExtractSearchIndex" ],
-    "markdownEngineName": "dfm",
+    "postProcessors": [ "ExtractSearchIndex", "EnvironmentVariableProcessor" ],
     "noLangKeyword": false,
     "keepFileLink": false,
     "cleanupCacheHistory": false,
