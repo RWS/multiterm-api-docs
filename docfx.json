@@ -29,8 +29,8 @@
           "*.md"
         ]
       },
-      { 
-	      "files": [
+      {
+        "files": [
           "apiconcepts/**.md",
           "apiconcepts/toc.yml"
         ]
@@ -58,16 +58,18 @@
     "dest": "_site",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "filemetadata":
-    { 
+    "filemetadata": {
       "langs": {
-      "api/**.yml": ["csharp", "cpp"]
+        "api/**.yml": [ "csharp", "vb", "fsharp", "cpp" ]
       }
     },
     "template": [
-      "RWSDocsTemplate"
+      "RWSTemplate"
     ],
     "postProcessors": [ "ExtractSearchIndex" ],
+    "globalMetadata": {
+      "_enableSearch": true
+    },
     "markdownEngineName": "dfm",
     "noLangKeyword": false,
     "keepFileLink": false,

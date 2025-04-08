@@ -1,4 +1,6 @@
+- name: MultiTerm
+  href: index.md
 - name: Articles
   href: articles/
-- name: MultiTerm APIs
+- name: API
   href: apiconcepts/
