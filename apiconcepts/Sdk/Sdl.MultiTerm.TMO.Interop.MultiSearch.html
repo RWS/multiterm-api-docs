@@ -1,29 +1,29 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
-<html lang="csharp">
-  
-<head>
-  <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Sdl.MultiTerm.TMO.Interop.MultiSearch class </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Sdl.MultiTerm.TMO.Interop.MultiSearch class ">
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Sdl.MultiTerm.TMO.Interop.MultiSearch class </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Sdl.MultiTerm.TMO.Interop.MultiSearch class ">
     
     
-    <link rel="shortcut icon" href="../../favicon.ico">
-    <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
-    <link rel="stylesheet" href="../../styles/docfx.css">
-    <link rel="stylesheet" href="../../styles/main.css">
-    <meta property="docfx:navrel" content="../../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+      <link rel="shortcut icon" href="../../favicon.ico">
+      <link rel="stylesheet" href="../../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../../styles/docfx.css">
+      <link rel="stylesheet" href="../../styles/main.css">
+      <meta property="docfx:navrel" content="../../toc.html">
+      <meta property="docfx:tocrel" content="../toc.html">
     
     <meta property="docfx:rel" content="../../">
     
-</head>
+  </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>        
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -33,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="https://developers.rws.com/">
                 <img id="logo" class="svg" src="../../logo.svg" alt="">
               </a>
@@ -47,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -58,18 +58,18 @@
       </header>
 
         <div class="container body-content">
-          
+
           <div id="search-results">
             <div class="search-list">Search Results for <span></span></div>
             <div class="sr-items">
               <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
             </div>
-            <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+            <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
           </div>
         </div>
 
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -88,13 +88,13 @@
 <p>You can avail of this class to implement multiple termbase search functionality in your client application. Rather than carrying out a search on each termbase, you can add multiple termbases to one MultiSearch object, execute the search and then retrieve a consolidated hit list for all termbases.</p>
 <p>A search requires you to specify the search index for each termbase. Multiple termbase search can be tricky, if the search index label differs among the various termbases.  Example: you would like to carry out a search for an English term in three termbases. Termbase#1 has an index called &quot;English&quot;, Termbase#2 has an index called &quot;Englisch&quot;, and Termbase#3 has an index called &quot;ENG&quot;.</p>
 <p>To carry out a search in the English index of all three termbases you would have to find out which index label stands for the English language in each termbase.
-The MultiSearch class implements a <a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.GuessIndex.html">GuessIndex</a> property that allows you to have the search &#39;guess&#39; the correct index. If, for example,  the first termbase you add to the search has the index label &quot;English&quot;, the search will automatically &#39;guess&#39; what the English index is called in all the other termbases. As a criterion for &#39;guessing&#39; the correct search index, the MultiSearch relies on the index locales.</p>
-<p>In the example below the second termbases added to the search in &quot;Deutsch&quot; (i.e. German). However, the search is configured to &#39;guess&#39; the index, i.e. in the second and third termbase the search will be carried out in the indexes that are most likely to correspond to the &quot;English&quot; index of the first termbase.</p>
+The MultiSearch class implements a <a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.GuessIndex.html">GuessIndex</a> property that allows you to have the search 'guess' the correct index. If, for example,  the first termbase you add to the search has the index label &quot;English&quot;, the search will automatically 'guess' what the English index is called in all the other termbases. As a criterion for 'guessing' the correct search index, the MultiSearch relies on the index locales.</p>
+<p>In the example below the second termbases added to the search in &quot;Deutsch&quot; (i.e. German). However, the search is configured to 'guess' the index, i.e. in the second and third termbase the search will be carried out in the indexes that are most likely to correspond to the &quot;English&quot; index of the first termbase.</p>
 <h2 id="properties">Properties</h2>
 <ul>
 <li><a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.Direction.html">Direction</a>: Sets/returns the direction for the multiple termbase search.</li>
-<li><a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.FuzzySearch.html">FuzzySearch</a>: Turns on/off fuzzy search. Setting this property to any value will automatically set FullTextSearch to &#39;false&#39;</li>
-<li><a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.FullTextSearch.html">FullTextSearch</a>: Turns on/off full text search. Setting this property to any value will automatically set FuzzySearch to &#39;false&#39;</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.FuzzySearch.html">FuzzySearch</a>: Turns on/off fuzzy search. Setting this property to any value will automatically set FullTextSearch to 'false'</li>
+<li><a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.FullTextSearch.html">FullTextSearch</a>: Turns on/off full text search. Setting this property to any value will automatically set FuzzySearch to 'false'</li>
 <li><a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.GuessIndex.html">GuessIndex</a>: Specifies whether the index for the multiple termbase search should be guessed or not.</li>
 <li><a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.MaximumHits.html">MaximumHits</a>: Sets/returns the maximum number of hits per termbase.</li>
 <li><a href="Sdl.MultiTerm.TMO.Interop.MultiSearch.SearchExpression.html">SearchExpression</a>: Sets/returns the expression to look up.</li>
@@ -136,13 +136,14 @@ oSearch.AddSearchTermbase(oTb3, &quot;ENG&quot;, &quot;DEU&quot;);
 HitTerms oHits = oSearch.Execute();
 for(int i=0;i&lt;oHits.Count;i++)
 {
-    Debug.WriteLine(oHits[i].Text);
-    Debug.WriteLine(oHits[i].Termbase);
+  	Debug.WriteLine(oHits[i].Text);
+  	Debug.WriteLine(oHits[i].Termbase);
 }
 </code></pre>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
@@ -160,7 +161,7 @@ for(int i=0;i&lt;oHits.Count;i++)
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -168,13 +169,13 @@ for(int i=0;i&lt;oHits.Count;i++)
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            
-            <span>Generated by <strong>DocFX</strong></span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
     </div>
-    
+
     <script type="text/javascript" src="../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../styles/main.js"></script>
