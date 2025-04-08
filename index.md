@@ -1,3 +1,7 @@
+---
+title: "MultiTerm"
+---
+
 # Access the <Var:ProductName> APIs
 
 ## [Learn more about <Var:ProductNameWithEdition> APIs](apiconcepts/overview.md) 
