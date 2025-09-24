@@ -23,8 +23,8 @@ Connecting to a remote, i.e. server repository requires you to enter a 'real' us
 ```cs
 Sdl.MultiTerm.TMO.Interop.Application oMt = new Sdl.MultiTerm.TMO.Interop.ApplicationClass();
 TermbaseRepository oServerRep = oMt.ServerRepository;
-oServerRep.Connect("guest","guest");
 oServerRep.Location = "http://termserver";
+oServerRep.Connect("guest","guest");
 Debug.WriteLine("Connection successful: " + oServerRep.IsConnected);
 ```
 
