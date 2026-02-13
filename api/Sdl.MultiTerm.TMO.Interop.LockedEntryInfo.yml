@@ -12,22 +12,18 @@ items:
   nameWithType: LockedEntryInfo
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("FA079926-C4CE-4938-8B40-41DE1BD09861")]
+      [Guid("478BE8E8-1F66-4935-836C-1CC69D3F3F38")]
 
       public interface LockedEntryInfo : ILockedEntryInfo
     content.vb: >-
-      <Guid("FA079926-C4CE-4938-8B40-41DE1BD09861")>
+      <Guid("478BE8E8-1F66-4935-836C-1CC69D3F3F38")>
 
-      Public Interface LockedEntryInfo
-          Inherits ILockedEntryInfo
+      Public Interface LockedEntryInfo Inherits ILockedEntryInfo
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
   - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
@@ -37,24 +33,60 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: FA079926-C4CE-4938-8B40-41DE1BD09861
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 478BE8E8-1F66-4935-836C-1CC69D3F3F38
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
   commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
   parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.html#Sdl_MultiTerm_TMO_Interop_ILockedEntryInfo_ConceptId
   name: ConceptId
   nameWithType: ILockedEntryInfo.ConceptId
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.ConceptId
@@ -62,6 +94,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
   parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.html#Sdl_MultiTerm_TMO_Interop_ILockedEntryInfo_UserName
   name: UserName
   nameWithType: ILockedEntryInfo.UserName
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.UserName
@@ -69,6 +102,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
   parent: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.html#Sdl_MultiTerm_TMO_Interop_ILockedEntryInfo_Date
   name: Date
   nameWithType: ILockedEntryInfo.Date
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.Date
@@ -76,6 +110,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.html
   name: ILockedEntryInfo
   nameWithType: ILockedEntryInfo
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo

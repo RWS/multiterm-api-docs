@@ -15,9 +15,6 @@ items:
   nameWithType: HomonymClass
   fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass
   type: Class
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -25,16 +22,15 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("E0EAAA49-38CA-429E-9D1C-5675270554C1")]
+      [Guid("6289FFDE-3071-41E7-A979-4ABD497A805C")]
 
       public class HomonymClass : Homonym, IHomonym
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("E0EAAA49-38CA-429E-9D1C-5675270554C1")>
+      <Guid("6289FFDE-3071-41E7-A979-4ABD497A805C")>
 
-      Public Class HomonymClass
-          Implements Homonym, IHomonym
+      Public Class HomonymClass Implements Homonym, IHomonym
   inheritance:
   - System.Object
   implements:
@@ -58,13 +54,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: E0EAAA49-38CA-429E-9D1C-5675270554C1
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+      value: 6289FFDE-3071-41E7-A979-4ABD497A805C
 - uid: Sdl.MultiTerm.TMO.Interop.HomonymClass.Term
   commentId: P:Sdl.MultiTerm.TMO.Interop.HomonymClass.Term
   id: Term
@@ -73,36 +63,23 @@ items:
   langs:
   - csharp
   - vb
-  name: IHomonym.Term
-  nameWithType: HomonymClass.IHomonym.Term
-  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Sdl.MultiTerm.TMO.Interop.IHomonym.Term
+  name: Term
+  nameWithType: HomonymClass.Term
+  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Term
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string IHomonym.Term { get; }
+    content: virtual string Term { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property Term As String Implements IHomonym.Term
+    content.vb: Overridable ReadOnly Property Term As String
   overload: Sdl.MultiTerm.TMO.Interop.HomonymClass.Term*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IHomonym.Term
-  nameWithType.vb: HomonymClass.Term
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.HomonymClass.Term
-  name.vb: Term
 - uid: Sdl.MultiTerm.TMO.Interop.HomonymClass.Index
   commentId: P:Sdl.MultiTerm.TMO.Interop.HomonymClass.Index
   id: Index
@@ -111,36 +88,23 @@ items:
   langs:
   - csharp
   - vb
-  name: IHomonym.Index
-  nameWithType: HomonymClass.IHomonym.Index
-  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Sdl.MultiTerm.TMO.Interop.IHomonym.Index
+  name: Index
+  nameWithType: HomonymClass.Index
+  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Index
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string IHomonym.Index { get; }
+    content: virtual string Index { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property Index As String Implements IHomonym.Index
+    content.vb: Overridable ReadOnly Property Index As String
   overload: Sdl.MultiTerm.TMO.Interop.HomonymClass.Index*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IHomonym.Index
-  nameWithType.vb: HomonymClass.Index
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.HomonymClass.Index
-  name.vb: Index
 - uid: Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID
   commentId: P:Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID
   id: EntryID
@@ -149,54 +113,87 @@ items:
   langs:
   - csharp
   - vb
-  name: IHomonym.EntryID
-  nameWithType: HomonymClass.IHomonym.EntryID
-  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
+  name: EntryID
+  nameWithType: HomonymClass.EntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int IHomonym.EntryID { get; }
+    content: virtual int EntryID { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable ReadOnly Property EntryID As Integer Implements IHomonym.EntryID
+    content.vb: Overridable ReadOnly Property EntryID As Integer
   overload: Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
-  nameWithType.vb: HomonymClass.EntryID
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID
-  name.vb: EntryID
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.Homonym
   commentId: T:Sdl.MultiTerm.TMO.Interop.Homonym
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Homonym.html
   name: Homonym
   nameWithType: Homonym
   fullName: Sdl.MultiTerm.TMO.Interop.Homonym
@@ -204,6 +201,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IHomonym
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHomonym.html
   name: IHomonym
   nameWithType: IHomonym
   fullName: Sdl.MultiTerm.TMO.Interop.IHomonym
@@ -211,300 +209,240 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.HomonymClass.Term*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.HomonymClass.Term
   isExternal: true
-  name: IHomonym.Term
-  nameWithType: HomonymClass.IHomonym.Term
-  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Sdl.MultiTerm.TMO.Interop.IHomonym.Term
-  nameWithType.vb: HomonymClass.Term
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.HomonymClass.Term
-  name.vb: Term
+  href: Sdl.MultiTerm.TMO.Interop.HomonymClass.html#Sdl_MultiTerm_TMO_Interop_HomonymClass_Term
+  name: Term
+  nameWithType: HomonymClass.Term
+  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Term
 - uid: Sdl.MultiTerm.TMO.Interop.IHomonym.Term
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHomonym.Term
   parent: Sdl.MultiTerm.TMO.Interop.IHomonym
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHomonym.html#Sdl_MultiTerm_TMO_Interop_IHomonym_Term
   name: Term
   nameWithType: IHomonym.Term
   fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.Term
@@ -512,38 +450,40 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Sdl.MultiTerm.TMO.Interop.HomonymClass.Index*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.HomonymClass.Index
   isExternal: true
-  name: IHomonym.Index
-  nameWithType: HomonymClass.IHomonym.Index
-  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Sdl.MultiTerm.TMO.Interop.IHomonym.Index
-  nameWithType.vb: HomonymClass.Index
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.HomonymClass.Index
-  name.vb: Index
+  href: Sdl.MultiTerm.TMO.Interop.HomonymClass.html#Sdl_MultiTerm_TMO_Interop_HomonymClass_Index
+  name: Index
+  nameWithType: HomonymClass.Index
+  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Index
 - uid: Sdl.MultiTerm.TMO.Interop.IHomonym.Index
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHomonym.Index
   parent: Sdl.MultiTerm.TMO.Interop.IHomonym
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHomonym.html#Sdl_MultiTerm_TMO_Interop_IHomonym_Index
   name: Index
   nameWithType: IHomonym.Index
   fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.Index
 - uid: Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID
   isExternal: true
-  name: IHomonym.EntryID
-  nameWithType: HomonymClass.IHomonym.EntryID
-  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
-  nameWithType.vb: HomonymClass.EntryID
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID
-  name.vb: EntryID
+  href: Sdl.MultiTerm.TMO.Interop.HomonymClass.html#Sdl_MultiTerm_TMO_Interop_HomonymClass_EntryID
+  name: EntryID
+  nameWithType: HomonymClass.EntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass.EntryID
 - uid: Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
   parent: Sdl.MultiTerm.TMO.Interop.IHomonym
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHomonym.html#Sdl_MultiTerm_TMO_Interop_IHomonym_EntryID
   name: EntryID
   nameWithType: IHomonym.EntryID
   fullName: Sdl.MultiTerm.TMO.Interop.IHomonym.EntryID
@@ -551,6 +491,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

@@ -5,11 +5,11 @@ items:
   id: IEntryClassPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   children:
-  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
   - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
   - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
   - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
   - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
   langs:
   - csharp
   - vb
@@ -17,19 +17,16 @@ items:
   nameWithType: IEntryClassPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3")]
+      [Guid("F6423013-0B1E-4AB3-9DD1-1949334223B2")]
 
       public interface IEntryClassPermissions
     content.vb: >-
-      <Guid("D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3")>
+      <Guid("F6423013-0B1E-4AB3-9DD1-1949334223B2")>
 
       Public Interface IEntryClassPermissions
   attributes:
@@ -37,13 +34,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: F6423013-0B1E-4AB3-9DD1-1949334223B2
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
   id: Read
@@ -55,9 +46,6 @@ items:
   nameWithType: IEntryClassPermissions.Read
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -68,10 +56,6 @@ items:
       type: System.Boolean
     content.vb: ReadOnly Property Read As Boolean
   overload: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
   id: Write
@@ -83,9 +67,6 @@ items:
   nameWithType: IEntryClassPermissions.Write
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -96,10 +77,6 @@ items:
       type: System.Boolean
     content.vb: ReadOnly Property Write As Boolean
   overload: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
   id: Name
@@ -111,9 +88,6 @@ items:
   nameWithType: IEntryClassPermissions.Name
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -124,10 +98,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Name As String
   overload: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
   id: _id
@@ -139,9 +109,6 @@ items:
   nameWithType: IEntryClassPermissions._id
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -152,10 +119,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property _id As Integer
   overload: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
   id: IsDefault
@@ -167,9 +130,6 @@ items:
   nameWithType: IEntryClassPermissions.IsDefault
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -180,20 +140,58 @@ items:
       type: System.Boolean
     content.vb: ReadOnly Property IsDefault As Boolean
   overload: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions_Read
   name: Read
   nameWithType: IEntryClassPermissions.Read
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
@@ -201,24 +199,31 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions_Write
   name: Write
   nameWithType: IEntryClassPermissions.Write
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions_Name
   name: Name
   nameWithType: IEntryClassPermissions.Name
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
@@ -226,12 +231,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions__id
   name: _id
   nameWithType: IEntryClassPermissions._id
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
@@ -239,12 +249,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions_IsDefault
   name: IsDefault
   nameWithType: IEntryClassPermissions.IsDefault
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault

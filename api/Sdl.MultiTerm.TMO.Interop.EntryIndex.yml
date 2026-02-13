@@ -12,22 +12,18 @@ items:
   nameWithType: EntryIndex
   fullName: Sdl.MultiTerm.TMO.Interop.EntryIndex
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("2FF47005-1588-4099-95B5-B957B513A4E3")]
+      [Guid("0B765CB2-1E23-484D-AC5A-683727911B10")]
 
       public interface EntryIndex : IEntryIndex
     content.vb: >-
-      <Guid("2FF47005-1588-4099-95B5-B957B513A4E3")>
+      <Guid("0B765CB2-1E23-484D-AC5A-683727911B10")>
 
-      Public Interface EntryIndex
-          Inherits IEntryIndex
+      Public Interface EntryIndex Inherits IEntryIndex
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
   - Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
@@ -39,24 +35,60 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 2FF47005-1588-4099-95B5-B957B513A4E3
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 0B765CB2-1E23-484D-AC5A-683727911B10
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
   parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIndex.html#Sdl_MultiTerm_TMO_Interop_IEntryIndex_Term
   name: Term
   nameWithType: IEntryIndex.Term
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.Term
@@ -64,6 +96,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
   parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIndex.html#Sdl_MultiTerm_TMO_Interop_IEntryIndex_IndexFields
   name: IndexFields
   nameWithType: IEntryIndex.IndexFields
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexFields
@@ -71,6 +104,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields
   parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIndex.html#Sdl_MultiTerm_TMO_Interop_IEntryIndex_TermFields
   name: TermFields
   nameWithType: IEntryIndex.TermFields
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.TermFields
@@ -78,6 +112,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly
   parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIndex.html#Sdl_MultiTerm_TMO_Interop_IEntryIndex_ReadOnly
   name: ReadOnly
   nameWithType: IEntryIndex.ReadOnly
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.ReadOnly
@@ -85,6 +120,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName
   parent: Sdl.MultiTerm.TMO.Interop.IEntryIndex
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIndex.html#Sdl_MultiTerm_TMO_Interop_IEntryIndex_IndexName
   name: IndexName
   nameWithType: IEntryIndex.IndexName
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex.IndexName
@@ -92,6 +128,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryIndex
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIndex.html
   name: IEntryIndex
   nameWithType: IEntryIndex
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex

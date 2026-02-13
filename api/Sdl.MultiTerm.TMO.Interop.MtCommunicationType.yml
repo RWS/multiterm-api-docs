@@ -14,19 +14,16 @@ items:
   nameWithType: MtCommunicationType
   fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
   type: Enum
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("CEE7CDA9-7715-49FF-B74F-EA37644552F4")]
+      [Guid("F9F082F7-9B8C-43FB-BCF5-80AC8C3596EA")]
 
       public enum MtCommunicationType
     content.vb: >-
-      <Guid("CEE7CDA9-7715-49FF-B74F-EA37644552F4")>
+      <Guid("F9F082F7-9B8C-43FB-BCF5-80AC8C3596EA")>
 
       Public Enum MtCommunicationType
   attributes:
@@ -34,13 +31,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: CEE7CDA9-7715-49FF-B74F-EA37644552F4
-  modifiers.csharp:
-  - public
-  - enum
-  modifiers.vb:
-  - Public
-  - Enum
+      value: F9F082F7-9B8C-43FB-BCF5-80AC8C3596EA
 - uid: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtSOAP
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtSOAP
   id: mtSOAP
@@ -52,9 +43,6 @@ items:
   nameWithType: MtCommunicationType.mtSOAP
   fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtSOAP
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -62,12 +50,6 @@ items:
     content: mtSOAP = 1
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtDCOM
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtDCOM
   id: mtDCOM
@@ -79,9 +61,6 @@ items:
   nameWithType: MtCommunicationType.mtDCOM
   fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.mtDCOM
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -89,23 +68,59 @@ items:
     content: mtDCOM = 2
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtCommunicationType
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.html
   name: MtCommunicationType
   nameWithType: MtCommunicationType
   fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType

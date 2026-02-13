@@ -15,26 +15,22 @@ items:
   nameWithType: DescriptiveFieldsClass
   fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass
   type: Class
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("34A5DC84-7713-4FC0-9B73-8440FE3C8388")]
+      [Guid("8D831622-70CF-43A0-A172-2CB5BD74C5ED")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class DescriptiveFieldsClass : DescriptiveFields, IDescriptiveFields, IEnumerable
     content.vb: >-
-      <Guid("34A5DC84-7713-4FC0-9B73-8440FE3C8388")>
+      <Guid("8D831622-70CF-43A0-A172-2CB5BD74C5ED")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
-      Public Class DescriptiveFieldsClass
-          Implements DescriptiveFields, IDescriptiveFields, IEnumerable
+      Public Class DescriptiveFieldsClass Implements DescriptiveFields, IDescriptiveFields, IEnumerable
   inheritance:
   - System.Object
   implements:
@@ -54,18 +50,12 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 34A5DC84-7713-4FC0-9B73-8440FE3C8388
+      value: 8D831622-70CF-43A0-A172-2CB5BD74C5ED
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:
     - type: System.Runtime.InteropServices.ClassInterfaceType
       value: 0
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator
   id: GetEnumerator
@@ -74,34 +64,23 @@ items:
   langs:
   - csharp
   - vb
-  name: IDescriptiveFields.GetEnumerator()
-  nameWithType: DescriptiveFieldsClass.IDescriptiveFields.GetEnumerator()
-  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator()
+  name: GetEnumerator()
+  nameWithType: DescriptiveFieldsClass.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual IEnumerator IDescriptiveFields.GetEnumerator()
+    content: virtual IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements IDescriptiveFields.GetEnumerator
+    content.vb: Overridable Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
   - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: DescriptiveFieldsClass.GetEnumerator()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator()
-  name.vb: GetEnumerator()
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Item(System.Object)
   id: Item(System.Object)
@@ -110,38 +89,28 @@ items:
   langs:
   - csharp
   - vb
-  name: IDescriptiveFields.Item[Object]
-  nameWithType: DescriptiveFieldsClass.IDescriptiveFields.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item[System.Object]
+  name: this[object]
+  nameWithType: DescriptiveFieldsClass.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.this[object]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual DescriptiveField IDescriptiveFields.this[object Index] { get; }
+    content: virtual DescriptiveField this[object Index] { get; }
     parameters:
     - id: Index
       type: System.Object
     return:
       type: Sdl.MultiTerm.TMO.Interop.DescriptiveField
-    content.vb: Public Overridable ReadOnly Property Item(Index As Object) As DescriptiveField Implements IDescriptiveFields.this[]
+    content.vb: Overridable ReadOnly Default Property this[](Index As Object) As DescriptiveField
   overload: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Item*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
-  nameWithType.vb: DescriptiveFieldsClass.Item(Object)
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Item(System.Object)
-  name.vb: Item(Object)
+  nameWithType.vb: DescriptiveFieldsClass.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.this[](Object)
+  name.vb: this[](Object)
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count
   id: Count
@@ -150,54 +119,87 @@ items:
   langs:
   - csharp
   - vb
-  name: IDescriptiveFields.Count
-  nameWithType: DescriptiveFieldsClass.IDescriptiveFields.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
+  name: Count
+  nameWithType: DescriptiveFieldsClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int IDescriptiveFields.Count { get; }
+    content: virtual int Count { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable ReadOnly Property Count As Integer Implements IDescriptiveFields.Count
+    content.vb: Overridable ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
-  nameWithType.vb: DescriptiveFieldsClass.Count
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count
-  name.vb: Count
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
   commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveFields
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveFields.html
   name: DescriptiveFields
   nameWithType: DescriptiveFields
   fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
@@ -205,6 +207,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.html
   name: IDescriptiveFields
   nameWithType: IDescriptiveFields
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
@@ -212,6 +215,7 @@ references:
   commentId: T:System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
@@ -219,444 +223,374 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator
   isExternal: true
-  name: IDescriptiveFields.GetEnumerator
-  nameWithType: DescriptiveFieldsClass.IDescriptiveFields.GetEnumerator
-  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
-  nameWithType.vb: DescriptiveFieldsClass.GetEnumerator
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator
-  name.vb: GetEnumerator
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.html#Sdl_MultiTerm_TMO_Interop_DescriptiveFieldsClass_GetEnumerator
+  name: GetEnumerator
+  nameWithType: DescriptiveFieldsClass.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.GetEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveFields_GetEnumerator
   name: GetEnumerator()
   nameWithType: IDescriptiveFields.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
     name: GetEnumerator
-    nameWithType: IDescriptiveFields.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveFields_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
     name: GetEnumerator
-    nameWithType: IDescriptiveFields.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveFields_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable.GetEnumerator
   commentId: M:System.Collections.IEnumerable.GetEnumerator
   parent: System.Collections.IEnumerable
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   name: GetEnumerator()
   nameWithType: IEnumerable.GetEnumerator()
   fullName: System.Collections.IEnumerable.GetEnumerator()
   spec.csharp:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerator
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Item
   isExternal: true
-  name: IDescriptiveFields.Item
-  nameWithType: DescriptiveFieldsClass.IDescriptiveFields.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item
-  nameWithType.vb: DescriptiveFieldsClass.Item
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Item
-  name.vb: Item
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.html#Sdl_MultiTerm_TMO_Interop_DescriptiveFieldsClass_Item_System_Object_
+  name: this
+  nameWithType: DescriptiveFieldsClass.this
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.this
+  nameWithType.vb: DescriptiveFieldsClass.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.this[]
+  name.vb: this[]
 - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
   isExternal: true
-  name: Item[Object]
-  nameWithType: IDescriptiveFields.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item[System.Object]
-  nameWithType.vb: IDescriptiveFields.Item(Object)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
-  name.vb: Item(Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: IDescriptiveFields.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.this[object]
+  nameWithType.vb: IDescriptiveFields.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.this[](Object)
+  name.vb: this[](Object)
   spec.csharp:
-  - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
-    name: Item
-    nameWithType: IDescriptiveFields.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item(System.Object)
-    name: Item
-    nameWithType: IDescriptiveFields.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Item
+    name: this[]
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveFields_Item_System_Object_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveField
   commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveField
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveField.html
   name: DescriptiveField
   nameWithType: DescriptiveField
   fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveField
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count
   isExternal: true
-  name: IDescriptiveFields.Count
-  nameWithType: DescriptiveFieldsClass.IDescriptiveFields.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
-  nameWithType.vb: DescriptiveFieldsClass.Count
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count
-  name.vb: Count
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.html#Sdl_MultiTerm_TMO_Interop_DescriptiveFieldsClass_Count
+  name: Count
+  nameWithType: DescriptiveFieldsClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.Count
 - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveFields_Count
   name: Count
   nameWithType: IDescriptiveFields.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.Count
@@ -664,6 +598,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

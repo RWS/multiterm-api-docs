@@ -12,22 +12,18 @@ items:
   nameWithType: EntryContent
   fullName: Sdl.MultiTerm.TMO.Interop.EntryContent
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("80CC23D4-00D7-4CE6-B97A-AB4C9EBAC776")]
+      [Guid("C8578866-92F8-49F3-9BCD-1B5D5E7A7B54")]
 
       public interface EntryContent : IEntryContent
     content.vb: >-
-      <Guid("80CC23D4-00D7-4CE6-B97A-AB4C9EBAC776")>
+      <Guid("C8578866-92F8-49F3-9BCD-1B5D5E7A7B54")>
 
-      Public Interface EntryContent
-          Inherits IEntryContent
+      Public Interface EntryContent Inherits IEntryContent
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IEntryContent.Update
   - Sdl.MultiTerm.TMO.Interop.IEntryContent.Refresh
@@ -42,143 +38,149 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 80CC23D4-00D7-4CE6-B97A-AB4C9EBAC776
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: C8578866-92F8-49F3-9BCD-1B5D5E7A7B54
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.Update
   commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryContent.Update
   parent: Sdl.MultiTerm.TMO.Interop.IEntryContent
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_Update
   name: Update()
   nameWithType: IEntryContent.Update()
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.Update()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.Update
     name: Update
-    nameWithType: IEntryContent.Update
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.Update
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_Update
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.Update
     name: Update
-    nameWithType: IEntryContent.Update
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.Update
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_Update
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.Refresh
   commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryContent.Refresh
   parent: Sdl.MultiTerm.TMO.Interop.IEntryContent
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_Refresh
   name: Refresh()
   nameWithType: IEntryContent.Refresh()
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.Refresh()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.Refresh
     name: Refresh
-    nameWithType: IEntryContent.Refresh
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.Refresh
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_Refresh
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.Refresh
     name: Refresh
-    nameWithType: IEntryContent.Refresh
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.Refresh
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_Refresh
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm(System.String,System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm(System.String,System.String)
   parent: Sdl.MultiTerm.TMO.Interop.IEntryContent
   isExternal: true
-  name: GetContentForOneSourceTerm(String, String)
-  nameWithType: IEntryContent.GetContentForOneSourceTerm(String, String)
-  fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm(System.String, System.String)
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_GetContentForOneSourceTerm_System_String_System_String_
+  name: GetContentForOneSourceTerm(string, string)
+  nameWithType: IEntryContent.GetContentForOneSourceTerm(string, string)
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm(string, string)
+  nameWithType.vb: IEntryContent.GetContentForOneSourceTerm(String, String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm(String, String)
+  name.vb: GetContentForOneSourceTerm(String, String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm(System.String,System.String)
     name: GetContentForOneSourceTerm
-    nameWithType: IEntryContent.GetContentForOneSourceTerm
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_GetContentForOneSourceTerm_System_String_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm(System.String,System.String)
     name: GetContentForOneSourceTerm
-    nameWithType: IEntryContent.GetContentForOneSourceTerm
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.GetContentForOneSourceTerm
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_GetContentForOneSourceTerm_System_String_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent.Fields
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryContent.Fields
   parent: Sdl.MultiTerm.TMO.Interop.IEntryContent
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_Fields
   name: Fields
   nameWithType: IEntryContent.Fields
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.Fields
@@ -186,6 +188,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryContent.EntryIndexes
   parent: Sdl.MultiTerm.TMO.Interop.IEntryContent
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_EntryIndexes
   name: EntryIndexes
   nameWithType: IEntryContent.EntryIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.EntryIndexes
@@ -193,6 +196,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryContent.Content
   parent: Sdl.MultiTerm.TMO.Interop.IEntryContent
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_Content
   name: Content
   nameWithType: IEntryContent.Content
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.Content
@@ -200,6 +204,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryContent.EntryClass
   parent: Sdl.MultiTerm.TMO.Interop.IEntryContent
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_EntryClass
   name: EntryClass
   nameWithType: IEntryContent.EntryClass
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.EntryClass
@@ -207,6 +212,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryContent.AutoRefresh
   parent: Sdl.MultiTerm.TMO.Interop.IEntryContent
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html#Sdl_MultiTerm_TMO_Interop_IEntryContent_AutoRefresh
   name: AutoRefresh
   nameWithType: IEntryContent.AutoRefresh
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent.AutoRefresh
@@ -214,6 +220,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryContent
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html
   name: IEntryContent
   nameWithType: IEntryContent
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent

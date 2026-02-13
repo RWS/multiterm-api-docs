@@ -12,22 +12,18 @@ items:
   nameWithType: MultiSearch
   fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("EE0C2A2B-E349-42C1-B414-CAF2CD91224C")]
+      [Guid("EABF03B7-44E0-499A-B0C4-1CD8CACC06DB")]
 
       public interface MultiSearch : IMultiSearch
     content.vb: >-
-      <Guid("EE0C2A2B-E349-42C1-B414-CAF2CD91224C")>
+      <Guid("EABF03B7-44E0-499A-B0C4-1CD8CACC06DB")>
 
-      Public Interface MultiSearch
-          Inherits IMultiSearch
+      Public Interface MultiSearch Inherits IMultiSearch
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase(Sdl.MultiTerm.TMO.Interop.Termbase,System.String,System.String)
   - Sdl.MultiTerm.TMO.Interop.IMultiSearch.ClearSearchTermbases
@@ -48,159 +44,161 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: EE0C2A2B-E349-42C1-B414-CAF2CD91224C
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: EABF03B7-44E0-499A-B0C4-1CD8CACC06DB
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase(Sdl.MultiTerm.TMO.Interop.Termbase,System.String,System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase(Sdl.MultiTerm.TMO.Interop.Termbase,System.String,System.String)
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
-  name: AddSearchTermbase(Termbase, String, String)
-  nameWithType: IMultiSearch.AddSearchTermbase(Termbase, String, String)
-  fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase(Sdl.MultiTerm.TMO.Interop.Termbase, System.String, System.String)
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_AddSearchTermbase_Sdl_MultiTerm_TMO_Interop_Termbase_System_String_System_String_
+  name: AddSearchTermbase(Termbase, string, string)
+  nameWithType: IMultiSearch.AddSearchTermbase(Termbase, string, string)
+  fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase(Sdl.MultiTerm.TMO.Interop.Termbase, string, string)
+  nameWithType.vb: IMultiSearch.AddSearchTermbase(Termbase, String, String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase(Sdl.MultiTerm.TMO.Interop.Termbase, String, String)
+  name.vb: AddSearchTermbase(Termbase, String, String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase(Sdl.MultiTerm.TMO.Interop.Termbase,System.String,System.String)
     name: AddSearchTermbase
-    nameWithType: IMultiSearch.AddSearchTermbase
-    fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_AddSearchTermbase_Sdl_MultiTerm_TMO_Interop_Termbase_System_String_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: Sdl.MultiTerm.TMO.Interop.Termbase
     name: Termbase
-    nameWithType: Termbase
-    fullName: Sdl.MultiTerm.TMO.Interop.Termbase
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: Sdl.MultiTerm.TMO.Interop.Termbase.html
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase(Sdl.MultiTerm.TMO.Interop.Termbase,System.String,System.String)
     name: AddSearchTermbase
-    nameWithType: IMultiSearch.AddSearchTermbase
-    fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.AddSearchTermbase
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_AddSearchTermbase_Sdl_MultiTerm_TMO_Interop_Termbase_System_String_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: Sdl.MultiTerm.TMO.Interop.Termbase
     name: Termbase
-    nameWithType: Termbase
-    fullName: Sdl.MultiTerm.TMO.Interop.Termbase
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: Sdl.MultiTerm.TMO.Interop.Termbase.html
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.ClearSearchTermbases
   commentId: M:Sdl.MultiTerm.TMO.Interop.IMultiSearch.ClearSearchTermbases
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_ClearSearchTermbases
   name: ClearSearchTermbases()
   nameWithType: IMultiSearch.ClearSearchTermbases()
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.ClearSearchTermbases()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.ClearSearchTermbases
     name: ClearSearchTermbases
-    nameWithType: IMultiSearch.ClearSearchTermbases
-    fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.ClearSearchTermbases
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_ClearSearchTermbases
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.ClearSearchTermbases
     name: ClearSearchTermbases
-    nameWithType: IMultiSearch.ClearSearchTermbases
-    fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.ClearSearchTermbases
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_ClearSearchTermbases
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.Execute
   commentId: M:Sdl.MultiTerm.TMO.Interop.IMultiSearch.Execute
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_Execute
   name: Execute()
   nameWithType: IMultiSearch.Execute()
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.Execute()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.Execute
     name: Execute
-    nameWithType: IMultiSearch.Execute
-    fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.Execute
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_Execute
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.Execute
     name: Execute
-    nameWithType: IMultiSearch.Execute
-    fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.Execute
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_Execute
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchExpression
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchExpression
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_SearchExpression
   name: SearchExpression
   nameWithType: IMultiSearch.SearchExpression
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchExpression
@@ -208,6 +206,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.MaximumHits
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_MaximumHits
   name: MaximumHits
   nameWithType: IMultiSearch.MaximumHits
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.MaximumHits
@@ -215,6 +214,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.Direction
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_Direction
   name: Direction
   nameWithType: IMultiSearch.Direction
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.Direction
@@ -222,6 +222,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchType
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_SearchType
   name: SearchType
   nameWithType: IMultiSearch.SearchType
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchType
@@ -229,6 +230,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.FuzzySearch
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_FuzzySearch
   name: FuzzySearch
   nameWithType: IMultiSearch.FuzzySearch
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.FuzzySearch
@@ -236,6 +238,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.TargetRequired
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_TargetRequired
   name: TargetRequired
   nameWithType: IMultiSearch.TargetRequired
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.TargetRequired
@@ -243,6 +246,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.GuessIndex
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_GuessIndex
   name: GuessIndex
   nameWithType: IMultiSearch.GuessIndex
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.GuessIndex
@@ -250,6 +254,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchInfo
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_SearchInfo
   name: SearchInfo
   nameWithType: IMultiSearch.SearchInfo
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchInfo
@@ -257,6 +262,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchTermbases
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_SearchTermbases
   name: SearchTermbases
   nameWithType: IMultiSearch.SearchTermbases
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.SearchTermbases
@@ -264,6 +270,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.FullTextSearch
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_FullTextSearch
   name: FullTextSearch
   nameWithType: IMultiSearch.FullTextSearch
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.FullTextSearch
@@ -271,6 +278,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IMultiSearch.IgnoreFilter
   parent: Sdl.MultiTerm.TMO.Interop.IMultiSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html#Sdl_MultiTerm_TMO_Interop_IMultiSearch_IgnoreFilter
   name: IgnoreFilter
   nameWithType: IMultiSearch.IgnoreFilter
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch.IgnoreFilter
@@ -278,6 +286,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IMultiSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html
   name: IMultiSearch
   nameWithType: IMultiSearch
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch

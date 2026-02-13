@@ -12,22 +12,18 @@ items:
   nameWithType: Indexes
   fullName: Sdl.MultiTerm.TMO.Interop.Indexes
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("4246B4AF-0092-4B4E-ADE5-C7DA750B2B8E")]
+      [Guid("39E9F718-DDA0-4BEC-98B8-8F517248C480")]
 
       public interface Indexes : IIndexes, IEnumerable
     content.vb: >-
-      <Guid("4246B4AF-0092-4B4E-ADE5-C7DA750B2B8E")>
+      <Guid("39E9F718-DDA0-4BEC-98B8-8F517248C480")>
 
-      Public Interface Indexes
-          Inherits IIndexes
+      Public Interface Indexes Inherits IIndexes, IEnumerable
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
   - Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
@@ -37,99 +33,112 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 4246B4AF-0092-4B4E-ADE5-C7DA750B2B8E
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 39E9F718-DDA0-4BEC-98B8-8F517248C480
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
   parent: Sdl.MultiTerm.TMO.Interop.IIndexes
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_GetEnumerator
   name: GetEnumerator()
   nameWithType: IIndexes.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
     name: GetEnumerator
-    nameWithType: IIndexes.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
     name: GetEnumerator
-    nameWithType: IIndexes.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
   parent: Sdl.MultiTerm.TMO.Interop.IIndexes
   isExternal: true
-  name: Item[Object]
-  nameWithType: IIndexes.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.Item[System.Object]
-  nameWithType.vb: IIndexes.Item(Object)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
-  name.vb: Item(Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: IIndexes.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.this[object]
+  nameWithType.vb: IIndexes.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIndexes.this[](Object)
+  name.vb: this[](Object)
   spec.csharp:
-  - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
-    name: Item
-    nameWithType: IIndexes.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
-    name: Item
-    nameWithType: IIndexes.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.Item
+    name: this[]
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_Item_System_Object_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexes.Count
   parent: Sdl.MultiTerm.TMO.Interop.IIndexes
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_Count
   name: Count
   nameWithType: IIndexes.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.Count
@@ -137,6 +146,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexes
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexes.html
   name: IIndexes
   nameWithType: IIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexes

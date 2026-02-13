@@ -20,19 +20,16 @@ items:
   nameWithType: ITermbaseInformation
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("4D4B4A86-41E2-4C74-BF37-A917D0FA1AA6")]
+      [Guid("1D21F143-BA13-4ACC-8218-39B9DF7054DE")]
 
       public interface ITermbaseInformation
     content.vb: >-
-      <Guid("4D4B4A86-41E2-4C74-BF37-A917D0FA1AA6")>
+      <Guid("1D21F143-BA13-4ACC-8218-39B9DF7054DE")>
 
       Public Interface ITermbaseInformation
   attributes:
@@ -40,13 +37,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 4D4B4A86-41E2-4C74-BF37-A917D0FA1AA6
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 1D21F143-BA13-4ACC-8218-39B9DF7054DE
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Refresh
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Refresh
   id: Refresh
@@ -58,15 +49,12 @@ items:
   nameWithType: ITermbaseInformation.Refresh()
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Refresh()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: void Refresh()
-    content.vb: Sub Refresh
+    content.vb: Sub Refresh()
   overload: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Refresh*
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Name
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Name
@@ -79,9 +67,6 @@ items:
   nameWithType: ITermbaseInformation.Name
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Name
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -92,10 +77,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Name As String
   overload: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Name*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Size
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Size
   id: Size
@@ -107,9 +88,6 @@ items:
   nameWithType: ITermbaseInformation.Size
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Size
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -120,10 +98,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Size As String
   overload: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Size*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.CreationDate
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.CreationDate
   id: CreationDate
@@ -135,9 +109,6 @@ items:
   nameWithType: ITermbaseInformation.CreationDate
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.CreationDate
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -148,10 +119,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property CreationDate As String
   overload: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.CreationDate*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.TotalNumberOfEntries
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.TotalNumberOfEntries
   id: TotalNumberOfEntries
@@ -163,9 +130,6 @@ items:
   nameWithType: ITermbaseInformation.TotalNumberOfEntries
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.TotalNumberOfEntries
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -176,10 +140,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property TotalNumberOfEntries As Integer
   overload: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.TotalNumberOfEntries*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex(System.String)
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex(System.String)
   id: NumberOfEntriesInIndex(System.String)
@@ -187,18 +147,15 @@ items:
   langs:
   - csharp
   - vb
-  name: NumberOfEntriesInIndex[String]
-  nameWithType: ITermbaseInformation.NumberOfEntriesInIndex[String]
-  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex[System.String]
+  name: NumberOfEntriesInIndex[string]
+  nameWithType: ITermbaseInformation.NumberOfEntriesInIndex[string]
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex[string]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
-    content: int NumberOfEntriesInIndex { get; }
+    content: int NumberOfEntriesInIndex[string Index] { get; }
     parameters:
     - id: Index
       type: System.String
@@ -207,11 +164,7 @@ items:
     content.vb: ReadOnly Property NumberOfEntriesInIndex(Index As String) As Integer
   overload: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex*
   nameWithType.vb: ITermbaseInformation.NumberOfEntriesInIndex(String)
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex(System.String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex(String)
   name.vb: NumberOfEntriesInIndex(String)
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Description
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Description
@@ -224,9 +177,6 @@ items:
   nameWithType: ITermbaseInformation.Description
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Description
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -237,10 +187,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Description As String
   overload: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Description*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Path
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Path
   id: Path
@@ -252,9 +198,6 @@ items:
   nameWithType: ITermbaseInformation.Path
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Path
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -265,26 +208,65 @@ items:
       type: System.String
     content.vb: ReadOnly Property Path As String
   overload: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Path*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Refresh*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Refresh
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html#Sdl_MultiTerm_TMO_Interop_ITermbaseInformation_Refresh
   name: Refresh
   nameWithType: ITermbaseInformation.Refresh
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Refresh
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Name*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Name
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html#Sdl_MultiTerm_TMO_Interop_ITermbaseInformation_Name
   name: Name
   nameWithType: ITermbaseInformation.Name
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Name
@@ -292,30 +274,38 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Size*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Size
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html#Sdl_MultiTerm_TMO_Interop_ITermbaseInformation_Size
   name: Size
   nameWithType: ITermbaseInformation.Size
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Size
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.CreationDate*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.CreationDate
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html#Sdl_MultiTerm_TMO_Interop_ITermbaseInformation_CreationDate
   name: CreationDate
   nameWithType: ITermbaseInformation.CreationDate
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.CreationDate
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.TotalNumberOfEntries*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.TotalNumberOfEntries
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html#Sdl_MultiTerm_TMO_Interop_ITermbaseInformation_TotalNumberOfEntries
   name: TotalNumberOfEntries
   nameWithType: ITermbaseInformation.TotalNumberOfEntries
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.TotalNumberOfEntries
@@ -323,24 +313,31 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html#Sdl_MultiTerm_TMO_Interop_ITermbaseInformation_NumberOfEntriesInIndex_System_String_
   name: NumberOfEntriesInIndex
   nameWithType: ITermbaseInformation.NumberOfEntriesInIndex
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.NumberOfEntriesInIndex
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Description*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Description
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html#Sdl_MultiTerm_TMO_Interop_ITermbaseInformation_Description
   name: Description
   nameWithType: ITermbaseInformation.Description
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Description
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Path*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Path
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html#Sdl_MultiTerm_TMO_Interop_ITermbaseInformation_Path
   name: Path
   nameWithType: ITermbaseInformation.Path
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.Path

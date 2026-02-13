@@ -15,19 +15,16 @@ items:
   nameWithType: MtSearchType
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType
   type: Enum
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("C852ED52-67A0-4D1C-BE63-4716F3F6CF2F")]
+      [Guid("B4613685-E746-4017-A6B6-116E3B8470E6")]
 
       public enum MtSearchType
     content.vb: >-
-      <Guid("C852ED52-67A0-4D1C-BE63-4716F3F6CF2F")>
+      <Guid("B4613685-E746-4017-A6B6-116E3B8470E6")>
 
       Public Enum MtSearchType
   attributes:
@@ -35,13 +32,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: C852ED52-67A0-4D1C-BE63-4716F3F6CF2F
-  modifiers.csharp:
-  - public
-  - enum
-  modifiers.vb:
-  - Public
-  - Enum
+      value: B4613685-E746-4017-A6B6-116E3B8470E6
 - uid: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtParallel
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchType.mtParallel
   id: mtParallel
@@ -53,9 +44,6 @@ items:
   nameWithType: MtSearchType.mtParallel
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtParallel
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -63,12 +51,6 @@ items:
     content: mtParallel = 1
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtSearchType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtHierarchial
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchType.mtHierarchial
   id: mtHierarchial
@@ -80,9 +62,6 @@ items:
   nameWithType: MtSearchType.mtHierarchial
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtHierarchial
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -90,12 +69,6 @@ items:
     content: mtHierarchial = 2
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtSearchType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtSequential
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchType.mtSequential
   id: mtSequential
@@ -107,9 +80,6 @@ items:
   nameWithType: MtSearchType.mtSequential
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType.mtSequential
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -117,23 +87,59 @@ items:
     content: mtSequential = 3
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtSearchType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.MtSearchType
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchType
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtSearchType.html
   name: MtSearchType
   nameWithType: MtSearchType
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType

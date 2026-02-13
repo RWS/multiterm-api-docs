@@ -1,314 +1,472 @@
 ### YamlMime:TableOfContent
+items:
 - uid: Sdl.MultiTerm.TMO.Interop
   name: Sdl.MultiTerm.TMO.Interop
+  type: Namespace
   items:
-  - uid: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
-    name: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
   - uid: Sdl.MultiTerm.TMO.Interop.Application
     name: Application
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass
     name: ApplicationClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
     name: CredentialsPersistOption
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveField
     name: DescriptiveField
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldClass
     name: DescriptiveFieldClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
     name: DescriptiveFields
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass
     name: DescriptiveFieldsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.Entries
     name: Entries
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntriesClass
     name: EntriesClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.Entry
     name: Entry
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntryClass
     name: EntryClass
-  - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
-    name: EntryClassesPermissions
-  - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass
-    name: EntryClassesPermissionsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
     name: EntryClassPermissions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
     name: EntryClassPermissionsClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
+    name: EntryClassesPermissions
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass
+    name: EntryClassesPermissionsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.EntryContent
     name: EntryContent
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntryContentClass
     name: EntryContentClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.EntryField
     name: EntryField
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass
     name: EntryFieldClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.EntryFields
     name: EntryFields
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntryFieldsClass
     name: EntryFieldsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.EntryIDs
     name: EntryIDs
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntryIDsClass
     name: EntryIDsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.EntryIndex
     name: EntryIndex
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntryIndexClass
     name: EntryIndexClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.EntryIndexes
     name: EntryIndexes
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.EntryIndexesClass
     name: EntryIndexesClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinition
     name: ExportDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinitionClass
     name: ExportDefinitionClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinitions
     name: ExportDefinitions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinitionsClass
     name: ExportDefinitionsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinition
     name: FilterDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinitionClass
     name: FilterDefinitionClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinitions
     name: FilterDefinitions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinitionsClass
     name: FilterDefinitionsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.HitTerm
     name: HitTerm
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.HitTermClass
     name: HitTermClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.HitTerms
     name: HitTerms
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.HitTermsClass
     name: HitTermsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.Homonym
     name: Homonym
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.HomonymClass
     name: HomonymClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.Homonyms
     name: Homonyms
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.HomonymsClass
     name: HomonymsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.IApplication
     name: IApplication
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
     name: IDescriptiveField
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
     name: IDescriptiveFields
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntries
     name: IEntries
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntry
     name: IEntry
-  - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
-    name: IEntryClassesPermissions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
     name: IEntryClassPermissions
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
+    name: IEntryClassesPermissions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryContent
     name: IEntryContent
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryField
     name: IEntryField
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryFields
     name: IEntryFields
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryIDs
     name: IEntryIDs
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndex
     name: IEntryIndex
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryIndexes
     name: IEntryIndexes
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinition
     name: IExportDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IExportDefinitions
     name: IExportDefinitions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
     name: IFilterDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
     name: IFilterDefinitions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm
     name: IHitTerm
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IHitTerms
     name: IHitTerms
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IHomonym
     name: IHomonym
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IHomonyms
     name: IHomonyms
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinition
     name: IImportDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
     name: IImportDefinitions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
     name: IIncompleteEntries
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IIndex
     name: IIndex
-  - uid: Sdl.MultiTerm.TMO.Interop.IIndexes
-    name: IIndexes
-  - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
-    name: IIndexesPermissions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
     name: IIndexPermissions
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.IIndexes
+    name: IIndexes
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
+    name: IIndexesPermissions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
     name: IInputModelDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
     name: IInputModelDefinitions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinition
     name: ILayoutDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
     name: ILayoutDefinitions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntries
     name: ILockedEntries
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
     name: ILockedEntryInfo
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos
     name: ILockedEntryInfos
-  - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinition
-    name: ImportDefinition
-  - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitionClass
-    name: ImportDefinitionClass
-  - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitions
-    name: ImportDefinitions
-  - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitionsClass
-    name: ImportDefinitionsClass
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IMultiSearch
     name: IMultiSearch
-  - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntries
-    name: IncompleteEntries
-  - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass
-    name: IncompleteEntriesClass
-  - uid: Sdl.MultiTerm.TMO.Interop.Index
-    name: Index
-  - uid: Sdl.MultiTerm.TMO.Interop.IndexClass
-    name: IndexClass
-  - uid: Sdl.MultiTerm.TMO.Interop.Indexes
-    name: Indexes
-  - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass
-    name: IndexesClass
-  - uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissions
-    name: IndexesPermissions
-  - uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
-    name: IndexesPermissionsClass
-  - uid: Sdl.MultiTerm.TMO.Interop.IndexPermissions
-    name: IndexPermissions
-  - uid: Sdl.MultiTerm.TMO.Interop.IndexPermissionsClass
-    name: IndexPermissionsClass
-  - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinition
-    name: InputModelDefinition
-  - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionClass
-    name: InputModelDefinitionClass
-  - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
-    name: InputModelDefinitions
-  - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionsClass
-    name: InputModelDefinitionsClass
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.IPicklistValues
     name: IPicklistValues
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo
     name: ISearchInfo
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos
     name: ISearchInfos
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase
     name: ITermbase
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
     name: ITermbaseAccessPermissions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
     name: ITermbaseBrowser
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
     name: ITermbaseDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation
     name: ITermbaseInformation
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
     name: ITermbaseRepository
-  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases
-    name: ITermbases
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
     name: ITermbaseSearch
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.ITermbases
+    name: ITermbases
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinition
+    name: ImportDefinition
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitionClass
+    name: ImportDefinitionClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitions
+    name: ImportDefinitions
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitionsClass
+    name: ImportDefinitionsClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntries
+    name: IncompleteEntries
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass
+    name: IncompleteEntriesClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.Index
+    name: Index
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.IndexClass
+    name: IndexClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.IndexPermissions
+    name: IndexPermissions
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.IndexPermissionsClass
+    name: IndexPermissionsClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.Indexes
+    name: Indexes
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass
+    name: IndexesClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+    name: IndexesPermissions
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+    name: IndexesPermissionsClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinition
+    name: InputModelDefinition
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionClass
+    name: InputModelDefinitionClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
+    name: InputModelDefinitions
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionsClass
+    name: InputModelDefinitionsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
     name: LayoutDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinitionClass
     name: LayoutDefinitionClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
     name: LayoutDefinitions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinitionsClass
     name: LayoutDefinitionsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.LockedEntries
     name: LockedEntries
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
     name: LockedEntriesClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
     name: LockedEntryInfo
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
     name: LockedEntryInfoClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfos
     name: LockedEntryInfos
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfosClass
     name: LockedEntryInfosClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
     name: MtBrowseDirection
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
     name: MtCommunicationType
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
     name: MtDatabaseType
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
     name: MtFieldLevel
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtFieldType
     name: MtFieldType
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
     name: MtIndexGuessing
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtLockingState
     name: MtLockingState
-  - uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
-    name: mtObjectUsability
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
     name: MtSearchDirection
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtSearchType
     name: MtSearchType
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtTaskType
     name: MtTaskType
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MtUserType
     name: MtUserType
+    type: Enum
   - uid: Sdl.MultiTerm.TMO.Interop.MultiSearch
     name: MultiSearch
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.MultiSearchClass
     name: MultiSearchClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.PicklistValues
     name: PicklistValues
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
     name: PicklistValuesClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.SearchInfo
     name: SearchInfo
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.SearchInfoClass
     name: SearchInfoClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.SearchInfos
     name: SearchInfos
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.SearchInfosClass
     name: SearchInfosClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.Termbase
     name: Termbase
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
     name: TermbaseAccessPermissions
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
     name: TermbaseAccessPermissionsClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
     name: TermbaseBrowser
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseBrowserClass
     name: TermbaseBrowserClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass
     name: TermbaseClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseDefinition
     name: TermbaseDefinition
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseDefinitionClass
     name: TermbaseDefinitionClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseInformation
     name: TermbaseInformation
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseInformationClass
     name: TermbaseInformationClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
     name: TermbaseRepository
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseRepositoryClass
     name: TermbaseRepositoryClass
-  - uid: Sdl.MultiTerm.TMO.Interop.Termbases
-    name: Termbases
-  - uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass
-    name: TermbasesClass
+    type: Class
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearch
     name: TermbaseSearch
+    type: Interface
   - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass
     name: TermbaseSearchClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.Termbases
+    name: Termbases
+    type: Interface
+  - uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass
+    name: TermbasesClass
+    type: Class
+  - uid: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+    name: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+    type: Enum
+  - uid: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
+    name: mtObjectUsability
+    type: Enum
+memberLayout: SamePage

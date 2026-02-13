@@ -20,34 +20,24 @@ items:
   nameWithType: ILayoutDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("522E1B60-8D1F-46AF-974F-578D5F05B805")]
+      [Guid("84C614B3-E8AD-41A4-9E9F-8AF7250652F4")]
 
       public interface ILayoutDefinitions : IEnumerable
     content.vb: >-
-      <Guid("522E1B60-8D1F-46AF-974F-578D5F05B805")>
+      <Guid("84C614B3-E8AD-41A4-9E9F-8AF7250652F4")>
 
-      Public Interface ILayoutDefinitions
-          Inherits IEnumerable
+      Public Interface ILayoutDefinitions Inherits IEnumerable
   attributes:
   - type: System.Runtime.InteropServices.GuidAttribute
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 522E1B60-8D1F-46AF-974F-578D5F05B805
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 84C614B3-E8AD-41A4-9E9F-8AF7250652F4
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
   id: GetEnumerator
@@ -59,9 +49,6 @@ items:
   nameWithType: ILayoutDefinitions.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -69,7 +56,7 @@ items:
     content: IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Function GetEnumerator As IEnumerator
+    content.vb: Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator*
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String,System.String,System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String,System.String,System.String)
@@ -78,13 +65,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Add(String, String, String)
-  nameWithType: ILayoutDefinitions.Add(String, String, String)
-  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(System.String, System.String, System.String)
+  name: Add(string, string, string)
+  nameWithType: ILayoutDefinitions.Add(string, string, string)
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(string, string, string)
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -101,6 +85,9 @@ items:
       type: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
     content.vb: Function Add(Name As String, Description As String, FileName As String) As LayoutDefinition
   overload: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add*
+  nameWithType.vb: ILayoutDefinitions.Add(String, String, String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add(String, String, String)
+  name.vb: Add(String, String, String)
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
   commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
   id: StartWizard
@@ -112,9 +99,6 @@ items:
   nameWithType: ILayoutDefinitions.StartWizard()
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -122,7 +106,7 @@ items:
     content: LayoutDefinition StartWizard()
     return:
       type: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
-    content.vb: Function StartWizard As LayoutDefinition
+    content.vb: Function StartWizard() As LayoutDefinition
   overload: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard*
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
   commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
@@ -135,15 +119,12 @@ items:
   nameWithType: ILayoutDefinitions.Refresh()
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: void Refresh()
-    content.vb: Sub Refresh
+    content.vb: Sub Refresh()
   overload: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh*
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
@@ -152,13 +133,10 @@ items:
   langs:
   - csharp
   - vb
-  name: CheckObjectUsability(String)
-  nameWithType: ILayoutDefinitions.CheckObjectUsability(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(System.String)
+  name: CheckObjectUsability(string)
+  nameWithType: ILayoutDefinitions.CheckObjectUsability(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(string)
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -171,6 +149,9 @@ items:
       type: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
     content.vb: Function CheckObjectUsability(FileName As String) As mtObjectUsability
   overload: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability*
+  nameWithType.vb: ILayoutDefinitions.CheckObjectUsability(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability(String)
+  name.vb: CheckObjectUsability(String)
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String,System.Boolean@)
   id: CheckObjectUsabilityEx(System.String,System.Boolean@)
@@ -178,13 +159,10 @@ items:
   langs:
   - csharp
   - vb
-  name: CheckObjectUsabilityEx(String, out Boolean)
-  nameWithType: ILayoutDefinitions.CheckObjectUsabilityEx(String, out Boolean)
-  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String, out System.Boolean)
+  name: CheckObjectUsabilityEx(string, out bool)
+  nameWithType: ILayoutDefinitions.CheckObjectUsabilityEx(string, out bool)
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(string, out bool)
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -197,11 +175,11 @@ items:
       type: System.Boolean
     return:
       type: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
-    content.vb: Function CheckObjectUsabilityEx(FileName As String, ByRef newerVersion As Boolean) As mtObjectUsability
+    content.vb: Function CheckObjectUsabilityEx(FileName As String, newerVersion As Boolean) As mtObjectUsability
   overload: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx*
-  nameWithType.vb: ILayoutDefinitions.CheckObjectUsabilityEx(String, ByRef Boolean)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(System.String, ByRef System.Boolean)
-  name.vb: CheckObjectUsabilityEx(String, ByRef Boolean)
+  nameWithType.vb: ILayoutDefinitions.CheckObjectUsabilityEx(String, Boolean)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx(String, Boolean)
+  name.vb: CheckObjectUsabilityEx(String, Boolean)
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
   id: Item(System.Object)
@@ -209,13 +187,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[Object]
-  nameWithType: ILayoutDefinitions.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item[System.Object]
+  name: this[object]
+  nameWithType: ILayoutDefinitions.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.this[object]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -226,15 +201,11 @@ items:
       type: System.Object
     return:
       type: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
-    content.vb: ReadOnly Property Item(Index As Object) As LayoutDefinition
+    content.vb: ReadOnly Default Property this[](Index As Object) As LayoutDefinition
   overload: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item*
-  nameWithType.vb: ILayoutDefinitions.Item(Object)
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item(System.Object)
-  name.vb: Item(Object)
+  nameWithType.vb: ILayoutDefinitions.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.this[](Object)
+  name.vb: this[](Object)
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
   id: Count
@@ -246,9 +217,6 @@ items:
   nameWithType: ILayoutDefinitions.Count
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -259,20 +227,58 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html#Sdl_MultiTerm_TMO_Interop_ILayoutDefinitions_GetEnumerator
   name: GetEnumerator
   nameWithType: ILayoutDefinitions.GetEnumerator
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.GetEnumerator
@@ -280,18 +286,41 @@ references:
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html#Sdl_MultiTerm_TMO_Interop_ILayoutDefinitions_Add_System_String_System_String_System_String_
   name: Add
   nameWithType: ILayoutDefinitions.Add
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Add
@@ -299,37 +328,46 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
   commentId: T:Sdl.MultiTerm.TMO.Interop.LayoutDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LayoutDefinition.html
   name: LayoutDefinition
   nameWithType: LayoutDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html#Sdl_MultiTerm_TMO_Interop_ILayoutDefinitions_StartWizard
   name: StartWizard
   nameWithType: ILayoutDefinitions.StartWizard
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.StartWizard
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html#Sdl_MultiTerm_TMO_Interop_ILayoutDefinitions_Refresh
   name: Refresh
   nameWithType: ILayoutDefinitions.Refresh
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Refresh
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html#Sdl_MultiTerm_TMO_Interop_ILayoutDefinitions_CheckObjectUsability_System_String_
   name: CheckObjectUsability
   nameWithType: ILayoutDefinitions.CheckObjectUsability
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsability
@@ -337,12 +375,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.mtObjectUsability
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.mtObjectUsability.html
   name: mtObjectUsability
   nameWithType: mtObjectUsability
   fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html#Sdl_MultiTerm_TMO_Interop_ILayoutDefinitions_CheckObjectUsabilityEx_System_String_System_Boolean__
   name: CheckObjectUsabilityEx
   nameWithType: ILayoutDefinitions.CheckObjectUsabilityEx
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.CheckObjectUsabilityEx
@@ -350,25 +390,38 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item
   isExternal: true
-  name: Item
-  nameWithType: ILayoutDefinitions.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Item
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html#Sdl_MultiTerm_TMO_Interop_ILayoutDefinitions_Item_System_Object_
+  name: this
+  nameWithType: ILayoutDefinitions.this
+  fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.this
+  nameWithType.vb: ILayoutDefinitions.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.this[]
+  name.vb: this[]
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html#Sdl_MultiTerm_TMO_Interop_ILayoutDefinitions_Count
   name: Count
   nameWithType: ILayoutDefinitions.Count
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.Count
@@ -376,6 +429,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

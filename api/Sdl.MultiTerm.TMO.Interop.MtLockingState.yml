@@ -14,19 +14,16 @@ items:
   nameWithType: MtLockingState
   fullName: Sdl.MultiTerm.TMO.Interop.MtLockingState
   type: Enum
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("C0939EAA-5E76-40AE-9963-DACD0F1C923D")]
+      [Guid("D647C388-40CA-4034-8FB5-34FE05869561")]
 
       public enum MtLockingState
     content.vb: >-
-      <Guid("C0939EAA-5E76-40AE-9963-DACD0F1C923D")>
+      <Guid("D647C388-40CA-4034-8FB5-34FE05869561")>
 
       Public Enum MtLockingState
   attributes:
@@ -34,13 +31,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: C0939EAA-5E76-40AE-9963-DACD0F1C923D
-  modifiers.csharp:
-  - public
-  - enum
-  modifiers.vb:
-  - Public
-  - Enum
+      value: D647C388-40CA-4034-8FB5-34FE05869561
 - uid: Sdl.MultiTerm.TMO.Interop.MtLockingState.mtLock
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtLockingState.mtLock
   id: mtLock
@@ -52,9 +43,6 @@ items:
   nameWithType: MtLockingState.mtLock
   fullName: Sdl.MultiTerm.TMO.Interop.MtLockingState.mtLock
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -62,12 +50,6 @@ items:
     content: mtLock = 1
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtLockingState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: Sdl.MultiTerm.TMO.Interop.MtLockingState.mtUnlock
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtLockingState.mtUnlock
   id: mtUnlock
@@ -79,9 +61,6 @@ items:
   nameWithType: MtLockingState.mtUnlock
   fullName: Sdl.MultiTerm.TMO.Interop.MtLockingState.mtUnlock
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -89,23 +68,59 @@ items:
     content: mtUnlock = 2
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtLockingState
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.MtLockingState
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtLockingState
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtLockingState.html
   name: MtLockingState
   nameWithType: MtLockingState
   fullName: Sdl.MultiTerm.TMO.Interop.MtLockingState

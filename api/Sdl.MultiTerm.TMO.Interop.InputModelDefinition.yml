@@ -12,22 +12,18 @@ items:
   nameWithType: InputModelDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.InputModelDefinition
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("6D2C1DA7-B5A3-4859-967A-F6DE4144A22B")]
+      [Guid("1E7A8CF3-9321-42EE-A81D-5F2DB3EDE144")]
 
       public interface InputModelDefinition : IInputModelDefinition
     content.vb: >-
-      <Guid("6D2C1DA7-B5A3-4859-967A-F6DE4144A22B")>
+      <Guid("1E7A8CF3-9321-42EE-A81D-5F2DB3EDE144")>
 
-      Public Interface InputModelDefinition
-          Inherits IInputModelDefinition
+      Public Interface InputModelDefinition Inherits IInputModelDefinition
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard(System.String)
   - Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Delete
@@ -47,240 +43,225 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 6D2C1DA7-B5A3-4859-967A-F6DE4144A22B
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 1E7A8CF3-9321-42EE-A81D-5F2DB3EDE144
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard(System.String)
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
-  name: StartWizard(String)
-  nameWithType: IInputModelDefinition.StartWizard(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard(System.String)
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_StartWizard_System_String_
+  name: StartWizard(string)
+  nameWithType: IInputModelDefinition.StartWizard(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard(string)
+  nameWithType.vb: IInputModelDefinition.StartWizard(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard(String)
+  name.vb: StartWizard(String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard(System.String)
     name: StartWizard
-    nameWithType: IInputModelDefinition.StartWizard
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_StartWizard_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard(System.String)
     name: StartWizard
-    nameWithType: IInputModelDefinition.StartWizard
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.StartWizard
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_StartWizard_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Delete
   commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Delete
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Delete
   name: Delete()
   nameWithType: IInputModelDefinition.Delete()
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Delete()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Delete
     name: Delete
-    nameWithType: IInputModelDefinition.Delete
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Delete
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Delete
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Delete
     name: Delete
-    nameWithType: IInputModelDefinition.Delete
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Delete
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Delete
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save(System.String)
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
-  name: Save(String)
-  nameWithType: IInputModelDefinition.Save(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save(System.String)
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Save_System_String_
+  name: Save(string)
+  nameWithType: IInputModelDefinition.Save(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save(string)
+  nameWithType.vb: IInputModelDefinition.Save(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save(String)
+  name.vb: Save(String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save(System.String)
     name: Save
-    nameWithType: IInputModelDefinition.Save
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Save_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save(System.String)
     name: Save
-    nameWithType: IInputModelDefinition.Save
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Save
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Save_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load(System.String)
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
-  name: Load(String)
-  nameWithType: IInputModelDefinition.Load(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load(System.String)
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Load_System_String_
+  name: Load(string)
+  nameWithType: IInputModelDefinition.Load(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load(string)
+  nameWithType.vb: IInputModelDefinition.Load(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load(String)
+  name.vb: Load(String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load(System.String)
     name: Load
-    nameWithType: IInputModelDefinition.Load
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Load_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load(System.String)
     name: Load
-    nameWithType: IInputModelDefinition.Load
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Load
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Load_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.GetDummyEntry
   commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.GetDummyEntry
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_GetDummyEntry
   name: GetDummyEntry()
   nameWithType: IInputModelDefinition.GetDummyEntry()
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.GetDummyEntry()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.GetDummyEntry
     name: GetDummyEntry
-    nameWithType: IInputModelDefinition.GetDummyEntry
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.GetDummyEntry
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_GetDummyEntry
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.GetDummyEntry
     name: GetDummyEntry
-    nameWithType: IInputModelDefinition.GetDummyEntry
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.GetDummyEntry
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_GetDummyEntry
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition._GetSchema
   commentId: M:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition._GetSchema
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition__GetSchema
   name: _GetSchema()
   nameWithType: IInputModelDefinition._GetSchema()
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition._GetSchema()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition._GetSchema
     name: _GetSchema
-    nameWithType: IInputModelDefinition._GetSchema
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition._GetSchema
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition__GetSchema
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition._GetSchema
     name: _GetSchema
-    nameWithType: IInputModelDefinition._GetSchema
-    fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition._GetSchema
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition__GetSchema
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Name
   commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Name
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Name
   name: Name
   nameWithType: IInputModelDefinition.Name
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Name
@@ -288,6 +269,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Description
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Description
   name: Description
   nameWithType: IInputModelDefinition.Description
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Description
@@ -295,6 +277,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Content
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Content
   name: Content
   nameWithType: IInputModelDefinition.Content
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Content
@@ -302,6 +285,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.ReadOnly
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_ReadOnly
   name: ReadOnly
   nameWithType: IInputModelDefinition.ReadOnly
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.ReadOnly
@@ -309,6 +293,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Owner
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Owner
   name: Owner
   nameWithType: IInputModelDefinition.Owner
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Owner
@@ -316,6 +301,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.IsSytemObject
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_IsSytemObject
   name: IsSytemObject
   nameWithType: IInputModelDefinition.IsSytemObject
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.IsSytemObject
@@ -323,6 +309,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Usability
   parent: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html#Sdl_MultiTerm_TMO_Interop_IInputModelDefinition_Usability
   name: Usability
   nameWithType: IInputModelDefinition.Usability
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.Usability
@@ -330,6 +317,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html
   name: IInputModelDefinition
   nameWithType: IInputModelDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition

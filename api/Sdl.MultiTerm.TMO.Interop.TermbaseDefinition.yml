@@ -12,22 +12,18 @@ items:
   nameWithType: TermbaseDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseDefinition
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("62031F81-32AF-4B0B-9458-DC2C182DC511")]
+      [Guid("26CFAACF-398A-4421-B77A-1316822A8C1F")]
 
       public interface TermbaseDefinition : ITermbaseDefinition
     content.vb: >-
-      <Guid("62031F81-32AF-4B0B-9458-DC2C182DC511")>
+      <Guid("26CFAACF-398A-4421-B77A-1316822A8C1F")>
 
-      Public Interface TermbaseDefinition
-          Inherits ITermbaseDefinition
+      Public Interface TermbaseDefinition Inherits ITermbaseDefinition
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.StartWizard
   - Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save(System.String)
@@ -41,96 +37,115 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 62031F81-32AF-4B0B-9458-DC2C182DC511
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 26CFAACF-398A-4421-B77A-1316822A8C1F
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.StartWizard
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.StartWizard
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition_StartWizard
   name: StartWizard()
   nameWithType: ITermbaseDefinition.StartWizard()
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.StartWizard()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.StartWizard
     name: StartWizard
-    nameWithType: ITermbaseDefinition.StartWizard
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.StartWizard
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition_StartWizard
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.StartWizard
     name: StartWizard
-    nameWithType: ITermbaseDefinition.StartWizard
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.StartWizard
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition_StartWizard
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save(System.String)
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   isExternal: true
-  name: Save(String)
-  nameWithType: ITermbaseDefinition.Save(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save(System.String)
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition_Save_System_String_
+  name: Save(string)
+  nameWithType: ITermbaseDefinition.Save(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save(string)
+  nameWithType.vb: ITermbaseDefinition.Save(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save(String)
+  name.vb: Save(String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save(System.String)
     name: Save
-    nameWithType: ITermbaseDefinition.Save
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition_Save_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save(System.String)
     name: Save
-    nameWithType: ITermbaseDefinition.Save
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Save
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition_Save_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Fields
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Fields
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition_Fields
   name: Fields
   nameWithType: ITermbaseDefinition.Fields
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Fields
@@ -138,6 +153,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Indexes
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition_Indexes
   name: Indexes
   nameWithType: ITermbaseDefinition.Indexes
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.Indexes
@@ -145,6 +161,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition._Definition
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition__Definition
   name: _Definition
   nameWithType: ITermbaseDefinition._Definition
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition._Definition
@@ -152,6 +169,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition._Object
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition__Object
   name: _Object
   nameWithType: ITermbaseDefinition._Object
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition._Object
@@ -159,6 +177,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition._Schema
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html#Sdl_MultiTerm_TMO_Interop_ITermbaseDefinition__Schema
   name: _Schema
   nameWithType: ITermbaseDefinition._Schema
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition._Schema
@@ -166,6 +185,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html
   name: ITermbaseDefinition
   nameWithType: ITermbaseDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition

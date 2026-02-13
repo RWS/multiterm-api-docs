@@ -15,9 +15,6 @@ items:
   nameWithType: IncompleteEntriesClass
   fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass
   type: Class
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -25,16 +22,15 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("8F0C059E-8B4B-437F-9B75-AFF02067E7B8")]
+      [Guid("CC0E3B80-8237-46AE-9C9B-EBF566F06F47")]
 
       public class IncompleteEntriesClass : IncompleteEntries, IIncompleteEntries, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("8F0C059E-8B4B-437F-9B75-AFF02067E7B8")>
+      <Guid("CC0E3B80-8237-46AE-9C9B-EBF566F06F47")>
 
-      Public Class IncompleteEntriesClass
-          Implements IncompleteEntries, IIncompleteEntries, IEnumerable
+      Public Class IncompleteEntriesClass Implements IncompleteEntries, IIncompleteEntries, IEnumerable
   inheritance:
   - System.Object
   implements:
@@ -59,13 +55,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 8F0C059E-8B4B-437F-9B75-AFF02067E7B8
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+      value: CC0E3B80-8237-46AE-9C9B-EBF566F06F47
 - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator
   id: GetEnumerator
@@ -74,34 +64,23 @@ items:
   langs:
   - csharp
   - vb
-  name: IIncompleteEntries.GetEnumerator()
-  nameWithType: IncompleteEntriesClass.IIncompleteEntries.GetEnumerator()
-  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator()
+  name: GetEnumerator()
+  nameWithType: IncompleteEntriesClass.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual IEnumerator IIncompleteEntries.GetEnumerator()
+    content: virtual IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements IIncompleteEntries.GetEnumerator
+    content.vb: Overridable Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
   - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: IncompleteEntriesClass.GetEnumerator()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator()
-  name.vb: GetEnumerator()
 - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Item(System.Int32)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Item(System.Int32)
   id: Item(System.Int32)
@@ -110,38 +89,28 @@ items:
   langs:
   - csharp
   - vb
-  name: IIncompleteEntries.Item[Int32]
-  nameWithType: IncompleteEntriesClass.IIncompleteEntries.Item[Int32]
-  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item[System.Int32]
+  name: this[int]
+  nameWithType: IncompleteEntriesClass.this[int]
+  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.this[int]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string IIncompleteEntries.this[int Index] { get; }
+    content: virtual string this[int Index] { get; }
     parameters:
     - id: Index
       type: System.Int32
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property Item(Index As Integer) As String Implements IIncompleteEntries.this[]
+    content.vb: Overridable ReadOnly Default Property this[](Index As Integer) As String
   overload: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Item*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
-  nameWithType.vb: IncompleteEntriesClass.Item(Int32)
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Item(System.Int32)
-  name.vb: Item(Int32)
+  nameWithType.vb: IncompleteEntriesClass.this[](Integer)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.this[](Integer)
+  name.vb: this[](Integer)
 - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count
   id: Count
@@ -150,54 +119,87 @@ items:
   langs:
   - csharp
   - vb
-  name: IIncompleteEntries.Count
-  nameWithType: IncompleteEntriesClass.IIncompleteEntries.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
+  name: Count
+  nameWithType: IncompleteEntriesClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int IIncompleteEntries.Count { get; }
+    content: virtual int Count { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable ReadOnly Property Count As Integer Implements IIncompleteEntries.Count
+    content.vb: Overridable ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
-  nameWithType.vb: IncompleteEntriesClass.Count
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count
-  name.vb: Count
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntries
   commentId: T:Sdl.MultiTerm.TMO.Interop.IncompleteEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IncompleteEntries.html
   name: IncompleteEntries
   nameWithType: IncompleteEntries
   fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntries
@@ -205,6 +207,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html
   name: IIncompleteEntries
   nameWithType: IIncompleteEntries
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
@@ -212,6 +215,7 @@ references:
   commentId: T:System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
@@ -219,451 +223,388 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator
   isExternal: true
-  name: IIncompleteEntries.GetEnumerator
-  nameWithType: IncompleteEntriesClass.IIncompleteEntries.GetEnumerator
-  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
-  nameWithType.vb: IncompleteEntriesClass.GetEnumerator
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator
-  name.vb: GetEnumerator
+  href: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.html#Sdl_MultiTerm_TMO_Interop_IncompleteEntriesClass_GetEnumerator
+  name: GetEnumerator
+  nameWithType: IncompleteEntriesClass.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.GetEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
   parent: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html#Sdl_MultiTerm_TMO_Interop_IIncompleteEntries_GetEnumerator
   name: GetEnumerator()
   nameWithType: IIncompleteEntries.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
     name: GetEnumerator
-    nameWithType: IIncompleteEntries.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html#Sdl_MultiTerm_TMO_Interop_IIncompleteEntries_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
     name: GetEnumerator
-    nameWithType: IIncompleteEntries.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html#Sdl_MultiTerm_TMO_Interop_IIncompleteEntries_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable.GetEnumerator
   commentId: M:System.Collections.IEnumerable.GetEnumerator
   parent: System.Collections.IEnumerable
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   name: GetEnumerator()
   nameWithType: IEnumerable.GetEnumerator()
   fullName: System.Collections.IEnumerable.GetEnumerator()
   spec.csharp:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerator
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Item
   isExternal: true
-  name: IIncompleteEntries.Item
-  nameWithType: IncompleteEntriesClass.IIncompleteEntries.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item
-  nameWithType.vb: IncompleteEntriesClass.Item
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Item
-  name.vb: Item
+  href: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.html#Sdl_MultiTerm_TMO_Interop_IncompleteEntriesClass_Item_System_Int32_
+  name: this
+  nameWithType: IncompleteEntriesClass.this
+  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.this
+  nameWithType.vb: IncompleteEntriesClass.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.this[]
+  name.vb: this[]
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
   parent: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
   isExternal: true
-  name: Item[Int32]
-  nameWithType: IIncompleteEntries.Item[Int32]
-  fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item[System.Int32]
-  nameWithType.vb: IIncompleteEntries.Item(Int32)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
-  name.vb: Item(Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: IIncompleteEntries.this[int]
+  fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.this[int]
+  nameWithType.vb: IIncompleteEntries.this[](Integer)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.this[](Integer)
+  name.vb: this[](Integer)
   spec.csharp:
-  - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
-    name: Item
-    nameWithType: IIncompleteEntries.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
-    name: Item
-    nameWithType: IIncompleteEntries.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item
+    name: this[]
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html#Sdl_MultiTerm_TMO_Interop_IIncompleteEntries_Item_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count
   isExternal: true
-  name: IIncompleteEntries.Count
-  nameWithType: IncompleteEntriesClass.IIncompleteEntries.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
-  nameWithType.vb: IncompleteEntriesClass.Count
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count
-  name.vb: Count
+  href: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.html#Sdl_MultiTerm_TMO_Interop_IncompleteEntriesClass_Count
+  name: Count
+  nameWithType: IncompleteEntriesClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.Count
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
   parent: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html#Sdl_MultiTerm_TMO_Interop_IIncompleteEntries_Count
   name: Count
   nameWithType: IIncompleteEntries.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
