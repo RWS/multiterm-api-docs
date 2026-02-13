@@ -17,19 +17,16 @@ items:
   nameWithType: IHitTerm
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("0DE38117-86FA-49CE-9242-B85C90568620")]
+      [Guid("10B272DC-1E70-4857-A6C4-D79F0D8276FB")]
 
       public interface IHitTerm
     content.vb: >-
-      <Guid("0DE38117-86FA-49CE-9242-B85C90568620")>
+      <Guid("10B272DC-1E70-4857-A6C4-D79F0D8276FB")>
 
       Public Interface IHitTerm
   attributes:
@@ -37,13 +34,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 0DE38117-86FA-49CE-9242-B85C90568620
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 10B272DC-1E70-4857-A6C4-D79F0D8276FB
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
   id: Text
@@ -55,9 +46,6 @@ items:
   nameWithType: IHitTerm.Text
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -68,10 +56,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Text As String
   overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
   id: ParentEntryID
@@ -83,9 +67,6 @@ items:
   nameWithType: IHitTerm.ParentEntryID
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -96,10 +77,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property ParentEntryID As String
   overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
   id: SearchScore
@@ -111,9 +88,6 @@ items:
   nameWithType: IHitTerm.SearchScore
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -124,10 +98,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property SearchScore As Integer
   overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
   id: Index
@@ -139,9 +109,6 @@ items:
   nameWithType: IHitTerm.Index
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -152,10 +119,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property Index As String
   overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
   id: Termbase
@@ -167,9 +130,6 @@ items:
   nameWithType: IHitTerm.Termbase
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -180,20 +140,58 @@ items:
       type: System.String
     content.vb: ReadOnly Property Termbase As String
   overload: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_Text
   name: Text
   nameWithType: IHitTerm.Text
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
@@ -201,24 +199,31 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_ParentEntryID
   name: ParentEntryID
   nameWithType: IHitTerm.ParentEntryID
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_SearchScore
   name: SearchScore
   nameWithType: IHitTerm.SearchScore
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
@@ -226,18 +231,24 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_Index
   name: Index
   nameWithType: IHitTerm.Index
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_Termbase
   name: Termbase
   nameWithType: IHitTerm.Termbase
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase

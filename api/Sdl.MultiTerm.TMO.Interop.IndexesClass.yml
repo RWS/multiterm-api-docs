@@ -15,9 +15,6 @@ items:
   nameWithType: IndexesClass
   fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass
   type: Class
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -25,16 +22,15 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("253C76A1-E5C4-4A3C-B99B-F0653221449F")]
+      [Guid("3EFCCB32-682B-4327-9548-022752D55C29")]
 
       public class IndexesClass : Indexes, IIndexes, IEnumerable
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("253C76A1-E5C4-4A3C-B99B-F0653221449F")>
+      <Guid("3EFCCB32-682B-4327-9548-022752D55C29")>
 
-      Public Class IndexesClass
-          Implements Indexes, IIndexes, IEnumerable
+      Public Class IndexesClass Implements Indexes, IIndexes, IEnumerable
   inheritance:
   - System.Object
   implements:
@@ -59,13 +55,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 253C76A1-E5C4-4A3C-B99B-F0653221449F
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+      value: 3EFCCB32-682B-4327-9548-022752D55C29
 - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator
   id: GetEnumerator
@@ -74,34 +64,23 @@ items:
   langs:
   - csharp
   - vb
-  name: IIndexes.GetEnumerator()
-  nameWithType: IndexesClass.IIndexes.GetEnumerator()
-  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator()
+  name: GetEnumerator()
+  nameWithType: IndexesClass.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual IEnumerator IIndexes.GetEnumerator()
+    content: virtual IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements IIndexes.GetEnumerator
+    content.vb: Overridable Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
   - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: IndexesClass.GetEnumerator()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator()
-  name.vb: GetEnumerator()
 - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IndexesClass.Item(System.Object)
   id: Item(System.Object)
@@ -110,38 +89,28 @@ items:
   langs:
   - csharp
   - vb
-  name: IIndexes.Item[Object]
-  nameWithType: IndexesClass.IIndexes.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.Sdl.MultiTerm.TMO.Interop.IIndexes.Item[System.Object]
+  name: this[object]
+  nameWithType: IndexesClass.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.this[object]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual Index IIndexes.this[object Index] { get; }
+    content: virtual Index this[object Index] { get; }
     parameters:
     - id: Index
       type: System.Object
     return:
       type: Sdl.MultiTerm.TMO.Interop.Index
-    content.vb: Public Overridable ReadOnly Property Item(Index As Object) As Index Implements IIndexes.this[]
+    content.vb: Overridable ReadOnly Default Property this[](Index As Object) As Index
   overload: Sdl.MultiTerm.TMO.Interop.IndexesClass.Item*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
-  nameWithType.vb: IndexesClass.Item(Object)
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesClass.Item(System.Object)
-  name.vb: Item(Object)
+  nameWithType.vb: IndexesClass.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesClass.this[](Object)
+  name.vb: this[](Object)
 - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IndexesClass.Count
   id: Count
@@ -150,54 +119,87 @@ items:
   langs:
   - csharp
   - vb
-  name: IIndexes.Count
-  nameWithType: IndexesClass.IIndexes.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.Sdl.MultiTerm.TMO.Interop.IIndexes.Count
+  name: Count
+  nameWithType: IndexesClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int IIndexes.Count { get; }
+    content: virtual int Count { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable ReadOnly Property Count As Integer Implements IIndexes.Count
+    content.vb: Overridable ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.IndexesClass.Count*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IIndexes.Count
-  nameWithType.vb: IndexesClass.Count
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesClass.Count
-  name.vb: Count
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.Indexes
   commentId: T:Sdl.MultiTerm.TMO.Interop.Indexes
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Indexes.html
   name: Indexes
   nameWithType: Indexes
   fullName: Sdl.MultiTerm.TMO.Interop.Indexes
@@ -205,6 +207,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexes
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexes.html
   name: IIndexes
   nameWithType: IIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexes
@@ -212,6 +215,7 @@ references:
   commentId: T:System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
@@ -219,444 +223,374 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator
   isExternal: true
-  name: IIndexes.GetEnumerator
-  nameWithType: IndexesClass.IIndexes.GetEnumerator
-  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
-  nameWithType.vb: IndexesClass.GetEnumerator
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator
-  name.vb: GetEnumerator
+  href: Sdl.MultiTerm.TMO.Interop.IndexesClass.html#Sdl_MultiTerm_TMO_Interop_IndexesClass_GetEnumerator
+  name: GetEnumerator
+  nameWithType: IndexesClass.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.GetEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
   parent: Sdl.MultiTerm.TMO.Interop.IIndexes
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_GetEnumerator
   name: GetEnumerator()
   nameWithType: IIndexes.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
     name: GetEnumerator
-    nameWithType: IIndexes.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
     name: GetEnumerator
-    nameWithType: IIndexes.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable.GetEnumerator
   commentId: M:System.Collections.IEnumerable.GetEnumerator
   parent: System.Collections.IEnumerable
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   name: GetEnumerator()
   nameWithType: IEnumerable.GetEnumerator()
   fullName: System.Collections.IEnumerable.GetEnumerator()
   spec.csharp:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerator
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexesClass.Item
   isExternal: true
-  name: IIndexes.Item
-  nameWithType: IndexesClass.IIndexes.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.Sdl.MultiTerm.TMO.Interop.IIndexes.Item
-  nameWithType.vb: IndexesClass.Item
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesClass.Item
-  name.vb: Item
+  href: Sdl.MultiTerm.TMO.Interop.IndexesClass.html#Sdl_MultiTerm_TMO_Interop_IndexesClass_Item_System_Object_
+  name: this
+  nameWithType: IndexesClass.this
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.this
+  nameWithType.vb: IndexesClass.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesClass.this[]
+  name.vb: this[]
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
   parent: Sdl.MultiTerm.TMO.Interop.IIndexes
   isExternal: true
-  name: Item[Object]
-  nameWithType: IIndexes.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.Item[System.Object]
-  nameWithType.vb: IIndexes.Item(Object)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
-  name.vb: Item(Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: IIndexes.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.this[object]
+  nameWithType.vb: IIndexes.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIndexes.this[](Object)
+  name.vb: this[](Object)
   spec.csharp:
-  - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
-    name: Item
-    nameWithType: IIndexes.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.Item(System.Object)
-    name: Item
-    nameWithType: IIndexes.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.Item
+    name: this[]
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_Item_System_Object_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.Index
   commentId: T:Sdl.MultiTerm.TMO.Interop.Index
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Index.html
   name: Index
   nameWithType: Index
   fullName: Sdl.MultiTerm.TMO.Interop.Index
 - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IndexesClass.Count
   isExternal: true
-  name: IIndexes.Count
-  nameWithType: IndexesClass.IIndexes.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.Sdl.MultiTerm.TMO.Interop.IIndexes.Count
-  nameWithType.vb: IndexesClass.Count
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IndexesClass.Count
-  name.vb: Count
+  href: Sdl.MultiTerm.TMO.Interop.IndexesClass.html#Sdl_MultiTerm_TMO_Interop_IndexesClass_Count
+  name: Count
+  nameWithType: IndexesClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass.Count
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexes.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexes.Count
   parent: Sdl.MultiTerm.TMO.Interop.IIndexes
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexes.html#Sdl_MultiTerm_TMO_Interop_IIndexes_Count
   name: Count
   nameWithType: IIndexes.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexes.Count
@@ -664,6 +598,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

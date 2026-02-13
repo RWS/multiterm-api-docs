@@ -12,22 +12,18 @@ items:
   nameWithType: HitTerm
   fullName: Sdl.MultiTerm.TMO.Interop.HitTerm
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("0DE38117-86FA-49CE-9242-B85C90568620")]
+      [Guid("10B272DC-1E70-4857-A6C4-D79F0D8276FB")]
 
       public interface HitTerm : IHitTerm
     content.vb: >-
-      <Guid("0DE38117-86FA-49CE-9242-B85C90568620")>
+      <Guid("10B272DC-1E70-4857-A6C4-D79F0D8276FB")>
 
-      Public Interface HitTerm
-          Inherits IHitTerm
+      Public Interface HitTerm Inherits IHitTerm
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
   - Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
@@ -39,24 +35,60 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 0DE38117-86FA-49CE-9242-B85C90568620
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 10B272DC-1E70-4857-A6C4-D79F0D8276FB
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
   parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_Text
   name: Text
   nameWithType: IHitTerm.Text
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Text
@@ -64,6 +96,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
   parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_ParentEntryID
   name: ParentEntryID
   nameWithType: IHitTerm.ParentEntryID
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.ParentEntryID
@@ -71,6 +104,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
   parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_SearchScore
   name: SearchScore
   nameWithType: IHitTerm.SearchScore
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.SearchScore
@@ -78,6 +112,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
   parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_Index
   name: Index
   nameWithType: IHitTerm.Index
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Index
@@ -85,6 +120,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
   parent: Sdl.MultiTerm.TMO.Interop.IHitTerm
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html#Sdl_MultiTerm_TMO_Interop_IHitTerm_Termbase
   name: Termbase
   nameWithType: IHitTerm.Termbase
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm.Termbase
@@ -92,6 +128,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IHitTerm
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html
   name: IHitTerm
   nameWithType: IHitTerm
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm

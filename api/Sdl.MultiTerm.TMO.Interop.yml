@@ -4,7 +4,6 @@ items:
   commentId: N:Sdl.MultiTerm.TMO.Interop
   id: Sdl.MultiTerm.TMO.Interop
   children:
-  - Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
   - Sdl.MultiTerm.TMO.Interop.Application
   - Sdl.MultiTerm.TMO.Interop.ApplicationClass
   - Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
@@ -16,10 +15,10 @@ items:
   - Sdl.MultiTerm.TMO.Interop.EntriesClass
   - Sdl.MultiTerm.TMO.Interop.Entry
   - Sdl.MultiTerm.TMO.Interop.EntryClass
-  - Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
-  - Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass
   - Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
   - Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
+  - Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
+  - Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass
   - Sdl.MultiTerm.TMO.Interop.EntryContent
   - Sdl.MultiTerm.TMO.Interop.EntryContentClass
   - Sdl.MultiTerm.TMO.Interop.EntryField
@@ -53,8 +52,8 @@ items:
   - Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
   - Sdl.MultiTerm.TMO.Interop.IEntries
   - Sdl.MultiTerm.TMO.Interop.IEntry
-  - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
+  - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   - Sdl.MultiTerm.TMO.Interop.IEntryContent
   - Sdl.MultiTerm.TMO.Interop.IEntryField
   - Sdl.MultiTerm.TMO.Interop.IEntryFields
@@ -73,9 +72,9 @@ items:
   - Sdl.MultiTerm.TMO.Interop.IImportDefinitions
   - Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
   - Sdl.MultiTerm.TMO.Interop.IIndex
+  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions
   - Sdl.MultiTerm.TMO.Interop.IIndexes
   - Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
-  - Sdl.MultiTerm.TMO.Interop.IIndexPermissions
   - Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   - Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
   - Sdl.MultiTerm.TMO.Interop.ILayoutDefinition
@@ -83,25 +82,7 @@ items:
   - Sdl.MultiTerm.TMO.Interop.ILockedEntries
   - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
   - Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos
-  - Sdl.MultiTerm.TMO.Interop.ImportDefinition
-  - Sdl.MultiTerm.TMO.Interop.ImportDefinitionClass
-  - Sdl.MultiTerm.TMO.Interop.ImportDefinitions
-  - Sdl.MultiTerm.TMO.Interop.ImportDefinitionsClass
   - Sdl.MultiTerm.TMO.Interop.IMultiSearch
-  - Sdl.MultiTerm.TMO.Interop.IncompleteEntries
-  - Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass
-  - Sdl.MultiTerm.TMO.Interop.Index
-  - Sdl.MultiTerm.TMO.Interop.IndexClass
-  - Sdl.MultiTerm.TMO.Interop.Indexes
-  - Sdl.MultiTerm.TMO.Interop.IndexesClass
-  - Sdl.MultiTerm.TMO.Interop.IndexesPermissions
-  - Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
-  - Sdl.MultiTerm.TMO.Interop.IndexPermissions
-  - Sdl.MultiTerm.TMO.Interop.IndexPermissionsClass
-  - Sdl.MultiTerm.TMO.Interop.InputModelDefinition
-  - Sdl.MultiTerm.TMO.Interop.InputModelDefinitionClass
-  - Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
-  - Sdl.MultiTerm.TMO.Interop.InputModelDefinitionsClass
   - Sdl.MultiTerm.TMO.Interop.IPicklistValues
   - Sdl.MultiTerm.TMO.Interop.ISearchInfo
   - Sdl.MultiTerm.TMO.Interop.ISearchInfos
@@ -111,8 +92,26 @@ items:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   - Sdl.MultiTerm.TMO.Interop.ITermbaseInformation
   - Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
-  - Sdl.MultiTerm.TMO.Interop.ITermbases
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
+  - Sdl.MultiTerm.TMO.Interop.ITermbases
+  - Sdl.MultiTerm.TMO.Interop.ImportDefinition
+  - Sdl.MultiTerm.TMO.Interop.ImportDefinitionClass
+  - Sdl.MultiTerm.TMO.Interop.ImportDefinitions
+  - Sdl.MultiTerm.TMO.Interop.ImportDefinitionsClass
+  - Sdl.MultiTerm.TMO.Interop.IncompleteEntries
+  - Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass
+  - Sdl.MultiTerm.TMO.Interop.Index
+  - Sdl.MultiTerm.TMO.Interop.IndexClass
+  - Sdl.MultiTerm.TMO.Interop.IndexPermissions
+  - Sdl.MultiTerm.TMO.Interop.IndexPermissionsClass
+  - Sdl.MultiTerm.TMO.Interop.Indexes
+  - Sdl.MultiTerm.TMO.Interop.IndexesClass
+  - Sdl.MultiTerm.TMO.Interop.IndexesPermissions
+  - Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
+  - Sdl.MultiTerm.TMO.Interop.InputModelDefinition
+  - Sdl.MultiTerm.TMO.Interop.InputModelDefinitionClass
+  - Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
+  - Sdl.MultiTerm.TMO.Interop.InputModelDefinitionsClass
   - Sdl.MultiTerm.TMO.Interop.LayoutDefinition
   - Sdl.MultiTerm.TMO.Interop.LayoutDefinitionClass
   - Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
@@ -130,7 +129,6 @@ items:
   - Sdl.MultiTerm.TMO.Interop.MtFieldType
   - Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
   - Sdl.MultiTerm.TMO.Interop.MtLockingState
-  - Sdl.MultiTerm.TMO.Interop.mtObjectUsability
   - Sdl.MultiTerm.TMO.Interop.MtSearchDirection
   - Sdl.MultiTerm.TMO.Interop.MtSearchType
   - Sdl.MultiTerm.TMO.Interop.MtTaskType
@@ -155,10 +153,12 @@ items:
   - Sdl.MultiTerm.TMO.Interop.TermbaseInformationClass
   - Sdl.MultiTerm.TMO.Interop.TermbaseRepository
   - Sdl.MultiTerm.TMO.Interop.TermbaseRepositoryClass
-  - Sdl.MultiTerm.TMO.Interop.Termbases
-  - Sdl.MultiTerm.TMO.Interop.TermbasesClass
   - Sdl.MultiTerm.TMO.Interop.TermbaseSearch
   - Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass
+  - Sdl.MultiTerm.TMO.Interop.Termbases
+  - Sdl.MultiTerm.TMO.Interop.TermbasesClass
+  - Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
+  - Sdl.MultiTerm.TMO.Interop.mtObjectUsability
   langs:
   - csharp
   - vb
@@ -173,6 +173,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository.html
   name: ITermbaseRepository
   nameWithType: ITermbaseRepository
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseRepository
@@ -180,12 +181,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseRepository
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseRepository.html
   name: TermbaseRepository
   nameWithType: TermbaseRepository
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseRepository
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseRepositoryClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseRepositoryClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseRepositoryClass.html
   name: TermbaseRepositoryClass
   nameWithType: TermbaseRepositoryClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseRepositoryClass
@@ -193,6 +196,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbases
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbases.html
   name: ITermbases
   nameWithType: ITermbases
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbases
@@ -200,12 +204,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Termbases
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Termbases.html
   name: Termbases
   nameWithType: Termbases
   fullName: Sdl.MultiTerm.TMO.Interop.Termbases
 - uid: Sdl.MultiTerm.TMO.Interop.TermbasesClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbasesClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbasesClass.html
   name: TermbasesClass
   nameWithType: TermbasesClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbasesClass
@@ -213,6 +219,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntries.html
   name: IEntries
   nameWithType: IEntries
   fullName: Sdl.MultiTerm.TMO.Interop.IEntries
@@ -220,12 +227,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Entries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Entries.html
   name: Entries
   nameWithType: Entries
   fullName: Sdl.MultiTerm.TMO.Interop.Entries
 - uid: Sdl.MultiTerm.TMO.Interop.EntriesClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntriesClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntriesClass.html
   name: EntriesClass
   nameWithType: EntriesClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntriesClass
@@ -233,6 +242,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntry
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntry.html
   name: IEntry
   nameWithType: IEntry
   fullName: Sdl.MultiTerm.TMO.Interop.IEntry
@@ -240,12 +250,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Entry
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Entry.html
   name: Entry
   nameWithType: Entry
   fullName: Sdl.MultiTerm.TMO.Interop.Entry
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryClass.html
   name: EntryClass
   nameWithType: EntryClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClass
@@ -253,6 +265,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryContent
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryContent.html
   name: IEntryContent
   nameWithType: IEntryContent
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryContent
@@ -260,12 +273,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryContent
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryContent.html
   name: EntryContent
   nameWithType: EntryContent
   fullName: Sdl.MultiTerm.TMO.Interop.EntryContent
 - uid: Sdl.MultiTerm.TMO.Interop.EntryContentClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryContentClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryContentClass.html
   name: EntryContentClass
   nameWithType: EntryContentClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryContentClass
@@ -273,6 +288,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryFields
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryFields.html
   name: IEntryFields
   nameWithType: IEntryFields
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryFields
@@ -280,12 +296,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryFields
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryFields.html
   name: EntryFields
   nameWithType: EntryFields
   fullName: Sdl.MultiTerm.TMO.Interop.EntryFields
 - uid: Sdl.MultiTerm.TMO.Interop.EntryFieldsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryFieldsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryFieldsClass.html
   name: EntryFieldsClass
   nameWithType: EntryFieldsClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldsClass
@@ -293,6 +311,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryField
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryField.html
   name: IEntryField
   nameWithType: IEntryField
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryField
@@ -300,12 +319,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryField
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryField.html
   name: EntryField
   nameWithType: EntryField
   fullName: Sdl.MultiTerm.TMO.Interop.EntryField
 - uid: Sdl.MultiTerm.TMO.Interop.EntryFieldClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryFieldClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryFieldClass.html
   name: EntryFieldClass
   nameWithType: EntryFieldClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryFieldClass
@@ -313,6 +334,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryIndexes
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIndexes.html
   name: IEntryIndexes
   nameWithType: IEntryIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndexes
@@ -320,12 +342,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryIndexes
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryIndexes.html
   name: EntryIndexes
   nameWithType: EntryIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.EntryIndexes
 - uid: Sdl.MultiTerm.TMO.Interop.EntryIndexesClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryIndexesClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryIndexesClass.html
   name: EntryIndexesClass
   nameWithType: EntryIndexesClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryIndexesClass
@@ -333,6 +357,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryIndex
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIndex.html
   name: IEntryIndex
   nameWithType: IEntryIndex
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIndex
@@ -340,12 +365,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryIndex
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryIndex.html
   name: EntryIndex
   nameWithType: EntryIndex
   fullName: Sdl.MultiTerm.TMO.Interop.EntryIndex
 - uid: Sdl.MultiTerm.TMO.Interop.EntryIndexClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryIndexClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryIndexClass.html
   name: EntryIndexClass
   nameWithType: EntryIndexClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryIndexClass
@@ -353,6 +380,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ILayoutDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinition.html
   name: ILayoutDefinition
   nameWithType: ILayoutDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinition
@@ -360,12 +388,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.LayoutDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LayoutDefinition.html
   name: LayoutDefinition
   nameWithType: LayoutDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinition
 - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinitionClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.LayoutDefinitionClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LayoutDefinitionClass.html
   name: LayoutDefinitionClass
   nameWithType: LayoutDefinitionClass
   fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinitionClass
@@ -373,6 +403,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IExportDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IExportDefinition.html
   name: IExportDefinition
   nameWithType: IExportDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinition
@@ -380,12 +411,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ExportDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ExportDefinition.html
   name: ExportDefinition
   nameWithType: ExportDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinition
 - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinitionClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.ExportDefinitionClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ExportDefinitionClass.html
   name: ExportDefinitionClass
   nameWithType: ExportDefinitionClass
   fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinitionClass
@@ -393,6 +426,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html
   name: IFilterDefinition
   nameWithType: IFilterDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
@@ -400,12 +434,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.FilterDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.FilterDefinition.html
   name: FilterDefinition
   nameWithType: FilterDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinition
 - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinitionClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.FilterDefinitionClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.FilterDefinitionClass.html
   name: FilterDefinitionClass
   nameWithType: FilterDefinitionClass
   fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinitionClass
@@ -413,6 +449,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryIDs
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryIDs.html
   name: IEntryIDs
   nameWithType: IEntryIDs
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryIDs
@@ -420,12 +457,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryIDs
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryIDs.html
   name: EntryIDs
   nameWithType: EntryIDs
   fullName: Sdl.MultiTerm.TMO.Interop.EntryIDs
 - uid: Sdl.MultiTerm.TMO.Interop.EntryIDsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryIDsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryIDsClass.html
   name: EntryIDsClass
   nameWithType: EntryIDsClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryIDsClass
@@ -433,6 +472,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition.html
   name: ITermbaseDefinition
   nameWithType: ITermbaseDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseDefinition
@@ -440,12 +480,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.html
   name: TermbaseDefinition
   nameWithType: TermbaseDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseDefinition
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseDefinitionClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseDefinitionClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseDefinitionClass.html
   name: TermbaseDefinitionClass
   nameWithType: TermbaseDefinitionClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseDefinitionClass
@@ -453,6 +495,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields.html
   name: IDescriptiveFields
   nameWithType: IDescriptiveFields
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveFields
@@ -460,12 +503,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveFields
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveFields.html
   name: DescriptiveFields
   nameWithType: DescriptiveFields
   fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFields
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass.html
   name: DescriptiveFieldsClass
   nameWithType: DescriptiveFieldsClass
   fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldsClass
@@ -473,6 +518,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IPicklistValues
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IPicklistValues.html
   name: IPicklistValues
   nameWithType: IPicklistValues
   fullName: Sdl.MultiTerm.TMO.Interop.IPicklistValues
@@ -480,12 +526,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.PicklistValues
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.PicklistValues.html
   name: PicklistValues
   nameWithType: PicklistValues
   fullName: Sdl.MultiTerm.TMO.Interop.PicklistValues
 - uid: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass.html
   name: PicklistValuesClass
   nameWithType: PicklistValuesClass
   fullName: Sdl.MultiTerm.TMO.Interop.PicklistValuesClass
@@ -493,6 +541,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexes
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexes.html
   name: IIndexes
   nameWithType: IIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexes
@@ -500,12 +549,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Indexes
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Indexes.html
   name: Indexes
   nameWithType: Indexes
   fullName: Sdl.MultiTerm.TMO.Interop.Indexes
 - uid: Sdl.MultiTerm.TMO.Interop.IndexesClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.IndexesClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IndexesClass.html
   name: IndexesClass
   nameWithType: IndexesClass
   fullName: Sdl.MultiTerm.TMO.Interop.IndexesClass
@@ -513,6 +564,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html
   name: ITermbaseSearch
   nameWithType: ITermbaseSearch
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
@@ -520,12 +572,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearch.html
   name: TermbaseSearch
   nameWithType: TermbaseSearch
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearch
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html
   name: TermbaseSearchClass
   nameWithType: TermbaseSearchClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass
@@ -533,6 +587,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IHitTerms
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerms.html
   name: IHitTerms
   nameWithType: IHitTerms
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms
@@ -540,12 +595,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.HitTerms
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.HitTerms.html
   name: HitTerms
   nameWithType: HitTerms
   fullName: Sdl.MultiTerm.TMO.Interop.HitTerms
 - uid: Sdl.MultiTerm.TMO.Interop.HitTermsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.HitTermsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.HitTermsClass.html
   name: HitTermsClass
   nameWithType: HitTermsClass
   fullName: Sdl.MultiTerm.TMO.Interop.HitTermsClass
@@ -553,6 +610,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbase
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html
   name: ITermbase
   nameWithType: ITermbase
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase
@@ -560,12 +618,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Termbase
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Termbase.html
   name: Termbase
   nameWithType: Termbase
   fullName: Sdl.MultiTerm.TMO.Interop.Termbase
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html
   name: TermbaseClass
   nameWithType: TermbaseClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass
@@ -573,6 +633,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ISearchInfos
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfos.html
   name: ISearchInfos
   nameWithType: ISearchInfos
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos
@@ -580,12 +641,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.SearchInfos
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfos.html
   name: SearchInfos
   nameWithType: SearchInfos
   fullName: Sdl.MultiTerm.TMO.Interop.SearchInfos
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfosClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.SearchInfosClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.html
   name: SearchInfosClass
   nameWithType: SearchInfosClass
   fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass
@@ -593,6 +656,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser.html
   name: ITermbaseBrowser
   nameWithType: ITermbaseBrowser
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseBrowser
@@ -600,12 +664,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.html
   name: TermbaseBrowser
   nameWithType: TermbaseBrowser
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseBrowserClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseBrowserClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseBrowserClass.html
   name: TermbaseBrowserClass
   nameWithType: TermbaseBrowserClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseBrowserClass
@@ -613,6 +679,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseInformation
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation.html
   name: ITermbaseInformation
   nameWithType: ITermbaseInformation
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseInformation
@@ -620,12 +687,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseInformation
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseInformation.html
   name: TermbaseInformation
   nameWithType: TermbaseInformation
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseInformation
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseInformationClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseInformationClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseInformationClass.html
   name: TermbaseInformationClass
   nameWithType: TermbaseInformationClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseInformationClass
@@ -633,6 +702,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions.html
   name: IFilterDefinitions
   nameWithType: IFilterDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinitions
@@ -640,12 +710,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.FilterDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.FilterDefinitions.html
   name: FilterDefinitions
   nameWithType: FilterDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.FilterDefinitionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.FilterDefinitionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.FilterDefinitionsClass.html
   name: FilterDefinitionsClass
   nameWithType: FilterDefinitionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinitionsClass
@@ -653,6 +725,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions.html
   name: IInputModelDefinitions
   nameWithType: IInputModelDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinitions
@@ -660,12 +733,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.html
   name: InputModelDefinitions
   nameWithType: InputModelDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.InputModelDefinitionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionsClass.html
   name: InputModelDefinitionsClass
   nameWithType: InputModelDefinitionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionsClass
@@ -673,6 +748,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition.html
   name: IInputModelDefinition
   nameWithType: IInputModelDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.IInputModelDefinition
@@ -680,12 +756,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.InputModelDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.InputModelDefinition.html
   name: InputModelDefinition
   nameWithType: InputModelDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.InputModelDefinition
 - uid: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.InputModelDefinitionClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionClass.html
   name: InputModelDefinitionClass
   nameWithType: InputModelDefinitionClass
   fullName: Sdl.MultiTerm.TMO.Interop.InputModelDefinitionClass
@@ -693,6 +771,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IImportDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IImportDefinitions.html
   name: IImportDefinitions
   nameWithType: IImportDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinitions
@@ -700,12 +779,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ImportDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ImportDefinitions.html
   name: ImportDefinitions
   nameWithType: ImportDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ImportDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.ImportDefinitionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ImportDefinitionsClass.html
   name: ImportDefinitionsClass
   nameWithType: ImportDefinitionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.ImportDefinitionsClass
@@ -713,6 +794,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IImportDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IImportDefinition.html
   name: IImportDefinition
   nameWithType: IImportDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.IImportDefinition
@@ -720,12 +802,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ImportDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ImportDefinition.html
   name: ImportDefinition
   nameWithType: ImportDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.ImportDefinition
 - uid: Sdl.MultiTerm.TMO.Interop.ImportDefinitionClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.ImportDefinitionClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ImportDefinitionClass.html
   name: ImportDefinitionClass
   nameWithType: ImportDefinitionClass
   fullName: Sdl.MultiTerm.TMO.Interop.ImportDefinitionClass
@@ -733,6 +817,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IExportDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IExportDefinitions.html
   name: IExportDefinitions
   nameWithType: IExportDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.IExportDefinitions
@@ -740,12 +825,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ExportDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ExportDefinitions.html
   name: ExportDefinitions
   nameWithType: ExportDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.ExportDefinitionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.ExportDefinitionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ExportDefinitionsClass.html
   name: ExportDefinitionsClass
   nameWithType: ExportDefinitionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinitionsClass
@@ -753,6 +840,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions.html
   name: ILayoutDefinitions
   nameWithType: ILayoutDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ILayoutDefinitions
@@ -760,12 +848,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.html
   name: LayoutDefinitions
   nameWithType: LayoutDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.LayoutDefinitionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.LayoutDefinitionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LayoutDefinitionsClass.html
   name: LayoutDefinitionsClass
   nameWithType: LayoutDefinitionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinitionsClass
@@ -773,6 +863,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions.html
   name: ITermbaseAccessPermissions
   nameWithType: ITermbaseAccessPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseAccessPermissions
@@ -780,12 +871,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.html
   name: TermbaseAccessPermissions
   nameWithType: TermbaseAccessPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass.html
   name: TermbaseAccessPermissionsClass
   nameWithType: TermbaseAccessPermissionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissionsClass
@@ -793,6 +886,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.html
   name: IIndexesPermissions
   nameWithType: IIndexesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
@@ -800,12 +894,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IndexesPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IndexesPermissions.html
   name: IndexesPermissions
   nameWithType: IndexesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass.html
   name: IndexesPermissionsClass
   nameWithType: IndexesPermissionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.IndexesPermissionsClass
@@ -813,6 +909,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html
   name: IEntryClassesPermissions
   nameWithType: IEntryClassesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
@@ -820,12 +917,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.html
   name: EntryClassesPermissions
   nameWithType: EntryClassesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.html
   name: EntryClassesPermissionsClass
   nameWithType: EntryClassesPermissionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass
@@ -833,6 +932,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html
   name: IIncompleteEntries
   nameWithType: IIncompleteEntries
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
@@ -840,12 +940,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IncompleteEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IncompleteEntries.html
   name: IncompleteEntries
   nameWithType: IncompleteEntries
   fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntries
 - uid: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass.html
   name: IncompleteEntriesClass
   nameWithType: IncompleteEntriesClass
   fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntriesClass
@@ -853,6 +955,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ILockedEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntries.html
   name: ILockedEntries
   nameWithType: ILockedEntries
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntries
@@ -860,12 +963,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntries.html
   name: LockedEntries
   nameWithType: LockedEntries
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntries
 - uid: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass.html
   name: LockedEntriesClass
   nameWithType: LockedEntriesClass
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntriesClass
@@ -873,6 +978,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IHomonyms
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHomonyms.html
   name: IHomonyms
   nameWithType: IHomonyms
   fullName: Sdl.MultiTerm.TMO.Interop.IHomonyms
@@ -880,12 +986,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Homonyms
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Homonyms.html
   name: Homonyms
   nameWithType: Homonyms
   fullName: Sdl.MultiTerm.TMO.Interop.Homonyms
 - uid: Sdl.MultiTerm.TMO.Interop.HomonymsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.HomonymsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.HomonymsClass.html
   name: HomonymsClass
   nameWithType: HomonymsClass
   fullName: Sdl.MultiTerm.TMO.Interop.HomonymsClass
@@ -893,6 +1001,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.html
   name: ILockedEntryInfos
   nameWithType: ILockedEntryInfos
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos
@@ -900,12 +1009,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfos
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntryInfos.html
   name: LockedEntryInfos
   nameWithType: LockedEntryInfos
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfos
 - uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfosClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfosClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntryInfosClass.html
   name: LockedEntryInfosClass
   nameWithType: LockedEntryInfosClass
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfosClass
@@ -913,6 +1024,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IMultiSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IMultiSearch.html
   name: IMultiSearch
   nameWithType: IMultiSearch
   fullName: Sdl.MultiTerm.TMO.Interop.IMultiSearch
@@ -920,12 +1032,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MultiSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MultiSearch.html
   name: MultiSearch
   nameWithType: MultiSearch
   fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch
 - uid: Sdl.MultiTerm.TMO.Interop.MultiSearchClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.MultiSearchClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MultiSearchClass.html
   name: MultiSearchClass
   nameWithType: MultiSearchClass
   fullName: Sdl.MultiTerm.TMO.Interop.MultiSearchClass
@@ -933,6 +1047,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IApplication
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IApplication.html
   name: IApplication
   nameWithType: IApplication
   fullName: Sdl.MultiTerm.TMO.Interop.IApplication
@@ -940,12 +1055,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Application
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Application.html
   name: Application
   nameWithType: Application
   fullName: Sdl.MultiTerm.TMO.Interop.Application
 - uid: Sdl.MultiTerm.TMO.Interop.ApplicationClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.ApplicationClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ApplicationClass.html
   name: ApplicationClass
   nameWithType: ApplicationClass
   fullName: Sdl.MultiTerm.TMO.Interop.ApplicationClass
@@ -953,6 +1070,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ISearchInfo
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html
   name: ISearchInfo
   nameWithType: ISearchInfo
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo
@@ -960,12 +1078,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.SearchInfo
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfo.html
   name: SearchInfo
   nameWithType: SearchInfo
   fullName: Sdl.MultiTerm.TMO.Interop.SearchInfo
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfoClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.SearchInfoClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfoClass.html
   name: SearchInfoClass
   nameWithType: SearchInfoClass
   fullName: Sdl.MultiTerm.TMO.Interop.SearchInfoClass
@@ -973,6 +1093,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IDescriptiveField
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.html
   name: IDescriptiveField
   nameWithType: IDescriptiveField
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
@@ -980,12 +1101,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveField
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveField.html
   name: DescriptiveField
   nameWithType: DescriptiveField
   fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveField
 - uid: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.DescriptiveFieldClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldClass.html
   name: DescriptiveFieldClass
   nameWithType: DescriptiveFieldClass
   fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveFieldClass
@@ -993,6 +1116,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIndex
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndex.html
   name: IIndex
   nameWithType: IIndex
   fullName: Sdl.MultiTerm.TMO.Interop.IIndex
@@ -1000,12 +1124,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Index
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Index.html
   name: Index
   nameWithType: Index
   fullName: Sdl.MultiTerm.TMO.Interop.Index
 - uid: Sdl.MultiTerm.TMO.Interop.IndexClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.IndexClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IndexClass.html
   name: IndexClass
   nameWithType: IndexClass
   fullName: Sdl.MultiTerm.TMO.Interop.IndexClass
@@ -1013,6 +1139,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IHitTerm
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerm.html
   name: IHitTerm
   nameWithType: IHitTerm
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerm
@@ -1020,12 +1147,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.HitTerm
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.HitTerm.html
   name: HitTerm
   nameWithType: HitTerm
   fullName: Sdl.MultiTerm.TMO.Interop.HitTerm
 - uid: Sdl.MultiTerm.TMO.Interop.HitTermClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.HitTermClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.HitTermClass.html
   name: HitTermClass
   nameWithType: HitTermClass
   fullName: Sdl.MultiTerm.TMO.Interop.HitTermClass
@@ -1033,6 +1162,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IHomonym
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHomonym.html
   name: IHomonym
   nameWithType: IHomonym
   fullName: Sdl.MultiTerm.TMO.Interop.IHomonym
@@ -1040,12 +1170,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Homonym
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Homonym.html
   name: Homonym
   nameWithType: Homonym
   fullName: Sdl.MultiTerm.TMO.Interop.Homonym
 - uid: Sdl.MultiTerm.TMO.Interop.HomonymClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.HomonymClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.HomonymClass.html
   name: HomonymClass
   nameWithType: HomonymClass
   fullName: Sdl.MultiTerm.TMO.Interop.HomonymClass
@@ -1053,6 +1185,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.html
   name: IIndexPermissions
   nameWithType: IIndexPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
@@ -1060,12 +1193,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IndexPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IndexPermissions.html
   name: IndexPermissions
   nameWithType: IndexPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IndexPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.IndexPermissionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.IndexPermissionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IndexPermissionsClass.html
   name: IndexPermissionsClass
   nameWithType: IndexPermissionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.IndexPermissionsClass
@@ -1073,6 +1208,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html
   name: IEntryClassPermissions
   nameWithType: IEntryClassPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
@@ -1080,12 +1216,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.html
   name: EntryClassPermissions
   nameWithType: EntryClassPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass.html
   name: EntryClassPermissionsClass
   nameWithType: EntryClassPermissionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissionsClass
@@ -1093,6 +1231,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo.html
   name: ILockedEntryInfo
   nameWithType: ILockedEntryInfo
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfo
@@ -1100,12 +1239,14 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo.html
   name: LockedEntryInfo
   nameWithType: LockedEntryInfo
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
 - uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass.html
   name: LockedEntryInfoClass
   nameWithType: LockedEntryInfoClass
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfoClass
@@ -1113,6 +1254,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtCommunicationType
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtCommunicationType.html
   name: MtCommunicationType
   nameWithType: MtCommunicationType
   fullName: Sdl.MultiTerm.TMO.Interop.MtCommunicationType
@@ -1120,6 +1262,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtDatabaseType
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtDatabaseType.html
   name: MtDatabaseType
   nameWithType: MtDatabaseType
   fullName: Sdl.MultiTerm.TMO.Interop.MtDatabaseType
@@ -1127,6 +1270,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtUserType
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtUserType.html
   name: MtUserType
   nameWithType: MtUserType
   fullName: Sdl.MultiTerm.TMO.Interop.MtUserType
@@ -1134,6 +1278,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption.html
   name: CredentialsPersistOption
   nameWithType: CredentialsPersistOption
   fullName: Sdl.MultiTerm.TMO.Interop.CredentialsPersistOption
@@ -1141,6 +1286,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtLockingState
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtLockingState.html
   name: MtLockingState
   nameWithType: MtLockingState
   fullName: Sdl.MultiTerm.TMO.Interop.MtLockingState
@@ -1148,6 +1294,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.mtObjectUsability
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.mtObjectUsability.html
   name: mtObjectUsability
   nameWithType: mtObjectUsability
   fullName: Sdl.MultiTerm.TMO.Interop.mtObjectUsability
@@ -1155,6 +1302,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtTaskType
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtTaskType.html
   name: MtTaskType
   nameWithType: MtTaskType
   fullName: Sdl.MultiTerm.TMO.Interop.MtTaskType
@@ -1162,6 +1310,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchDirection
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.html
   name: MtSearchDirection
   nameWithType: MtSearchDirection
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
@@ -1169,6 +1318,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection.html
   name: MtBrowseDirection
   nameWithType: MtBrowseDirection
   fullName: Sdl.MultiTerm.TMO.Interop.MtBrowseDirection
@@ -1176,6 +1326,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchType
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtSearchType.html
   name: MtSearchType
   nameWithType: MtSearchType
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchType
@@ -1183,6 +1334,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing.html
   name: MtIndexGuessing
   nameWithType: MtIndexGuessing
   fullName: Sdl.MultiTerm.TMO.Interop.MtIndexGuessing
@@ -1190,6 +1342,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtFieldType
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtFieldType.html
   name: MtFieldType
   nameWithType: MtFieldType
   fullName: Sdl.MultiTerm.TMO.Interop.MtFieldType
@@ -1197,6 +1350,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtFieldLevel
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtFieldLevel.html
   name: MtFieldLevel
   nameWithType: MtFieldLevel
   fullName: Sdl.MultiTerm.TMO.Interop.MtFieldLevel
@@ -1204,12 +1358,54 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002.html
   name: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
   nameWithType: __MIDL___MIDL_itf_MTTMO2_0000_0000_0002
   fullName: Sdl.MultiTerm.TMO.Interop.__MIDL___MIDL_itf_MTTMO2_0000_0000_0002
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html

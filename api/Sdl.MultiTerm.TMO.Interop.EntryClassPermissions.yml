@@ -12,22 +12,18 @@ items:
   nameWithType: EntryClassPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3")]
+      [Guid("F6423013-0B1E-4AB3-9DD1-1949334223B2")]
 
       public interface EntryClassPermissions : IEntryClassPermissions
     content.vb: >-
-      <Guid("D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3")>
+      <Guid("F6423013-0B1E-4AB3-9DD1-1949334223B2")>
 
-      Public Interface EntryClassPermissions
-          Inherits IEntryClassPermissions
+      Public Interface EntryClassPermissions Inherits IEntryClassPermissions
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
   - Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
@@ -39,24 +35,60 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: D5E5C9CF-A81D-407D-AFAD-BFF44C38D2A3
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: F6423013-0B1E-4AB3-9DD1-1949334223B2
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions_Read
   name: Read
   nameWithType: IEntryClassPermissions.Read
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Read
@@ -64,6 +96,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions_Write
   name: Write
   nameWithType: IEntryClassPermissions.Write
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Write
@@ -71,6 +104,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions_Name
   name: Name
   nameWithType: IEntryClassPermissions.Name
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.Name
@@ -78,6 +112,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions__id
   name: _id
   nameWithType: IEntryClassPermissions._id
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions._id
@@ -85,6 +120,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassPermissions_IsDefault
   name: IsDefault
   nameWithType: IEntryClassPermissions.IsDefault
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.IsDefault
@@ -92,6 +128,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions.html
   name: IEntryClassPermissions
   nameWithType: IEntryClassPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassPermissions

@@ -17,34 +17,24 @@ items:
   nameWithType: IIndexesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("3AB57A8E-2169-426D-92D7-05C1E80D8710")]
+      [Guid("727F9CA8-4631-4F4D-A895-ACAECD3A20FF")]
 
       public interface IIndexesPermissions : IEnumerable
     content.vb: >-
-      <Guid("3AB57A8E-2169-426D-92D7-05C1E80D8710")>
+      <Guid("727F9CA8-4631-4F4D-A895-ACAECD3A20FF")>
 
-      Public Interface IIndexesPermissions
-          Inherits IEnumerable
+      Public Interface IIndexesPermissions Inherits IEnumerable
   attributes:
   - type: System.Runtime.InteropServices.GuidAttribute
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 3AB57A8E-2169-426D-92D7-05C1E80D8710
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 727F9CA8-4631-4F4D-A895-ACAECD3A20FF
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
   id: GetEnumerator
@@ -56,9 +46,6 @@ items:
   nameWithType: IIndexesPermissions.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -66,7 +53,7 @@ items:
     content: IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Function GetEnumerator As IEnumerator
+    content.vb: Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator*
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
@@ -75,13 +62,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[Object]
-  nameWithType: IIndexesPermissions.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item[System.Object]
+  name: this[object]
+  nameWithType: IIndexesPermissions.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.this[object]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -92,15 +76,11 @@ items:
       type: System.Object
     return:
       type: Sdl.MultiTerm.TMO.Interop.IndexPermissions
-    content.vb: ReadOnly Property Item(Index As Object) As IndexPermissions
+    content.vb: ReadOnly Default Property this[](Index As Object) As IndexPermissions
   overload: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item*
-  nameWithType.vb: IIndexesPermissions.Item(Object)
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item(System.Object)
-  name.vb: Item(Object)
+  nameWithType.vb: IIndexesPermissions.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.this[](Object)
+  name.vb: this[](Object)
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
   id: Count
@@ -112,9 +92,6 @@ items:
   nameWithType: IIndexesPermissions.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -125,10 +102,6 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
   id: ReadIndexes
@@ -140,9 +113,6 @@ items:
   nameWithType: IIndexesPermissions.ReadIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -153,10 +123,6 @@ items:
       type: System.String
     content.vb: ReadOnly Property ReadIndexes As String
   overload: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
   id: WriteIndexes
@@ -168,9 +134,6 @@ items:
   nameWithType: IIndexesPermissions.WriteIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -181,20 +144,58 @@ items:
       type: System.String
     content.vb: ReadOnly Property WriteIndexes As String
   overload: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexesPermissions_GetEnumerator
   name: GetEnumerator
   nameWithType: IIndexesPermissions.GetEnumerator
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.GetEnumerator
@@ -202,44 +203,77 @@ references:
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item
   isExternal: true
-  name: Item
-  nameWithType: IIndexesPermissions.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Item
+  href: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexesPermissions_Item_System_Object_
+  name: this
+  nameWithType: IIndexesPermissions.this
+  fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.this
+  nameWithType.vb: IIndexesPermissions.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.this[]
+  name.vb: this[]
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.IndexPermissions
   commentId: T:Sdl.MultiTerm.TMO.Interop.IndexPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IndexPermissions.html
   name: IndexPermissions
   nameWithType: IndexPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IndexPermissions
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexesPermissions_Count
   name: Count
   nameWithType: IIndexesPermissions.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.Count
@@ -247,12 +281,17 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexesPermissions_ReadIndexes
   name: ReadIndexes
   nameWithType: IIndexesPermissions.ReadIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.ReadIndexes
@@ -260,12 +299,17 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexesPermissions_WriteIndexes
   name: WriteIndexes
   nameWithType: IIndexesPermissions.WriteIndexes
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexesPermissions.WriteIndexes

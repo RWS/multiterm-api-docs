@@ -15,34 +15,24 @@ items:
   nameWithType: IIncompleteEntries
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("3179ED04-16DF-4092-A9AE-23E6CE9E98F6")]
+      [Guid("2F70B485-9AA3-43EA-A0DF-911E7D7471A4")]
 
       public interface IIncompleteEntries : IEnumerable
     content.vb: >-
-      <Guid("3179ED04-16DF-4092-A9AE-23E6CE9E98F6")>
+      <Guid("2F70B485-9AA3-43EA-A0DF-911E7D7471A4")>
 
-      Public Interface IIncompleteEntries
-          Inherits IEnumerable
+      Public Interface IIncompleteEntries Inherits IEnumerable
   attributes:
   - type: System.Runtime.InteropServices.GuidAttribute
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 3179ED04-16DF-4092-A9AE-23E6CE9E98F6
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 2F70B485-9AA3-43EA-A0DF-911E7D7471A4
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
   id: GetEnumerator
@@ -54,9 +44,6 @@ items:
   nameWithType: IIncompleteEntries.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -64,7 +51,7 @@ items:
     content: IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Function GetEnumerator As IEnumerator
+    content.vb: Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator*
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
@@ -73,13 +60,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[Int32]
-  nameWithType: IIncompleteEntries.Item[Int32]
-  fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item[System.Int32]
+  name: this[int]
+  nameWithType: IIncompleteEntries.this[int]
+  fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.this[int]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -90,15 +74,11 @@ items:
       type: System.Int32
     return:
       type: System.String
-    content.vb: ReadOnly Property Item(Index As Integer) As String
+    content.vb: ReadOnly Default Property this[](Index As Integer) As String
   overload: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item*
-  nameWithType.vb: IIncompleteEntries.Item(Int32)
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item(System.Int32)
-  name.vb: Item(Int32)
+  nameWithType.vb: IIncompleteEntries.this[](Integer)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.this[](Integer)
+  name.vb: this[](Integer)
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
   id: Count
@@ -110,9 +90,6 @@ items:
   nameWithType: IIncompleteEntries.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -123,20 +100,58 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html#Sdl_MultiTerm_TMO_Interop_IIncompleteEntries_GetEnumerator
   name: GetEnumerator
   nameWithType: IIncompleteEntries.GetEnumerator
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.GetEnumerator
@@ -144,44 +159,80 @@ references:
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item
   isExternal: true
-  name: Item
-  nameWithType: IIncompleteEntries.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Item
+  href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html#Sdl_MultiTerm_TMO_Interop_IIncompleteEntries_Item_System_Int32_
+  name: this
+  nameWithType: IIncompleteEntries.this
+  fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.this
+  nameWithType.vb: IIncompleteEntries.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.this[]
+  name.vb: this[]
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.html#Sdl_MultiTerm_TMO_Interop_IIncompleteEntries_Count
   name: Count
   nameWithType: IIncompleteEntries.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IIncompleteEntries.Count

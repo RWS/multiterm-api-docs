@@ -5,13 +5,6 @@ items:
   id: TermbaseClass
   parent: Sdl.MultiTerm.TMO.Interop
   children:
-  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
-  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
-  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
-  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
-  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise(System.Boolean,System.Boolean,System.Int32)
-  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
-  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
   - Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions
   - Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter
   - Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB(System.Int32,System.String,System.String)
@@ -43,6 +36,13 @@ items:
   - Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name
   - Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise
   - Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search
+  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
+  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
+  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
+  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
+  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise(System.Boolean,System.Boolean,System.Int32)
+  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
+  - Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
   langs:
   - csharp
   - vb
@@ -50,26 +50,22 @@ items:
   nameWithType: TermbaseClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass
   type: Class
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("68F04C0D-4683-4617-AE26-0266F0A1BA8F")]
+      [Guid("CC442192-3416-4E32-A7EF-049ED216B3EE")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class TermbaseClass : Termbase, ITermbase
     content.vb: >-
-      <Guid("68F04C0D-4683-4617-AE26-0266F0A1BA8F")>
+      <Guid("CC442192-3416-4E32-A7EF-049ED216B3EE")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
-      Public Class TermbaseClass
-          Implements Termbase, ITermbase
+      Public Class TermbaseClass Implements Termbase, ITermbase
   inheritance:
   - System.Object
   implements:
@@ -88,18 +84,12 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 68F04C0D-4683-4617-AE26-0266F0A1BA8F
+      value: CC442192-3416-4E32-A7EF-049ED216B3EE
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:
     - type: System.Runtime.InteropServices.ClassInterfaceType
       value: 0
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise
   id: Reorganise
@@ -108,31 +98,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Reorganise()
-  nameWithType: TermbaseClass.ITermbase.Reorganise()
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise()
+  name: Reorganise()
+  nameWithType: TermbaseClass.Reorganise()
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual void ITermbase.Reorganise()
-    content.vb: Public Overridable Sub Reorganise Implements ITermbase.Reorganise
+    content: virtual void Reorganise()
+    content.vb: Overridable Sub Reorganise()
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise
-  nameWithType.vb: TermbaseClass.Reorganise()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise()
-  name.vb: Reorganise()
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms(System.String,System.String,System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms(System.String,System.String,System.String)
   id: GetHomonyms(System.String,System.String,System.String)
@@ -141,18 +120,16 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.GetHomonyms(String, String, String)
-  nameWithType: TermbaseClass.ITermbase.GetHomonyms(String, String, String)
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(System.String, System.String, System.String)
+  name: GetHomonyms(string, string, string)
+  nameWithType: TermbaseClass.GetHomonyms(string, string, string)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms(string, string, string)
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual Homonyms ITermbase.GetHomonyms(string Index, string Source, string Target)
+    content: virtual Homonyms GetHomonyms(string Index, string Source, string Target)
     parameters:
     - id: Index
       type: System.String
@@ -162,18 +139,12 @@ items:
       type: System.String
     return:
       type: Sdl.MultiTerm.TMO.Interop.Homonyms
-    content.vb: Public Overridable Function GetHomonyms(Index As String, Source As String, Target As String) As Homonyms Implements ITermbase.GetHomonyms
+    content.vb: Overridable Function GetHomonyms(Index As String, Source As String, Target As String) As Homonyms
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(System.String,System.String,System.String)
   nameWithType.vb: TermbaseClass.GetHomonyms(String, String, String)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms(System.String, System.String, System.String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms(String, String, String)
   name.vb: GetHomonyms(String, String, String)
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete
@@ -183,31 +154,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Delete()
-  nameWithType: TermbaseClass.ITermbase.Delete()
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Delete()
+  name: Delete()
+  nameWithType: TermbaseClass.Delete()
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual void ITermbase.Delete()
-    content.vb: Public Overridable Sub Delete Implements ITermbase.Delete
+    content: virtual void Delete()
+    content.vb: Overridable Sub Delete()
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Delete
-  nameWithType.vb: TermbaseClass.Delete()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete()
-  name.vb: Delete()
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close
   id: Close
@@ -216,31 +176,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Close()
-  nameWithType: TermbaseClass.ITermbase.Close()
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Close()
+  name: Close()
+  nameWithType: TermbaseClass.Close()
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual void ITermbase.Close()
-    content.vb: Public Overridable Sub Close Implements ITermbase.Close
+    content: virtual void Close()
+    content.vb: Overridable Sub Close()
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Close
-  nameWithType.vb: TermbaseClass.Close()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close()
-  name.vb: Close()
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile(System.String)
   id: ExtractToFile(System.String)
@@ -249,33 +198,25 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.ExtractToFile(String)
-  nameWithType: TermbaseClass.ITermbase.ExtractToFile(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(System.String)
+  name: ExtractToFile(string)
+  nameWithType: TermbaseClass.ExtractToFile(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile(string)
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual void ITermbase.ExtractToFile(string bstr_localFile)
+    content: virtual void ExtractToFile(string bstr_localFile)
     parameters:
     - id: bstr_localFile
       type: System.String
-    content.vb: Public Overridable Sub ExtractToFile(bstr_localFile As String) Implements ITermbase.ExtractToFile
+    content.vb: Overridable Sub ExtractToFile(bstr_localFile As String)
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(System.String)
   nameWithType.vb: TermbaseClass.ExtractToFile(String)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile(System.String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile(String)
   name.vb: ExtractToFile(String)
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise(System.Boolean,System.Boolean,System.Int32)
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise(System.Boolean,System.Boolean,System.Int32)
@@ -285,18 +226,16 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase._Reorganise(Boolean, Boolean, Int32)
-  nameWithType: TermbaseClass.ITermbase._Reorganise(Boolean, Boolean, Int32)
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(System.Boolean, System.Boolean, System.Int32)
+  name: _Reorganise(bool, bool, int)
+  nameWithType: TermbaseClass._Reorganise(bool, bool, int)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise(bool, bool, int)
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual void ITermbase._Reorganise(bool vb_encrypt, bool vb_markReadOnly, int l_expiryDate)
+    content: virtual void _Reorganise(bool vb_encrypt, bool vb_markReadOnly, int l_expiryDate)
     parameters:
     - id: vb_encrypt
       type: System.Boolean
@@ -304,19 +243,13 @@ items:
       type: System.Boolean
     - id: l_expiryDate
       type: System.Int32
-    content.vb: Public Overridable Sub _Reorganise(vb_encrypt As Boolean, vb_markReadOnly As Boolean, l_expiryDate As Integer) Implements ITermbase._Reorganise
+    content.vb: Overridable Sub _Reorganise(vb_encrypt As Boolean, vb_markReadOnly As Boolean, l_expiryDate As Integer)
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(System.Boolean,System.Boolean,System.Int32)
-  nameWithType.vb: TermbaseClass._Reorganise(Boolean, Boolean, Int32)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise(System.Boolean, System.Boolean, System.Int32)
-  name.vb: _Reorganise(Boolean, Boolean, Int32)
+  nameWithType.vb: TermbaseClass._Reorganise(Boolean, Boolean, Integer)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise(Boolean, Boolean, Integer)
+  name.vb: _Reorganise(Boolean, Boolean, Integer)
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB(System.Int32,System.String,System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB(System.Int32,System.String,System.String)
   id: AddBLOB(System.Int32,System.String,System.String)
@@ -325,18 +258,16 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.AddBLOB(Int32, String, String)
-  nameWithType: TermbaseClass.ITermbase.AddBLOB(Int32, String, String)
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(System.Int32, System.String, System.String)
+  name: AddBLOB(int, string, string)
+  nameWithType: TermbaseClass.AddBLOB(int, string, string)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB(int, string, string)
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int ITermbase.AddBLOB(int EntryID, string tag, string blob)
+    content: virtual int AddBLOB(int EntryID, string tag, string blob)
     parameters:
     - id: EntryID
       type: System.Int32
@@ -346,19 +277,13 @@ items:
       type: System.String
     return:
       type: System.Int32
-    content.vb: Public Overridable Function AddBLOB(EntryID As Integer, tag As String, blob As String) As Integer Implements ITermbase.AddBLOB
+    content.vb: Overridable Function AddBLOB(EntryID As Integer, tag As String, blob As String) As Integer
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(System.Int32,System.String,System.String)
-  nameWithType.vb: TermbaseClass.AddBLOB(Int32, String, String)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB(System.Int32, System.String, System.String)
-  name.vb: AddBLOB(Int32, String, String)
+  nameWithType.vb: TermbaseClass.AddBLOB(Integer, String, String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB(Integer, String, String)
+  name.vb: AddBLOB(Integer, String, String)
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries
   id: Entries
@@ -367,36 +292,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Entries
-  nameWithType: TermbaseClass.ITermbase.Entries
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Entries
+  name: Entries
+  nameWithType: TermbaseClass.Entries
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual Entries ITermbase.Entries { get; }
+    content: virtual Entries Entries { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.Entries
-    content.vb: Public Overridable ReadOnly Property Entries As Entries Implements ITermbase.Entries
+    content.vb: Overridable ReadOnly Property Entries As Entries
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Entries
-  nameWithType.vb: TermbaseClass.Entries
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries
-  name.vb: Entries
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition
   id: Definition
@@ -405,36 +317,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Definition
-  nameWithType: TermbaseClass.ITermbase.Definition
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Definition
+  name: Definition
+  nameWithType: TermbaseClass.Definition
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual TermbaseDefinition ITermbase.Definition { get; }
+    content: virtual TermbaseDefinition Definition { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.TermbaseDefinition
-    content.vb: Public Overridable ReadOnly Property Definition As TermbaseDefinition Implements ITermbase.Definition
+    content.vb: Overridable ReadOnly Property Definition As TermbaseDefinition
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Definition
-  nameWithType.vb: TermbaseClass.Definition
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition
-  name.vb: Definition
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search
   id: Search
@@ -443,36 +342,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Search
-  nameWithType: TermbaseClass.ITermbase.Search
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Search
+  name: Search
+  nameWithType: TermbaseClass.Search
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual TermbaseSearch ITermbase.Search { get; }
+    content: virtual TermbaseSearch Search { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.TermbaseSearch
-    content.vb: Public Overridable ReadOnly Property Search As TermbaseSearch Implements ITermbase.Search
+    content.vb: Overridable ReadOnly Property Search As TermbaseSearch
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Search
-  nameWithType.vb: TermbaseClass.Search
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search
-  name.vb: Search
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse
   id: Browse
@@ -481,36 +367,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Browse
-  nameWithType: TermbaseClass.ITermbase.Browse
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Browse
+  name: Browse
+  nameWithType: TermbaseClass.Browse
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual TermbaseBrowser ITermbase.Browse { get; }
+    content: virtual TermbaseBrowser Browse { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
-    content.vb: Public Overridable ReadOnly Property Browse As TermbaseBrowser Implements ITermbase.Browse
+    content.vb: Overridable ReadOnly Property Browse As TermbaseBrowser
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Browse
-  nameWithType.vb: TermbaseClass.Browse
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse
-  name.vb: Browse
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information
   id: Information
@@ -519,36 +392,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Information
-  nameWithType: TermbaseClass.ITermbase.Information
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Information
+  name: Information
+  nameWithType: TermbaseClass.Information
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual TermbaseInformation ITermbase.Information { get; }
+    content: virtual TermbaseInformation Information { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.TermbaseInformation
-    content.vb: Public Overridable ReadOnly Property Information As TermbaseInformation Implements ITermbase.Information
+    content.vb: Overridable ReadOnly Property Information As TermbaseInformation
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Information
-  nameWithType.vb: TermbaseClass.Information
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information
-  name.vb: Information
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions
   id: FilterDefinitions
@@ -557,36 +417,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.FilterDefinitions
-  nameWithType: TermbaseClass.ITermbase.FilterDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.FilterDefinitions
+  name: FilterDefinitions
+  nameWithType: TermbaseClass.FilterDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual FilterDefinitions ITermbase.FilterDefinitions { get; }
+    content: virtual FilterDefinitions FilterDefinitions { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.FilterDefinitions
-    content.vb: Public Overridable ReadOnly Property FilterDefinitions As FilterDefinitions Implements ITermbase.FilterDefinitions
+    content.vb: Overridable ReadOnly Property FilterDefinitions As FilterDefinitions
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.FilterDefinitions
-  nameWithType.vb: TermbaseClass.FilterDefinitions
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions
-  name.vb: FilterDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions
   id: InputModelDefinitions
@@ -595,36 +442,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.InputModelDefinitions
-  nameWithType: TermbaseClass.ITermbase.InputModelDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.InputModelDefinitions
+  name: InputModelDefinitions
+  nameWithType: TermbaseClass.InputModelDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual InputModelDefinitions ITermbase.InputModelDefinitions { get; }
+    content: virtual InputModelDefinitions InputModelDefinitions { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
-    content.vb: Public Overridable ReadOnly Property InputModelDefinitions As InputModelDefinitions Implements ITermbase.InputModelDefinitions
+    content.vb: Overridable ReadOnly Property InputModelDefinitions As InputModelDefinitions
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.InputModelDefinitions
-  nameWithType.vb: TermbaseClass.InputModelDefinitions
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions
-  name.vb: InputModelDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions
   id: ImportDefinitions
@@ -633,36 +467,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.ImportDefinitions
-  nameWithType: TermbaseClass.ITermbase.ImportDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ImportDefinitions
+  name: ImportDefinitions
+  nameWithType: TermbaseClass.ImportDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual ImportDefinitions ITermbase.ImportDefinitions { get; }
+    content: virtual ImportDefinitions ImportDefinitions { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.ImportDefinitions
-    content.vb: Public Overridable ReadOnly Property ImportDefinitions As ImportDefinitions Implements ITermbase.ImportDefinitions
+    content.vb: Overridable ReadOnly Property ImportDefinitions As ImportDefinitions
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.ImportDefinitions
-  nameWithType.vb: TermbaseClass.ImportDefinitions
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions
-  name.vb: ImportDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions
   id: ExportDefinitions
@@ -671,36 +492,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.ExportDefinitions
-  nameWithType: TermbaseClass.ITermbase.ExportDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ExportDefinitions
+  name: ExportDefinitions
+  nameWithType: TermbaseClass.ExportDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual ExportDefinitions ITermbase.ExportDefinitions { get; }
+    content: virtual ExportDefinitions ExportDefinitions { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.ExportDefinitions
-    content.vb: Public Overridable ReadOnly Property ExportDefinitions As ExportDefinitions Implements ITermbase.ExportDefinitions
+    content.vb: Overridable ReadOnly Property ExportDefinitions As ExportDefinitions
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.ExportDefinitions
-  nameWithType.vb: TermbaseClass.ExportDefinitions
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions
-  name.vb: ExportDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions
   id: LayoutDefinitions
@@ -709,36 +517,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.LayoutDefinitions
-  nameWithType: TermbaseClass.ITermbase.LayoutDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.LayoutDefinitions
+  name: LayoutDefinitions
+  nameWithType: TermbaseClass.LayoutDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual LayoutDefinitions ITermbase.LayoutDefinitions { get; }
+    content: virtual LayoutDefinitions LayoutDefinitions { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
-    content.vb: Public Overridable ReadOnly Property LayoutDefinitions As LayoutDefinitions Implements ITermbase.LayoutDefinitions
+    content.vb: Overridable ReadOnly Property LayoutDefinitions As LayoutDefinitions
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.LayoutDefinitions
-  nameWithType.vb: TermbaseClass.LayoutDefinitions
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions
-  name.vb: LayoutDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name
   id: Name
@@ -747,36 +542,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.Name
-  nameWithType: TermbaseClass.ITermbase.Name
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Name
+  name: Name
+  nameWithType: TermbaseClass.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase.Name { get; }
+    content: virtual string Name { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property Name As String Implements ITermbase.Name
+    content.vb: Overridable ReadOnly Property Name As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.Name
-  nameWithType.vb: TermbaseClass.Name
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name
-  name.vb: Name
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter
   id: ActiveFilter
@@ -785,36 +567,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.ActiveFilter
-  nameWithType: TermbaseClass.ITermbase.ActiveFilter
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ActiveFilter
+  name: ActiveFilter
+  nameWithType: TermbaseClass.ActiveFilter
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual FilterDefinition ITermbase.ActiveFilter { get; }
+    content: virtual FilterDefinition ActiveFilter { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.FilterDefinition
-    content.vb: Public Overridable ReadOnly Property ActiveFilter As FilterDefinition Implements ITermbase.ActiveFilter
+    content.vb: Overridable ReadOnly Property ActiveFilter As FilterDefinition
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.ActiveFilter
-  nameWithType.vb: TermbaseClass.ActiveFilter
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter
-  name.vb: ActiveFilter
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions
   id: AccessPermissions
@@ -823,36 +592,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.AccessPermissions
-  nameWithType: TermbaseClass.ITermbase.AccessPermissions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.AccessPermissions
+  name: AccessPermissions
+  nameWithType: TermbaseClass.AccessPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual TermbaseAccessPermissions ITermbase.AccessPermissions { get; }
+    content: virtual TermbaseAccessPermissions AccessPermissions { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
-    content.vb: Public Overridable ReadOnly Property AccessPermissions As TermbaseAccessPermissions Implements ITermbase.AccessPermissions
+    content.vb: Overridable ReadOnly Property AccessPermissions As TermbaseAccessPermissions
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.AccessPermissions
-  nameWithType.vb: TermbaseClass.AccessPermissions
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions
-  name.vb: AccessPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries
   id: IncompleteEntries
@@ -861,36 +617,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.IncompleteEntries
-  nameWithType: TermbaseClass.ITermbase.IncompleteEntries
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.IncompleteEntries
+  name: IncompleteEntries
+  nameWithType: TermbaseClass.IncompleteEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual IncompleteEntries ITermbase.IncompleteEntries { get; }
+    content: virtual IncompleteEntries IncompleteEntries { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.IncompleteEntries
-    content.vb: Public Overridable ReadOnly Property IncompleteEntries As IncompleteEntries Implements ITermbase.IncompleteEntries
+    content.vb: Overridable ReadOnly Property IncompleteEntries As IncompleteEntries
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.IncompleteEntries
-  nameWithType.vb: TermbaseClass.IncompleteEntries
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries
-  name.vb: IncompleteEntries
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries
   id: LockedEntries
@@ -899,36 +642,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.LockedEntries
-  nameWithType: TermbaseClass.ITermbase.LockedEntries
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntries
+  name: LockedEntries
+  nameWithType: TermbaseClass.LockedEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual LockedEntries ITermbase.LockedEntries { get; }
+    content: virtual LockedEntries LockedEntries { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.LockedEntries
-    content.vb: Public Overridable ReadOnly Property LockedEntries As LockedEntries Implements ITermbase.LockedEntries
+    content.vb: Overridable ReadOnly Property LockedEntries As LockedEntries
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntries
-  nameWithType.vb: TermbaseClass.LockedEntries
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries
-  name.vb: LockedEntries
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass
   id: DefaultEntryClass
@@ -937,36 +667,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.DefaultEntryClass
-  nameWithType: TermbaseClass.ITermbase.DefaultEntryClass
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.DefaultEntryClass
+  name: DefaultEntryClass
+  nameWithType: TermbaseClass.DefaultEntryClass
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase.DefaultEntryClass { get; }
+    content: virtual string DefaultEntryClass { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property DefaultEntryClass As String Implements ITermbase.DefaultEntryClass
+    content.vb: Overridable ReadOnly Property DefaultEntryClass As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.DefaultEntryClass
-  nameWithType.vb: TermbaseClass.DefaultEntryClass
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass
-  name.vb: DefaultEntryClass
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly
   id: IsReadOnly
@@ -975,36 +692,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.IsReadOnly
-  nameWithType: TermbaseClass.ITermbase.IsReadOnly
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.IsReadOnly
+  name: IsReadOnly
+  nameWithType: TermbaseClass.IsReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual bool ITermbase.IsReadOnly { get; }
+    content: virtual bool IsReadOnly { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable ReadOnly Property IsReadOnly As Boolean Implements ITermbase.IsReadOnly
+    content.vb: Overridable ReadOnly Property IsReadOnly As Boolean
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.IsReadOnly
-  nameWithType.vb: TermbaseClass.IsReadOnly
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly
-  name.vb: IsReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate
   id: ChangeDate
@@ -1013,36 +717,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.ChangeDate
-  nameWithType: TermbaseClass.ITermbase.ChangeDate
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ChangeDate
+  name: ChangeDate
+  nameWithType: TermbaseClass.ChangeDate
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual DateTime ITermbase.ChangeDate { get; }
+    content: virtual DateTime ChangeDate { get; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable ReadOnly Property ChangeDate As Date Implements ITermbase.ChangeDate
+    content.vb: Overridable ReadOnly Property ChangeDate As Date
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.ChangeDate
-  nameWithType.vb: TermbaseClass.ChangeDate
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate
-  name.vb: ChangeDate
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
   id: _Cookie
@@ -1051,36 +742,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase._Cookie
-  nameWithType: TermbaseClass.ITermbase._Cookie
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._Cookie
+  name: _Cookie
+  nameWithType: TermbaseClass._Cookie
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase._Cookie { get; }
+    content: virtual string _Cookie { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property _Cookie As String Implements ITermbase._Cookie
+    content.vb: Overridable ReadOnly Property _Cookie As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase._Cookie
-  nameWithType.vb: TermbaseClass._Cookie
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
-  name.vb: _Cookie
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
   id: _IsLocal
@@ -1089,36 +767,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase._IsLocal
-  nameWithType: TermbaseClass.ITermbase._IsLocal
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._IsLocal
+  name: _IsLocal
+  nameWithType: TermbaseClass._IsLocal
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual bool ITermbase._IsLocal { get; }
+    content: virtual bool _IsLocal { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable ReadOnly Property _IsLocal As Boolean Implements ITermbase._IsLocal
+    content.vb: Overridable ReadOnly Property _IsLocal As Boolean
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase._IsLocal
-  nameWithType.vb: TermbaseClass._IsLocal
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
-  name.vb: _IsLocal
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
   id: _DefaultEntryClassID
@@ -1127,36 +792,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase._DefaultEntryClassID
-  nameWithType: TermbaseClass.ITermbase._DefaultEntryClassID
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._DefaultEntryClassID
+  name: _DefaultEntryClassID
+  nameWithType: TermbaseClass._DefaultEntryClassID
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int ITermbase._DefaultEntryClassID { get; }
+    content: virtual int _DefaultEntryClassID { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable ReadOnly Property _DefaultEntryClassID As Integer Implements ITermbase._DefaultEntryClassID
+    content.vb: Overridable ReadOnly Property _DefaultEntryClassID As Integer
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase._DefaultEntryClassID
-  nameWithType.vb: TermbaseClass._DefaultEntryClassID
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
-  name.vb: _DefaultEntryClassID
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate
   id: ExpiryDate
@@ -1165,36 +817,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.ExpiryDate
-  nameWithType: TermbaseClass.ITermbase.ExpiryDate
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ExpiryDate
+  name: ExpiryDate
+  nameWithType: TermbaseClass.ExpiryDate
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual DateTime ITermbase.ExpiryDate { get; }
+    content: virtual DateTime ExpiryDate { get; }
     parameters: []
     return:
       type: System.DateTime
-    content.vb: Public Overridable ReadOnly Property ExpiryDate As Date Implements ITermbase.ExpiryDate
+    content.vb: Overridable ReadOnly Property ExpiryDate As Date
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.ExpiryDate
-  nameWithType.vb: TermbaseClass.ExpiryDate
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate
-  name.vb: ExpiryDate
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath
   id: DownloadedCopyrightIcoPath
@@ -1203,36 +842,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.DownloadedCopyrightIcoPath
-  nameWithType: TermbaseClass.ITermbase.DownloadedCopyrightIcoPath
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightIcoPath
+  name: DownloadedCopyrightIcoPath
+  nameWithType: TermbaseClass.DownloadedCopyrightIcoPath
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase.DownloadedCopyrightIcoPath { get; }
+    content: virtual string DownloadedCopyrightIcoPath { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property DownloadedCopyrightIcoPath As String Implements ITermbase.DownloadedCopyrightIcoPath
+    content.vb: Overridable ReadOnly Property DownloadedCopyrightIcoPath As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightIcoPath
-  nameWithType.vb: TermbaseClass.DownloadedCopyrightIcoPath
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath
-  name.vb: DownloadedCopyrightIcoPath
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath
   id: DownloadedCopyrightSplashPath
@@ -1241,36 +867,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.DownloadedCopyrightSplashPath
-  nameWithType: TermbaseClass.ITermbase.DownloadedCopyrightSplashPath
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightSplashPath
+  name: DownloadedCopyrightSplashPath
+  nameWithType: TermbaseClass.DownloadedCopyrightSplashPath
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase.DownloadedCopyrightSplashPath { get; }
+    content: virtual string DownloadedCopyrightSplashPath { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property DownloadedCopyrightSplashPath As String Implements ITermbase.DownloadedCopyrightSplashPath
+    content.vb: Overridable ReadOnly Property DownloadedCopyrightSplashPath As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightSplashPath
-  nameWithType.vb: TermbaseClass.DownloadedCopyrightSplashPath
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath
-  name.vb: DownloadedCopyrightSplashPath
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath
   id: DownloadedCopyrightInfoPath
@@ -1279,36 +892,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.DownloadedCopyrightInfoPath
-  nameWithType: TermbaseClass.ITermbase.DownloadedCopyrightInfoPath
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightInfoPath
+  name: DownloadedCopyrightInfoPath
+  nameWithType: TermbaseClass.DownloadedCopyrightInfoPath
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase.DownloadedCopyrightInfoPath { get; }
+    content: virtual string DownloadedCopyrightInfoPath { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property DownloadedCopyrightInfoPath As String Implements ITermbase.DownloadedCopyrightInfoPath
+    content.vb: Overridable ReadOnly Property DownloadedCopyrightInfoPath As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightInfoPath
-  nameWithType.vb: TermbaseClass.DownloadedCopyrightInfoPath
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath
-  name.vb: DownloadedCopyrightInfoPath
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText
   id: CopyrightText
@@ -1317,36 +917,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.CopyrightText
-  nameWithType: TermbaseClass.ITermbase.CopyrightText
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.CopyrightText
+  name: CopyrightText
+  nameWithType: TermbaseClass.CopyrightText
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase.CopyrightText { get; }
+    content: virtual string CopyrightText { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property CopyrightText As String Implements ITermbase.CopyrightText
+    content.vb: Overridable ReadOnly Property CopyrightText As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.CopyrightText
-  nameWithType.vb: TermbaseClass.CopyrightText
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText
-  name.vb: CopyrightText
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
   id: _TermbaseConnector
@@ -1355,36 +942,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase._TermbaseConnector
-  nameWithType: TermbaseClass.ITermbase._TermbaseConnector
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseConnector
+  name: _TermbaseConnector
+  nameWithType: TermbaseClass._TermbaseConnector
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual object ITermbase._TermbaseConnector { get; }
+    content: virtual object _TermbaseConnector { get; }
     parameters: []
     return:
       type: System.Object
-    content.vb: Public Overridable ReadOnly Property _TermbaseConnector As Object Implements ITermbase._TermbaseConnector
+    content.vb: Overridable ReadOnly Property _TermbaseConnector As Object
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseConnector
-  nameWithType.vb: TermbaseClass._TermbaseConnector
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
-  name.vb: _TermbaseConnector
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
   id: _Path
@@ -1393,36 +967,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase._Path
-  nameWithType: TermbaseClass.ITermbase._Path
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._Path
+  name: _Path
+  nameWithType: TermbaseClass._Path
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase._Path { get; }
+    content: virtual string _Path { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property _Path As String Implements ITermbase._Path
+    content.vb: Overridable ReadOnly Property _Path As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase._Path
-  nameWithType.vb: TermbaseClass._Path
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
-  name.vb: _Path
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos
   id: LockedEntryInfos
@@ -1431,36 +992,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.LockedEntryInfos
-  nameWithType: TermbaseClass.ITermbase.LockedEntryInfos
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntryInfos
+  name: LockedEntryInfos
+  nameWithType: TermbaseClass.LockedEntryInfos
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual LockedEntryInfos ITermbase.LockedEntryInfos { get; }
+    content: virtual LockedEntryInfos LockedEntryInfos { get; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.LockedEntryInfos
-    content.vb: Public Overridable ReadOnly Property LockedEntryInfos As LockedEntryInfos Implements ITermbase.LockedEntryInfos
+    content.vb: Overridable ReadOnly Property LockedEntryInfos As LockedEntryInfos
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntryInfos
-  nameWithType.vb: TermbaseClass.LockedEntryInfos
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos
-  name.vb: LockedEntryInfos
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
   id: _TermbaseAPIName
@@ -1469,36 +1017,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase._TermbaseAPIName
-  nameWithType: TermbaseClass.ITermbase._TermbaseAPIName
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseAPIName
+  name: _TermbaseAPIName
+  nameWithType: TermbaseClass._TermbaseAPIName
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbase._TermbaseAPIName { get; }
+    content: virtual string _TermbaseAPIName { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property _TermbaseAPIName As String Implements ITermbase._TermbaseAPIName
+    content.vb: Overridable ReadOnly Property _TermbaseAPIName As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseAPIName
-  nameWithType.vb: TermbaseClass._TermbaseAPIName
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
-  name.vb: _TermbaseAPIName
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished
   id: IsPublished
@@ -1507,54 +1042,87 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbase.IsPublished
-  nameWithType: TermbaseClass.ITermbase.IsPublished
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.IsPublished
+  name: IsPublished
+  nameWithType: TermbaseClass.IsPublished
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual bool ITermbase.IsPublished { get; }
+    content: virtual bool IsPublished { get; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable ReadOnly Property IsPublished As Boolean Implements ITermbase.IsPublished
+    content.vb: Overridable ReadOnly Property IsPublished As Boolean
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbase.IsPublished
-  nameWithType.vb: TermbaseClass.IsPublished
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished
-  name.vb: IsPublished
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.Termbase
   commentId: T:Sdl.MultiTerm.TMO.Interop.Termbase
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Termbase.html
   name: Termbase
   nameWithType: Termbase
   fullName: Sdl.MultiTerm.TMO.Interop.Termbase
@@ -1562,6 +1130,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbase
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html
   name: ITermbase
   nameWithType: ITermbase
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase
@@ -1569,744 +1138,600 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise
   isExternal: true
-  name: ITermbase.Reorganise
-  nameWithType: TermbaseClass.ITermbase.Reorganise
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise
-  nameWithType.vb: TermbaseClass.Reorganise
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise
-  name.vb: Reorganise
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Reorganise
+  name: Reorganise
+  nameWithType: TermbaseClass.Reorganise
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Reorganise
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Reorganise
   name: Reorganise()
   nameWithType: ITermbase.Reorganise()
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise
     name: Reorganise
-    nameWithType: ITermbase.Reorganise
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Reorganise
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise
     name: Reorganise
-    nameWithType: ITermbase.Reorganise
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Reorganise
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Reorganise
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms
   isExternal: true
-  name: ITermbase.GetHomonyms
-  nameWithType: TermbaseClass.ITermbase.GetHomonyms
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms
-  nameWithType.vb: TermbaseClass.GetHomonyms
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms
-  name.vb: GetHomonyms
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_GetHomonyms_System_String_System_String_System_String_
+  name: GetHomonyms
+  nameWithType: TermbaseClass.GetHomonyms
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.GetHomonyms
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(System.String,System.String,System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(System.String,System.String,System.String)
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
-  name: GetHomonyms(String, String, String)
-  nameWithType: ITermbase.GetHomonyms(String, String, String)
-  fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(System.String, System.String, System.String)
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_GetHomonyms_System_String_System_String_System_String_
+  name: GetHomonyms(string, string, string)
+  nameWithType: ITermbase.GetHomonyms(string, string, string)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(string, string, string)
+  nameWithType.vb: ITermbase.GetHomonyms(String, String, String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(String, String, String)
+  name.vb: GetHomonyms(String, String, String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(System.String,System.String,System.String)
     name: GetHomonyms
-    nameWithType: ITermbase.GetHomonyms
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_GetHomonyms_System_String_System_String_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms(System.String,System.String,System.String)
     name: GetHomonyms
-    nameWithType: ITermbase.GetHomonyms
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.GetHomonyms
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_GetHomonyms_System_String_System_String_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.String
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Sdl.MultiTerm.TMO.Interop.Homonyms
   commentId: T:Sdl.MultiTerm.TMO.Interop.Homonyms
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Homonyms.html
   name: Homonyms
   nameWithType: Homonyms
   fullName: Sdl.MultiTerm.TMO.Interop.Homonyms
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete
   isExternal: true
-  name: ITermbase.Delete
-  nameWithType: TermbaseClass.ITermbase.Delete
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Delete
-  nameWithType.vb: TermbaseClass.Delete
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete
-  name.vb: Delete
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Delete
+  name: Delete
+  nameWithType: TermbaseClass.Delete
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Delete
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Delete
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbase.Delete
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Delete
   name: Delete()
   nameWithType: ITermbase.Delete()
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Delete()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Delete
     name: Delete
-    nameWithType: ITermbase.Delete
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Delete
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Delete
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Delete
     name: Delete
-    nameWithType: ITermbase.Delete
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Delete
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Delete
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close
   isExternal: true
-  name: ITermbase.Close
-  nameWithType: TermbaseClass.ITermbase.Close
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Close
-  nameWithType.vb: TermbaseClass.Close
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close
-  name.vb: Close
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Close
+  name: Close
+  nameWithType: TermbaseClass.Close
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Close
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Close
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbase.Close
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Close
   name: Close()
   nameWithType: ITermbase.Close()
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Close()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Close
     name: Close
-    nameWithType: ITermbase.Close
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Close
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Close
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Close
     name: Close
-    nameWithType: ITermbase.Close
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Close
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Close
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile
   isExternal: true
-  name: ITermbase.ExtractToFile
-  nameWithType: TermbaseClass.ITermbase.ExtractToFile
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile
-  nameWithType.vb: TermbaseClass.ExtractToFile
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile
-  name.vb: ExtractToFile
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_ExtractToFile_System_String_
+  name: ExtractToFile
+  nameWithType: TermbaseClass.ExtractToFile
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExtractToFile
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(System.String)
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
-  name: ExtractToFile(String)
-  nameWithType: ITermbase.ExtractToFile(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(System.String)
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_ExtractToFile_System_String_
+  name: ExtractToFile(string)
+  nameWithType: ITermbase.ExtractToFile(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(string)
+  nameWithType.vb: ITermbase.ExtractToFile(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(String)
+  name.vb: ExtractToFile(String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(System.String)
     name: ExtractToFile
-    nameWithType: ITermbase.ExtractToFile
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_ExtractToFile_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile(System.String)
     name: ExtractToFile
-    nameWithType: ITermbase.ExtractToFile
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ExtractToFile
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_ExtractToFile_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise
   isExternal: true
-  name: ITermbase._Reorganise
-  nameWithType: TermbaseClass.ITermbase._Reorganise
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise
-  nameWithType.vb: TermbaseClass._Reorganise
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise
-  name.vb: _Reorganise
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass__Reorganise_System_Boolean_System_Boolean_System_Int32_
+  name: _Reorganise
+  nameWithType: TermbaseClass._Reorganise
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Reorganise
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(System.Boolean,System.Boolean,System.Int32)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(System.Boolean,System.Boolean,System.Int32)
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
-  name: _Reorganise(Boolean, Boolean, Int32)
-  nameWithType: ITermbase._Reorganise(Boolean, Boolean, Int32)
-  fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(System.Boolean, System.Boolean, System.Int32)
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__Reorganise_System_Boolean_System_Boolean_System_Int32_
+  name: _Reorganise(bool, bool, int)
+  nameWithType: ITermbase._Reorganise(bool, bool, int)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(bool, bool, int)
+  nameWithType.vb: ITermbase._Reorganise(Boolean, Boolean, Integer)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(Boolean, Boolean, Integer)
+  name.vb: _Reorganise(Boolean, Boolean, Integer)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(System.Boolean,System.Boolean,System.Int32)
     name: _Reorganise
-    nameWithType: ITermbase._Reorganise
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__Reorganise_System_Boolean_System_Boolean_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
-    name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
+    name: bool
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise(System.Boolean,System.Boolean,System.Int32)
     name: _Reorganise
-    nameWithType: ITermbase._Reorganise
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._Reorganise
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__Reorganise_System_Boolean_System_Boolean_System_Int32_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Boolean
     name: Boolean
-    nameWithType: Boolean
-    fullName: System.Boolean
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Boolean
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB
   isExternal: true
-  name: ITermbase.AddBLOB
-  nameWithType: TermbaseClass.ITermbase.AddBLOB
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB
-  nameWithType.vb: TermbaseClass.AddBLOB
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB
-  name.vb: AddBLOB
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_AddBLOB_System_Int32_System_String_System_String_
+  name: AddBLOB
+  nameWithType: TermbaseClass.AddBLOB
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AddBLOB
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(System.Int32,System.String,System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(System.Int32,System.String,System.String)
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
-  name: AddBLOB(Int32, String, String)
-  nameWithType: ITermbase.AddBLOB(Int32, String, String)
-  fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(System.Int32, System.String, System.String)
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_AddBLOB_System_Int32_System_String_System_String_
+  name: AddBLOB(int, string, string)
+  nameWithType: ITermbase.AddBLOB(int, string, string)
+  fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(int, string, string)
+  nameWithType.vb: ITermbase.AddBLOB(Integer, String, String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(Integer, String, String)
+  name.vb: AddBLOB(Integer, String, String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(System.Int32,System.String,System.String)
     name: AddBLOB
-    nameWithType: ITermbase.AddBLOB
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_AddBLOB_System_Int32_System_String_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: int
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB(System.Int32,System.String,System.String)
     name: AddBLOB
-    nameWithType: ITermbase.AddBLOB
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.AddBLOB
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_AddBLOB_System_Int32_System_String_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Int32
-    name: Int32
-    nameWithType: Int32
-    fullName: System.Int32
+    name: Integer
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries
   isExternal: true
-  name: ITermbase.Entries
-  nameWithType: TermbaseClass.ITermbase.Entries
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Entries
-  nameWithType.vb: TermbaseClass.Entries
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries
-  name.vb: Entries
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Entries
+  name: Entries
+  nameWithType: TermbaseClass.Entries
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Entries
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Entries
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.Entries
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Entries
   name: Entries
   nameWithType: ITermbase.Entries
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Entries
@@ -2314,22 +1739,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.Entries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.Entries.html
   name: Entries
   nameWithType: Entries
   fullName: Sdl.MultiTerm.TMO.Interop.Entries
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition
   isExternal: true
-  name: ITermbase.Definition
-  nameWithType: TermbaseClass.ITermbase.Definition
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Definition
-  nameWithType.vb: TermbaseClass.Definition
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition
-  name.vb: Definition
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Definition
+  name: Definition
+  nameWithType: TermbaseClass.Definition
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Definition
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Definition
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.Definition
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Definition
   name: Definition
   nameWithType: ITermbase.Definition
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Definition
@@ -2337,22 +1762,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseDefinition.html
   name: TermbaseDefinition
   nameWithType: TermbaseDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseDefinition
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search
   isExternal: true
-  name: ITermbase.Search
-  nameWithType: TermbaseClass.ITermbase.Search
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Search
-  nameWithType.vb: TermbaseClass.Search
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search
-  name.vb: Search
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Search
+  name: Search
+  nameWithType: TermbaseClass.Search
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Search
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Search
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.Search
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Search
   name: Search
   nameWithType: ITermbase.Search
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Search
@@ -2360,22 +1785,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearch.html
   name: TermbaseSearch
   nameWithType: TermbaseSearch
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearch
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse
   isExternal: true
-  name: ITermbase.Browse
-  nameWithType: TermbaseClass.ITermbase.Browse
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Browse
-  nameWithType.vb: TermbaseClass.Browse
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse
-  name.vb: Browse
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Browse
+  name: Browse
+  nameWithType: TermbaseClass.Browse
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Browse
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Browse
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.Browse
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Browse
   name: Browse
   nameWithType: ITermbase.Browse
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Browse
@@ -2383,22 +1808,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseBrowser.html
   name: TermbaseBrowser
   nameWithType: TermbaseBrowser
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseBrowser
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information
   isExternal: true
-  name: ITermbase.Information
-  nameWithType: TermbaseClass.ITermbase.Information
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Information
-  nameWithType.vb: TermbaseClass.Information
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information
-  name.vb: Information
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Information
+  name: Information
+  nameWithType: TermbaseClass.Information
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Information
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Information
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.Information
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Information
   name: Information
   nameWithType: ITermbase.Information
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Information
@@ -2406,22 +1831,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseInformation
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseInformation.html
   name: TermbaseInformation
   nameWithType: TermbaseInformation
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseInformation
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions
   isExternal: true
-  name: ITermbase.FilterDefinitions
-  nameWithType: TermbaseClass.ITermbase.FilterDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.FilterDefinitions
-  nameWithType.vb: TermbaseClass.FilterDefinitions
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions
-  name.vb: FilterDefinitions
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_FilterDefinitions
+  name: FilterDefinitions
+  nameWithType: TermbaseClass.FilterDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.FilterDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.FilterDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.FilterDefinitions
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_FilterDefinitions
   name: FilterDefinitions
   nameWithType: ITermbase.FilterDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.FilterDefinitions
@@ -2429,22 +1854,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.FilterDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.FilterDefinitions.html
   name: FilterDefinitions
   nameWithType: FilterDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions
   isExternal: true
-  name: ITermbase.InputModelDefinitions
-  nameWithType: TermbaseClass.ITermbase.InputModelDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.InputModelDefinitions
-  nameWithType.vb: TermbaseClass.InputModelDefinitions
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions
-  name.vb: InputModelDefinitions
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_InputModelDefinitions
+  name: InputModelDefinitions
+  nameWithType: TermbaseClass.InputModelDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.InputModelDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.InputModelDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.InputModelDefinitions
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_InputModelDefinitions
   name: InputModelDefinitions
   nameWithType: ITermbase.InputModelDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.InputModelDefinitions
@@ -2452,22 +1877,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions.html
   name: InputModelDefinitions
   nameWithType: InputModelDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.InputModelDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions
   isExternal: true
-  name: ITermbase.ImportDefinitions
-  nameWithType: TermbaseClass.ITermbase.ImportDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ImportDefinitions
-  nameWithType.vb: TermbaseClass.ImportDefinitions
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions
-  name.vb: ImportDefinitions
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_ImportDefinitions
+  name: ImportDefinitions
+  nameWithType: TermbaseClass.ImportDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ImportDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.ImportDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.ImportDefinitions
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_ImportDefinitions
   name: ImportDefinitions
   nameWithType: ITermbase.ImportDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ImportDefinitions
@@ -2475,22 +1900,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ImportDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ImportDefinitions.html
   name: ImportDefinitions
   nameWithType: ImportDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ImportDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions
   isExternal: true
-  name: ITermbase.ExportDefinitions
-  nameWithType: TermbaseClass.ITermbase.ExportDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ExportDefinitions
-  nameWithType.vb: TermbaseClass.ExportDefinitions
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions
-  name.vb: ExportDefinitions
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_ExportDefinitions
+  name: ExportDefinitions
+  nameWithType: TermbaseClass.ExportDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExportDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.ExportDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.ExportDefinitions
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_ExportDefinitions
   name: ExportDefinitions
   nameWithType: ITermbase.ExportDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ExportDefinitions
@@ -2498,22 +1923,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ExportDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ExportDefinitions.html
   name: ExportDefinitions
   nameWithType: ExportDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ExportDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions
   isExternal: true
-  name: ITermbase.LayoutDefinitions
-  nameWithType: TermbaseClass.ITermbase.LayoutDefinitions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.LayoutDefinitions
-  nameWithType.vb: TermbaseClass.LayoutDefinitions
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions
-  name.vb: LayoutDefinitions
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_LayoutDefinitions
+  name: LayoutDefinitions
+  nameWithType: TermbaseClass.LayoutDefinitions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LayoutDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.LayoutDefinitions
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.LayoutDefinitions
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_LayoutDefinitions
   name: LayoutDefinitions
   nameWithType: ITermbase.LayoutDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.LayoutDefinitions
@@ -2521,38 +1946,37 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LayoutDefinitions.html
   name: LayoutDefinitions
   nameWithType: LayoutDefinitions
   fullName: Sdl.MultiTerm.TMO.Interop.LayoutDefinitions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name
   isExternal: true
-  name: ITermbase.Name
-  nameWithType: TermbaseClass.ITermbase.Name
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.Name
-  nameWithType.vb: TermbaseClass.Name
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name
-  name.vb: Name
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_Name
+  name: Name
+  nameWithType: TermbaseClass.Name
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Name
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.Name
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.Name
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_Name
   name: Name
   nameWithType: ITermbase.Name
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.Name
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter
   isExternal: true
-  name: ITermbase.ActiveFilter
-  nameWithType: TermbaseClass.ITermbase.ActiveFilter
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ActiveFilter
-  nameWithType.vb: TermbaseClass.ActiveFilter
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter
-  name.vb: ActiveFilter
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_ActiveFilter
+  name: ActiveFilter
+  nameWithType: TermbaseClass.ActiveFilter
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ActiveFilter
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.ActiveFilter
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.ActiveFilter
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_ActiveFilter
   name: ActiveFilter
   nameWithType: ITermbase.ActiveFilter
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ActiveFilter
@@ -2560,22 +1984,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.FilterDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.FilterDefinition.html
   name: FilterDefinition
   nameWithType: FilterDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinition
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions
   isExternal: true
-  name: ITermbase.AccessPermissions
-  nameWithType: TermbaseClass.ITermbase.AccessPermissions
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.AccessPermissions
-  nameWithType.vb: TermbaseClass.AccessPermissions
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions
-  name.vb: AccessPermissions
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_AccessPermissions
+  name: AccessPermissions
+  nameWithType: TermbaseClass.AccessPermissions
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.AccessPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.AccessPermissions
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.AccessPermissions
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_AccessPermissions
   name: AccessPermissions
   nameWithType: ITermbase.AccessPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.AccessPermissions
@@ -2583,22 +2007,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions.html
   name: TermbaseAccessPermissions
   nameWithType: TermbaseAccessPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseAccessPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries
   isExternal: true
-  name: ITermbase.IncompleteEntries
-  nameWithType: TermbaseClass.ITermbase.IncompleteEntries
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.IncompleteEntries
-  nameWithType.vb: TermbaseClass.IncompleteEntries
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries
-  name.vb: IncompleteEntries
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_IncompleteEntries
+  name: IncompleteEntries
+  nameWithType: TermbaseClass.IncompleteEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IncompleteEntries
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.IncompleteEntries
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.IncompleteEntries
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_IncompleteEntries
   name: IncompleteEntries
   nameWithType: ITermbase.IncompleteEntries
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.IncompleteEntries
@@ -2606,22 +2030,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IncompleteEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IncompleteEntries.html
   name: IncompleteEntries
   nameWithType: IncompleteEntries
   fullName: Sdl.MultiTerm.TMO.Interop.IncompleteEntries
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries
   isExternal: true
-  name: ITermbase.LockedEntries
-  nameWithType: TermbaseClass.ITermbase.LockedEntries
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntries
-  nameWithType.vb: TermbaseClass.LockedEntries
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries
-  name.vb: LockedEntries
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_LockedEntries
+  name: LockedEntries
+  nameWithType: TermbaseClass.LockedEntries
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntries
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntries
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntries
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_LockedEntries
   name: LockedEntries
   nameWithType: ITermbase.LockedEntries
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntries
@@ -2629,54 +2053,52 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntries
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntries.html
   name: LockedEntries
   nameWithType: LockedEntries
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntries
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass
   isExternal: true
-  name: ITermbase.DefaultEntryClass
-  nameWithType: TermbaseClass.ITermbase.DefaultEntryClass
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.DefaultEntryClass
-  nameWithType.vb: TermbaseClass.DefaultEntryClass
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass
-  name.vb: DefaultEntryClass
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_DefaultEntryClass
+  name: DefaultEntryClass
+  nameWithType: TermbaseClass.DefaultEntryClass
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DefaultEntryClass
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.DefaultEntryClass
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.DefaultEntryClass
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_DefaultEntryClass
   name: DefaultEntryClass
   nameWithType: ITermbase.DefaultEntryClass
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.DefaultEntryClass
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly
   isExternal: true
-  name: ITermbase.IsReadOnly
-  nameWithType: TermbaseClass.ITermbase.IsReadOnly
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.IsReadOnly
-  nameWithType.vb: TermbaseClass.IsReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly
-  name.vb: IsReadOnly
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_IsReadOnly
+  name: IsReadOnly
+  nameWithType: TermbaseClass.IsReadOnly
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.IsReadOnly
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.IsReadOnly
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_IsReadOnly
   name: IsReadOnly
   nameWithType: ITermbase.IsReadOnly
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.IsReadOnly
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate
   isExternal: true
-  name: ITermbase.ChangeDate
-  nameWithType: TermbaseClass.ITermbase.ChangeDate
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ChangeDate
-  nameWithType.vb: TermbaseClass.ChangeDate
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate
-  name.vb: ChangeDate
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_ChangeDate
+  name: ChangeDate
+  nameWithType: TermbaseClass.ChangeDate
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ChangeDate
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.ChangeDate
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.ChangeDate
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_ChangeDate
   name: ChangeDate
   nameWithType: ITermbase.ChangeDate
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ChangeDate
@@ -2684,182 +2106,175 @@ references:
   commentId: T:System.DateTime
   parent: System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
   name: DateTime
   nameWithType: DateTime
   fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
   isExternal: true
-  name: ITermbase._Cookie
-  nameWithType: TermbaseClass.ITermbase._Cookie
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._Cookie
-  nameWithType.vb: TermbaseClass._Cookie
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
-  name.vb: _Cookie
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass__Cookie
+  name: _Cookie
+  nameWithType: TermbaseClass._Cookie
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Cookie
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._Cookie
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase._Cookie
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__Cookie
   name: _Cookie
   nameWithType: ITermbase._Cookie
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._Cookie
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
   isExternal: true
-  name: ITermbase._IsLocal
-  nameWithType: TermbaseClass.ITermbase._IsLocal
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._IsLocal
-  nameWithType.vb: TermbaseClass._IsLocal
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
-  name.vb: _IsLocal
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass__IsLocal
+  name: _IsLocal
+  nameWithType: TermbaseClass._IsLocal
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._IsLocal
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._IsLocal
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase._IsLocal
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__IsLocal
   name: _IsLocal
   nameWithType: ITermbase._IsLocal
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._IsLocal
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
   isExternal: true
-  name: ITermbase._DefaultEntryClassID
-  nameWithType: TermbaseClass.ITermbase._DefaultEntryClassID
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._DefaultEntryClassID
-  nameWithType.vb: TermbaseClass._DefaultEntryClassID
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
-  name.vb: _DefaultEntryClassID
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass__DefaultEntryClassID
+  name: _DefaultEntryClassID
+  nameWithType: TermbaseClass._DefaultEntryClassID
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._DefaultEntryClassID
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._DefaultEntryClassID
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase._DefaultEntryClassID
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__DefaultEntryClassID
   name: _DefaultEntryClassID
   nameWithType: ITermbase._DefaultEntryClassID
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._DefaultEntryClassID
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate
   isExternal: true
-  name: ITermbase.ExpiryDate
-  nameWithType: TermbaseClass.ITermbase.ExpiryDate
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.ExpiryDate
-  nameWithType.vb: TermbaseClass.ExpiryDate
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate
-  name.vb: ExpiryDate
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_ExpiryDate
+  name: ExpiryDate
+  nameWithType: TermbaseClass.ExpiryDate
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.ExpiryDate
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.ExpiryDate
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.ExpiryDate
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_ExpiryDate
   name: ExpiryDate
   nameWithType: ITermbase.ExpiryDate
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.ExpiryDate
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath
   isExternal: true
-  name: ITermbase.DownloadedCopyrightIcoPath
-  nameWithType: TermbaseClass.ITermbase.DownloadedCopyrightIcoPath
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightIcoPath
-  nameWithType.vb: TermbaseClass.DownloadedCopyrightIcoPath
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath
-  name.vb: DownloadedCopyrightIcoPath
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_DownloadedCopyrightIcoPath
+  name: DownloadedCopyrightIcoPath
+  nameWithType: TermbaseClass.DownloadedCopyrightIcoPath
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightIcoPath
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightIcoPath
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightIcoPath
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_DownloadedCopyrightIcoPath
   name: DownloadedCopyrightIcoPath
   nameWithType: ITermbase.DownloadedCopyrightIcoPath
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightIcoPath
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath
   isExternal: true
-  name: ITermbase.DownloadedCopyrightSplashPath
-  nameWithType: TermbaseClass.ITermbase.DownloadedCopyrightSplashPath
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightSplashPath
-  nameWithType.vb: TermbaseClass.DownloadedCopyrightSplashPath
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath
-  name.vb: DownloadedCopyrightSplashPath
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_DownloadedCopyrightSplashPath
+  name: DownloadedCopyrightSplashPath
+  nameWithType: TermbaseClass.DownloadedCopyrightSplashPath
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightSplashPath
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightSplashPath
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightSplashPath
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_DownloadedCopyrightSplashPath
   name: DownloadedCopyrightSplashPath
   nameWithType: ITermbase.DownloadedCopyrightSplashPath
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightSplashPath
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath
   isExternal: true
-  name: ITermbase.DownloadedCopyrightInfoPath
-  nameWithType: TermbaseClass.ITermbase.DownloadedCopyrightInfoPath
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightInfoPath
-  nameWithType.vb: TermbaseClass.DownloadedCopyrightInfoPath
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath
-  name.vb: DownloadedCopyrightInfoPath
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_DownloadedCopyrightInfoPath
+  name: DownloadedCopyrightInfoPath
+  nameWithType: TermbaseClass.DownloadedCopyrightInfoPath
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.DownloadedCopyrightInfoPath
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightInfoPath
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightInfoPath
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_DownloadedCopyrightInfoPath
   name: DownloadedCopyrightInfoPath
   nameWithType: ITermbase.DownloadedCopyrightInfoPath
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.DownloadedCopyrightInfoPath
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText
   isExternal: true
-  name: ITermbase.CopyrightText
-  nameWithType: TermbaseClass.ITermbase.CopyrightText
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.CopyrightText
-  nameWithType.vb: TermbaseClass.CopyrightText
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText
-  name.vb: CopyrightText
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_CopyrightText
+  name: CopyrightText
+  nameWithType: TermbaseClass.CopyrightText
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.CopyrightText
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.CopyrightText
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.CopyrightText
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_CopyrightText
   name: CopyrightText
   nameWithType: ITermbase.CopyrightText
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.CopyrightText
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
   isExternal: true
-  name: ITermbase._TermbaseConnector
-  nameWithType: TermbaseClass.ITermbase._TermbaseConnector
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseConnector
-  nameWithType.vb: TermbaseClass._TermbaseConnector
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
-  name.vb: _TermbaseConnector
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass__TermbaseConnector
+  name: _TermbaseConnector
+  nameWithType: TermbaseClass._TermbaseConnector
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseConnector
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseConnector
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseConnector
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__TermbaseConnector
   name: _TermbaseConnector
   nameWithType: ITermbase._TermbaseConnector
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseConnector
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
   isExternal: true
-  name: ITermbase._Path
-  nameWithType: TermbaseClass.ITermbase._Path
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._Path
-  nameWithType.vb: TermbaseClass._Path
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
-  name.vb: _Path
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass__Path
+  name: _Path
+  nameWithType: TermbaseClass._Path
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._Path
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._Path
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase._Path
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__Path
   name: _Path
   nameWithType: ITermbase._Path
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._Path
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos
   isExternal: true
-  name: ITermbase.LockedEntryInfos
-  nameWithType: TermbaseClass.ITermbase.LockedEntryInfos
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntryInfos
-  nameWithType.vb: TermbaseClass.LockedEntryInfos
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos
-  name.vb: LockedEntryInfos
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_LockedEntryInfos
+  name: LockedEntryInfos
+  nameWithType: TermbaseClass.LockedEntryInfos
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.LockedEntryInfos
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntryInfos
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntryInfos
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_LockedEntryInfos
   name: LockedEntryInfos
   nameWithType: ITermbase.LockedEntryInfos
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.LockedEntryInfos
@@ -2867,38 +2282,37 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfos
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntryInfos.html
   name: LockedEntryInfos
   nameWithType: LockedEntryInfos
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfos
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
   isExternal: true
-  name: ITermbase._TermbaseAPIName
-  nameWithType: TermbaseClass.ITermbase._TermbaseAPIName
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseAPIName
-  nameWithType.vb: TermbaseClass._TermbaseAPIName
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
-  name.vb: _TermbaseAPIName
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass__TermbaseAPIName
+  name: _TermbaseAPIName
+  nameWithType: TermbaseClass._TermbaseAPIName
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass._TermbaseAPIName
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseAPIName
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseAPIName
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase__TermbaseAPIName
   name: _TermbaseAPIName
   nameWithType: ITermbase._TermbaseAPIName
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase._TermbaseAPIName
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished
   isExternal: true
-  name: ITermbase.IsPublished
-  nameWithType: TermbaseClass.ITermbase.IsPublished
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.Sdl.MultiTerm.TMO.Interop.ITermbase.IsPublished
-  nameWithType.vb: TermbaseClass.IsPublished
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished
-  name.vb: IsPublished
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseClass_IsPublished
+  name: IsPublished
+  nameWithType: TermbaseClass.IsPublished
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseClass.IsPublished
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbase.IsPublished
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbase.IsPublished
   parent: Sdl.MultiTerm.TMO.Interop.ITermbase
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbase.html#Sdl_MultiTerm_TMO_Interop_ITermbase_IsPublished
   name: IsPublished
   nameWithType: ITermbase.IsPublished
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbase.IsPublished

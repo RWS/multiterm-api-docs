@@ -12,22 +12,18 @@ items:
   nameWithType: HitTerms
   fullName: Sdl.MultiTerm.TMO.Interop.HitTerms
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("13E24CD4-3484-4B88-983C-32E061C0320A")]
+      [Guid("CFC9F138-E528-4249-952A-52F1B7DF6768")]
 
       public interface HitTerms : IHitTerms, IEnumerable
     content.vb: >-
-      <Guid("13E24CD4-3484-4B88-983C-32E061C0320A")>
+      <Guid("CFC9F138-E528-4249-952A-52F1B7DF6768")>
 
-      Public Interface HitTerms
-          Inherits IHitTerms
+      Public Interface HitTerms Inherits IHitTerms, IEnumerable
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
   - Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
@@ -37,99 +33,112 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 13E24CD4-3484-4B88-983C-32E061C0320A
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: CFC9F138-E528-4249-952A-52F1B7DF6768
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
   parent: Sdl.MultiTerm.TMO.Interop.IHitTerms
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerms.html#Sdl_MultiTerm_TMO_Interop_IHitTerms_GetEnumerator
   name: GetEnumerator()
   nameWithType: IHitTerms.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
     name: GetEnumerator
-    nameWithType: IHitTerms.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IHitTerms.html#Sdl_MultiTerm_TMO_Interop_IHitTerms_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
     name: GetEnumerator
-    nameWithType: IHitTerms.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IHitTerms.html#Sdl_MultiTerm_TMO_Interop_IHitTerms_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
   parent: Sdl.MultiTerm.TMO.Interop.IHitTerms
   isExternal: true
-  name: Item[Object]
-  nameWithType: IHitTerms.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item[System.Object]
-  nameWithType.vb: IHitTerms.Item(Object)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
-  name.vb: Item(Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: IHitTerms.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.this[object]
+  nameWithType.vb: IHitTerms.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IHitTerms.this[](Object)
+  name.vb: this[](Object)
   spec.csharp:
-  - uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
-    name: Item
-    nameWithType: IHitTerms.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item(System.Object)
-    name: Item
-    nameWithType: IHitTerms.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.Item
+    name: this[]
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IHitTerms.html#Sdl_MultiTerm_TMO_Interop_IHitTerms_Item_System_Object_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
   parent: Sdl.MultiTerm.TMO.Interop.IHitTerms
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerms.html#Sdl_MultiTerm_TMO_Interop_IHitTerms_Count
   name: Count
   nameWithType: IHitTerms.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms.Count
@@ -137,6 +146,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IHitTerms
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IHitTerms.html
   name: IHitTerms
   nameWithType: IHitTerms
   fullName: Sdl.MultiTerm.TMO.Interop.IHitTerms

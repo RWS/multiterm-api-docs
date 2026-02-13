@@ -15,26 +15,22 @@ items:
   nameWithType: SearchInfosClass
   fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass
   type: Class
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("19E7C637-0343-429C-8219-56B40EAFB184")]
+      [Guid("33F60EA9-6B16-4CBE-BBDA-06CFC4158A5A")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class SearchInfosClass : SearchInfos, ISearchInfos, IEnumerable
     content.vb: >-
-      <Guid("19E7C637-0343-429C-8219-56B40EAFB184")>
+      <Guid("33F60EA9-6B16-4CBE-BBDA-06CFC4158A5A")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
-      Public Class SearchInfosClass
-          Implements SearchInfos, ISearchInfos, IEnumerable
+      Public Class SearchInfosClass Implements SearchInfos, ISearchInfos, IEnumerable
   inheritance:
   - System.Object
   implements:
@@ -54,18 +50,12 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 19E7C637-0343-429C-8219-56B40EAFB184
+      value: 33F60EA9-6B16-4CBE-BBDA-06CFC4158A5A
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:
     - type: System.Runtime.InteropServices.ClassInterfaceType
       value: 0
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator
   id: GetEnumerator
@@ -74,34 +64,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ISearchInfos.GetEnumerator()
-  nameWithType: SearchInfosClass.ISearchInfos.GetEnumerator()
-  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator()
+  name: GetEnumerator()
+  nameWithType: SearchInfosClass.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual IEnumerator ISearchInfos.GetEnumerator()
+    content: virtual IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements ISearchInfos.GetEnumerator
+    content.vb: Overridable Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
   - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: SearchInfosClass.GetEnumerator()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator()
-  name.vb: GetEnumerator()
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Item(System.Object)
   id: Item(System.Object)
@@ -110,38 +89,28 @@ items:
   langs:
   - csharp
   - vb
-  name: ISearchInfos.Item[Object]
-  nameWithType: SearchInfosClass.ISearchInfos.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item[System.Object]
+  name: this[object]
+  nameWithType: SearchInfosClass.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.this[object]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual SearchInfo ISearchInfos.this[object Index] { get; }
+    content: virtual SearchInfo this[object Index] { get; }
     parameters:
     - id: Index
       type: System.Object
     return:
       type: Sdl.MultiTerm.TMO.Interop.SearchInfo
-    content.vb: Public Overridable ReadOnly Property Item(Index As Object) As SearchInfo Implements ISearchInfos.this[]
+    content.vb: Overridable ReadOnly Default Property this[](Index As Object) As SearchInfo
   overload: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Item*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
-  nameWithType.vb: SearchInfosClass.Item(Object)
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Item(System.Object)
-  name.vb: Item(Object)
+  nameWithType.vb: SearchInfosClass.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.this[](Object)
+  name.vb: this[](Object)
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count
   id: Count
@@ -150,54 +119,87 @@ items:
   langs:
   - csharp
   - vb
-  name: ISearchInfos.Count
-  nameWithType: SearchInfosClass.ISearchInfos.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
+  name: Count
+  nameWithType: SearchInfosClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int ISearchInfos.Count { get; }
+    content: virtual int Count { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable ReadOnly Property Count As Integer Implements ISearchInfos.Count
+    content.vb: Overridable ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
-  nameWithType.vb: SearchInfosClass.Count
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count
-  name.vb: Count
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfos
   commentId: T:Sdl.MultiTerm.TMO.Interop.SearchInfos
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfos.html
   name: SearchInfos
   nameWithType: SearchInfos
   fullName: Sdl.MultiTerm.TMO.Interop.SearchInfos
@@ -205,6 +207,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ISearchInfos
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfos.html
   name: ISearchInfos
   nameWithType: ISearchInfos
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos
@@ -212,6 +215,7 @@ references:
   commentId: T:System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
@@ -219,444 +223,374 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator
   isExternal: true
-  name: ISearchInfos.GetEnumerator
-  nameWithType: SearchInfosClass.ISearchInfos.GetEnumerator
-  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
-  nameWithType.vb: SearchInfosClass.GetEnumerator
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator
-  name.vb: GetEnumerator
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.html#Sdl_MultiTerm_TMO_Interop_SearchInfosClass_GetEnumerator
+  name: GetEnumerator
+  nameWithType: SearchInfosClass.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.GetEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfos
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfos.html#Sdl_MultiTerm_TMO_Interop_ISearchInfos_GetEnumerator
   name: GetEnumerator()
   nameWithType: ISearchInfos.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
     name: GetEnumerator
-    nameWithType: ISearchInfos.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ISearchInfos.html#Sdl_MultiTerm_TMO_Interop_ISearchInfos_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
     name: GetEnumerator
-    nameWithType: ISearchInfos.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ISearchInfos.html#Sdl_MultiTerm_TMO_Interop_ISearchInfos_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable.GetEnumerator
   commentId: M:System.Collections.IEnumerable.GetEnumerator
   parent: System.Collections.IEnumerable
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   name: GetEnumerator()
   nameWithType: IEnumerable.GetEnumerator()
   fullName: System.Collections.IEnumerable.GetEnumerator()
   spec.csharp:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerator
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Item
   isExternal: true
-  name: ISearchInfos.Item
-  nameWithType: SearchInfosClass.ISearchInfos.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item
-  nameWithType.vb: SearchInfosClass.Item
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Item
-  name.vb: Item
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.html#Sdl_MultiTerm_TMO_Interop_SearchInfosClass_Item_System_Object_
+  name: this
+  nameWithType: SearchInfosClass.this
+  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.this
+  nameWithType.vb: SearchInfosClass.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.this[]
+  name.vb: this[]
 - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfos
   isExternal: true
-  name: Item[Object]
-  nameWithType: ISearchInfos.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item[System.Object]
-  nameWithType.vb: ISearchInfos.Item(Object)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
-  name.vb: Item(Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: ISearchInfos.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.this[object]
+  nameWithType.vb: ISearchInfos.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ISearchInfos.this[](Object)
+  name.vb: this[](Object)
   spec.csharp:
-  - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
-    name: Item
-    nameWithType: ISearchInfos.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item(System.Object)
-    name: Item
-    nameWithType: ISearchInfos.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Item
+    name: this[]
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ISearchInfos.html#Sdl_MultiTerm_TMO_Interop_ISearchInfos_Item_System_Object_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfo
   commentId: T:Sdl.MultiTerm.TMO.Interop.SearchInfo
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfo.html
   name: SearchInfo
   nameWithType: SearchInfo
   fullName: Sdl.MultiTerm.TMO.Interop.SearchInfo
 - uid: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count
   isExternal: true
-  name: ISearchInfos.Count
-  nameWithType: SearchInfosClass.ISearchInfos.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
-  nameWithType.vb: SearchInfosClass.Count
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count
-  name.vb: Count
+  href: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.html#Sdl_MultiTerm_TMO_Interop_SearchInfosClass_Count
+  name: Count
+  nameWithType: SearchInfosClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.SearchInfosClass.Count
 - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfos
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfos.html#Sdl_MultiTerm_TMO_Interop_ISearchInfos_Count
   name: Count
   nameWithType: ISearchInfos.Count
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfos.Count
@@ -664,6 +598,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

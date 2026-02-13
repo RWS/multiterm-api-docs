@@ -12,22 +12,18 @@ items:
   nameWithType: EntryClassesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("4D2B71BC-EBBB-4F39-B4F7-4004529D7716")]
+      [Guid("71B64C73-DD76-463A-826C-FBF6258723DB")]
 
       public interface EntryClassesPermissions : IEntryClassesPermissions, IEnumerable
     content.vb: >-
-      <Guid("4D2B71BC-EBBB-4F39-B4F7-4004529D7716")>
+      <Guid("71B64C73-DD76-463A-826C-FBF6258723DB")>
 
-      Public Interface EntryClassesPermissions
-          Inherits IEntryClassesPermissions
+      Public Interface EntryClassesPermissions Inherits IEntryClassesPermissions, IEnumerable
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
   - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
@@ -38,99 +34,112 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 4D2B71BC-EBBB-4F39-B4F7-4004529D7716
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 71B64C73-DD76-463A-826C-FBF6258723DB
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_GetEnumerator
   name: GetEnumerator()
   nameWithType: IEntryClassesPermissions.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEntryClassesPermissions.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEntryClassesPermissions.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   isExternal: true
-  name: Item[Object]
-  nameWithType: IEntryClassesPermissions.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item[System.Object]
-  nameWithType.vb: IEntryClassesPermissions.Item(Object)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
-  name.vb: Item(Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: IEntryClassesPermissions.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.this[object]
+  nameWithType.vb: IEntryClassesPermissions.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.this[](Object)
+  name.vb: this[](Object)
   spec.csharp:
-  - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
-    name: Item
-    nameWithType: IEntryClassesPermissions.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
-    name: Item
-    nameWithType: IEntryClassesPermissions.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item
+    name: this[]
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_Item_System_Object_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_Count
   name: Count
   nameWithType: IEntryClassesPermissions.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
@@ -138,6 +147,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_XML
   name: XML
   nameWithType: IEntryClassesPermissions.XML
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
@@ -145,6 +155,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html
   name: IEntryClassesPermissions
   nameWithType: IEntryClassesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions

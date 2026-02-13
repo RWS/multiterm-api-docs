@@ -15,34 +15,24 @@ items:
   nameWithType: ILockedEntryInfos
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("946343CD-5A05-4697-B347-8287AC8E8A08")]
+      [Guid("9293154E-9227-4A7F-B3FC-311EEF1DDF2A")]
 
       public interface ILockedEntryInfos : IEnumerable
     content.vb: >-
-      <Guid("946343CD-5A05-4697-B347-8287AC8E8A08")>
+      <Guid("9293154E-9227-4A7F-B3FC-311EEF1DDF2A")>
 
-      Public Interface ILockedEntryInfos
-          Inherits IEnumerable
+      Public Interface ILockedEntryInfos Inherits IEnumerable
   attributes:
   - type: System.Runtime.InteropServices.GuidAttribute
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 946343CD-5A05-4697-B347-8287AC8E8A08
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 9293154E-9227-4A7F-B3FC-311EEF1DDF2A
 - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.GetEnumerator
   id: GetEnumerator
@@ -54,9 +44,6 @@ items:
   nameWithType: ILockedEntryInfos.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -64,7 +51,7 @@ items:
     content: IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Function GetEnumerator As IEnumerator
+    content.vb: Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.GetEnumerator*
 - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Item(System.Object)
@@ -73,13 +60,10 @@ items:
   langs:
   - csharp
   - vb
-  name: Item[Object]
-  nameWithType: ILockedEntryInfos.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Item[System.Object]
+  name: this[object]
+  nameWithType: ILockedEntryInfos.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.this[object]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -90,15 +74,11 @@ items:
       type: System.Object
     return:
       type: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
-    content.vb: ReadOnly Property Item(Index As Object) As LockedEntryInfo
+    content.vb: ReadOnly Default Property this[](Index As Object) As LockedEntryInfo
   overload: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Item*
-  nameWithType.vb: ILockedEntryInfos.Item(Object)
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Item(System.Object)
-  name.vb: Item(Object)
+  nameWithType.vb: ILockedEntryInfos.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.this[](Object)
+  name.vb: this[](Object)
 - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Count
   id: Count
@@ -110,9 +90,6 @@ items:
   nameWithType: ILockedEntryInfos.Count
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -123,20 +100,58 @@ items:
       type: System.Int32
     content.vb: ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Count*
-  modifiers.csharp:
-  - get
-  modifiers.vb:
-  - ReadOnly
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.GetEnumerator
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.html#Sdl_MultiTerm_TMO_Interop_ILockedEntryInfos_GetEnumerator
   name: GetEnumerator
   nameWithType: ILockedEntryInfos.GetEnumerator
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.GetEnumerator
@@ -144,44 +159,77 @@ references:
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Item
   isExternal: true
-  name: Item
-  nameWithType: ILockedEntryInfos.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Item
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.html#Sdl_MultiTerm_TMO_Interop_ILockedEntryInfos_Item_System_Object_
+  name: this
+  nameWithType: ILockedEntryInfos.this
+  fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.this
+  nameWithType.vb: ILockedEntryInfos.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.this[]
+  name.vb: this[]
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
   commentId: T:Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo.html
   name: LockedEntryInfo
   nameWithType: LockedEntryInfo
   fullName: Sdl.MultiTerm.TMO.Interop.LockedEntryInfo
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Count
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.html#Sdl_MultiTerm_TMO_Interop_ILockedEntryInfos_Count
   name: Count
   nameWithType: ILockedEntryInfos.Count
   fullName: Sdl.MultiTerm.TMO.Interop.ILockedEntryInfos.Count
@@ -189,6 +237,10 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

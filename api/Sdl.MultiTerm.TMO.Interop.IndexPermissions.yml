@@ -12,22 +12,18 @@ items:
   nameWithType: IndexPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IndexPermissions
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("B960E41C-1B46-4A58-BDBC-BA05F80AB96D")]
+      [Guid("50D24660-E6EC-4B07-9F9F-98D1EEC07719")]
 
       public interface IndexPermissions : IIndexPermissions
     content.vb: >-
-      <Guid("B960E41C-1B46-4A58-BDBC-BA05F80AB96D")>
+      <Guid("50D24660-E6EC-4B07-9F9F-98D1EEC07719")>
 
-      Public Interface IndexPermissions
-          Inherits IIndexPermissions
+      Public Interface IndexPermissions Inherits IIndexPermissions
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
   - Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
@@ -38,24 +34,60 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: B960E41C-1B46-4A58-BDBC-BA05F80AB96D
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 50D24660-E6EC-4B07-9F9F-98D1EEC07719
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
   parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexPermissions_Read
   name: Read
   nameWithType: IIndexPermissions.Read
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Read
@@ -63,6 +95,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
   parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexPermissions_Write
   name: Write
   nameWithType: IIndexPermissions.Write
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Write
@@ -70,6 +103,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
   parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexPermissions_Label
   name: Label
   nameWithType: IIndexPermissions.Label
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Label
@@ -77,6 +111,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
   parent: Sdl.MultiTerm.TMO.Interop.IIndexPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.html#Sdl_MultiTerm_TMO_Interop_IIndexPermissions_Remove
   name: Remove
   nameWithType: IIndexPermissions.Remove
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.Remove
@@ -84,6 +119,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IIndexPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IIndexPermissions.html
   name: IIndexPermissions
   nameWithType: IIndexPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IIndexPermissions

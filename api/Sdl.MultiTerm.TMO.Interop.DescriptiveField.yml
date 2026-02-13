@@ -12,22 +12,18 @@ items:
   nameWithType: DescriptiveField
   fullName: Sdl.MultiTerm.TMO.Interop.DescriptiveField
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("EB597BE7-1BD7-4984-B9FB-6E0308DE4D22")]
+      [Guid("20482A28-AF01-4824-A845-48869053B8E1")]
 
       public interface DescriptiveField : IDescriptiveField
     content.vb: >-
-      <Guid("EB597BE7-1BD7-4984-B9FB-6E0308DE4D22")>
+      <Guid("20482A28-AF01-4824-A845-48869053B8E1")>
 
-      Public Interface DescriptiveField
-          Inherits IDescriptiveField
+      Public Interface DescriptiveField Inherits IDescriptiveField
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
   - Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
@@ -40,24 +36,60 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: EB597BE7-1BD7-4984-B9FB-6E0308DE4D22
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 20482A28-AF01-4824-A845-48869053B8E1
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
   commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveField_Label
   name: Label
   nameWithType: IDescriptiveField.Label
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Label
@@ -65,6 +97,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveField_Type
   name: Type
   nameWithType: IDescriptiveField.Type
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Type
@@ -72,6 +105,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveField_Level
   name: Level
   nameWithType: IDescriptiveField.Level
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Level
@@ -79,6 +113,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveField_Mandatory
   name: Mandatory
   nameWithType: IDescriptiveField.Mandatory
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Mandatory
@@ -86,6 +121,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveField_Multiple
   name: Multiple
   nameWithType: IDescriptiveField.Multiple
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.Multiple
@@ -93,6 +129,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues
   parent: Sdl.MultiTerm.TMO.Interop.IDescriptiveField
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.html#Sdl_MultiTerm_TMO_Interop_IDescriptiveField_PicklistValues
   name: PicklistValues
   nameWithType: IDescriptiveField.PicklistValues
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.PicklistValues
@@ -100,6 +137,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IDescriptiveField
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IDescriptiveField.html
   name: IDescriptiveField
   nameWithType: IDescriptiveField
   fullName: Sdl.MultiTerm.TMO.Interop.IDescriptiveField

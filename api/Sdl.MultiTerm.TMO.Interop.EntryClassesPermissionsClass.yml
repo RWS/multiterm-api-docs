@@ -16,26 +16,22 @@ items:
   nameWithType: EntryClassesPermissionsClass
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass
   type: Class
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("3CF405E9-48CB-4C03-A707-1BF97A5EFB29")]
+      [Guid("C3355F8A-7609-482C-AF89-4DE8326979E7")]
 
       [ClassInterface(ClassInterfaceType.None)]
 
       public class EntryClassesPermissionsClass : EntryClassesPermissions, IEntryClassesPermissions, IEnumerable
     content.vb: >-
-      <Guid("3CF405E9-48CB-4C03-A707-1BF97A5EFB29")>
+      <Guid("C3355F8A-7609-482C-AF89-4DE8326979E7")>
 
       <ClassInterface(ClassInterfaceType.None)>
 
-      Public Class EntryClassesPermissionsClass
-          Implements EntryClassesPermissions, IEntryClassesPermissions, IEnumerable
+      Public Class EntryClassesPermissionsClass Implements EntryClassesPermissions, IEntryClassesPermissions, IEnumerable
   inheritance:
   - System.Object
   implements:
@@ -55,18 +51,12 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 3CF405E9-48CB-4C03-A707-1BF97A5EFB29
+      value: C3355F8A-7609-482C-AF89-4DE8326979E7
   - type: System.Runtime.InteropServices.ClassInterfaceAttribute
     ctor: System.Runtime.InteropServices.ClassInterfaceAttribute.#ctor(System.Runtime.InteropServices.ClassInterfaceType)
     arguments:
     - type: System.Runtime.InteropServices.ClassInterfaceType
       value: 0
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator
   id: GetEnumerator
@@ -75,34 +65,23 @@ items:
   langs:
   - csharp
   - vb
-  name: IEntryClassesPermissions.GetEnumerator()
-  nameWithType: EntryClassesPermissionsClass.IEntryClassesPermissions.GetEnumerator()
-  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator()
+  name: GetEnumerator()
+  nameWithType: EntryClassesPermissionsClass.GetEnumerator()
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual IEnumerator IEntryClassesPermissions.GetEnumerator()
+    content: virtual IEnumerator GetEnumerator()
     return:
       type: System.Collections.IEnumerator
-    content.vb: Public Overridable Function GetEnumerator As IEnumerator Implements IEntryClassesPermissions.GetEnumerator
+    content.vb: Overridable Function GetEnumerator() As IEnumerator
   overload: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
   - System.Collections.IEnumerable.GetEnumerator
-  nameWithType.vb: EntryClassesPermissionsClass.GetEnumerator()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator()
-  name.vb: GetEnumerator()
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Item(System.Object)
   id: Item(System.Object)
@@ -111,38 +90,28 @@ items:
   langs:
   - csharp
   - vb
-  name: IEntryClassesPermissions.Item[Object]
-  nameWithType: EntryClassesPermissionsClass.IEntryClassesPermissions.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item[System.Object]
+  name: this[object]
+  nameWithType: EntryClassesPermissionsClass.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.this[object]
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual EntryClassPermissions IEntryClassesPermissions.this[object Index] { get; }
+    content: virtual EntryClassPermissions this[object Index] { get; }
     parameters:
     - id: Index
       type: System.Object
     return:
       type: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
-    content.vb: Public Overridable ReadOnly Property Item(Index As Object) As EntryClassPermissions Implements IEntryClassesPermissions.this[]
+    content.vb: Overridable ReadOnly Default Property this[](Index As Object) As EntryClassPermissions
   overload: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Item*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
-  nameWithType.vb: EntryClassesPermissionsClass.Item(Object)
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Item(System.Object)
-  name.vb: Item(Object)
+  nameWithType.vb: EntryClassesPermissionsClass.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.this[](Object)
+  name.vb: this[](Object)
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count
   id: Count
@@ -151,36 +120,23 @@ items:
   langs:
   - csharp
   - vb
-  name: IEntryClassesPermissions.Count
-  nameWithType: EntryClassesPermissionsClass.IEntryClassesPermissions.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
+  name: Count
+  nameWithType: EntryClassesPermissionsClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int IEntryClassesPermissions.Count { get; }
+    content: virtual int Count { get; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable ReadOnly Property Count As Integer Implements IEntryClassesPermissions.Count
+    content.vb: Overridable ReadOnly Property Count As Integer
   overload: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
-  nameWithType.vb: EntryClassesPermissionsClass.Count
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count
-  name.vb: Count
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML
   commentId: P:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML
   id: XML
@@ -189,54 +145,87 @@ items:
   langs:
   - csharp
   - vb
-  name: IEntryClassesPermissions.XML
-  nameWithType: EntryClassesPermissionsClass.IEntryClassesPermissions.XML
-  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
+  name: XML
+  nameWithType: EntryClassesPermissionsClass.XML
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string IEntryClassesPermissions.XML { get; }
+    content: virtual string XML { get; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable ReadOnly Property XML As String Implements IEntryClassesPermissions.XML
+    content.vb: Overridable ReadOnly Property XML As String
   overload: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML*
   implements:
   - Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
-  nameWithType.vb: EntryClassesPermissionsClass.XML
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  modifiers.vb:
-  - Public
-  - Overridable
-  - ReadOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML
-  name.vb: XML
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions.html
   name: EntryClassesPermissions
   nameWithType: EntryClassesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissions
@@ -244,6 +233,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html
   name: IEntryClassesPermissions
   nameWithType: IEntryClassesPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
@@ -251,6 +241,7 @@ references:
   commentId: T:System.Collections.IEnumerable
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable
   name: IEnumerable
   nameWithType: IEnumerable
   fullName: System.Collections.IEnumerable
@@ -258,444 +249,374 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: System.Collections
   commentId: N:System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System.Collections
   nameWithType: System.Collections
   fullName: System.Collections
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator
   isExternal: true
-  name: IEntryClassesPermissions.GetEnumerator
-  nameWithType: EntryClassesPermissionsClass.IEntryClassesPermissions.GetEnumerator
-  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
-  nameWithType.vb: EntryClassesPermissionsClass.GetEnumerator
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator
-  name.vb: GetEnumerator
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.html#Sdl_MultiTerm_TMO_Interop_EntryClassesPermissionsClass_GetEnumerator
+  name: GetEnumerator
+  nameWithType: EntryClassesPermissionsClass.GetEnumerator
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.GetEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
   commentId: M:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_GetEnumerator
   name: GetEnumerator()
   nameWithType: IEntryClassesPermissions.GetEnumerator()
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEntryClassesPermissions.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEntryClassesPermissions.GetEnumerator
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.GetEnumerator
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_GetEnumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerable.GetEnumerator
   commentId: M:System.Collections.IEnumerable.GetEnumerator
   parent: System.Collections.IEnumerable
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   name: GetEnumerator()
   nameWithType: IEnumerable.GetEnumerator()
   fullName: System.Collections.IEnumerable.GetEnumerator()
   spec.csharp:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Collections.IEnumerable.GetEnumerator
     name: GetEnumerator
-    nameWithType: IEnumerable.GetEnumerator
-    fullName: System.Collections.IEnumerable.GetEnumerator
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerable.getenumerator
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Collections.IEnumerator
   commentId: T:System.Collections.IEnumerator
   parent: System.Collections
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.ienumerator
   name: IEnumerator
   nameWithType: IEnumerator
   fullName: System.Collections.IEnumerator
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Item*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Item
   isExternal: true
-  name: IEntryClassesPermissions.Item
-  nameWithType: EntryClassesPermissionsClass.IEntryClassesPermissions.Item
-  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item
-  nameWithType.vb: EntryClassesPermissionsClass.Item
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Item
-  name.vb: Item
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.html#Sdl_MultiTerm_TMO_Interop_EntryClassesPermissionsClass_Item_System_Object_
+  name: this
+  nameWithType: EntryClassesPermissionsClass.this
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.this
+  nameWithType.vb: EntryClassesPermissionsClass.this[]
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.this[]
+  name.vb: this[]
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   isExternal: true
-  name: Item[Object]
-  nameWithType: IEntryClassesPermissions.Item[Object]
-  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item[System.Object]
-  nameWithType.vb: IEntryClassesPermissions.Item(Object)
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
-  name.vb: Item(Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: this[object]
+  nameWithType: IEntryClassesPermissions.this[object]
+  fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.this[object]
+  nameWithType.vb: IEntryClassesPermissions.this[](Object)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.this[](Object)
+  name.vb: this[](Object)
   spec.csharp:
-  - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
-    name: Item
-    nameWithType: IEntryClassesPermissions.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item
-    isExternal: true
+  - name: this
   - name: '['
-    nameWithType: '['
-    fullName: '['
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: ']'
-    nameWithType: ']'
-    fullName: ']'
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item(System.Object)
-    name: Item
-    nameWithType: IEntryClassesPermissions.Item
-    fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Item
+    name: this[]
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_Item_System_Object_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
   commentId: T:Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions.html
   name: EntryClassPermissions
   nameWithType: EntryClassPermissions
   fullName: Sdl.MultiTerm.TMO.Interop.EntryClassPermissions
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count
   isExternal: true
-  name: IEntryClassesPermissions.Count
-  nameWithType: EntryClassesPermissionsClass.IEntryClassesPermissions.Count
-  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
-  nameWithType.vb: EntryClassesPermissionsClass.Count
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count
-  name.vb: Count
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.html#Sdl_MultiTerm_TMO_Interop_EntryClassesPermissionsClass_Count
+  name: Count
+  nameWithType: EntryClassesPermissionsClass.Count
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Count
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_Count
   name: Count
   nameWithType: IEntryClassesPermissions.Count
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.Count
@@ -703,22 +624,25 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML
   isExternal: true
-  name: IEntryClassesPermissions.XML
-  nameWithType: EntryClassesPermissionsClass.IEntryClassesPermissions.XML
-  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
-  nameWithType.vb: EntryClassesPermissionsClass.XML
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML
-  name.vb: XML
+  href: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.html#Sdl_MultiTerm_TMO_Interop_EntryClassesPermissionsClass_XML
+  name: XML
+  nameWithType: EntryClassesPermissionsClass.XML
+  fullName: Sdl.MultiTerm.TMO.Interop.EntryClassesPermissionsClass.XML
 - uid: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
   commentId: P:Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
   parent: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.html#Sdl_MultiTerm_TMO_Interop_IEntryClassesPermissions_XML
   name: XML
   nameWithType: IEntryClassesPermissions.XML
   fullName: Sdl.MultiTerm.TMO.Interop.IEntryClassesPermissions.XML
@@ -726,6 +650,10 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

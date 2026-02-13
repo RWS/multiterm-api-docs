@@ -12,22 +12,18 @@ items:
   nameWithType: SearchInfo
   fullName: Sdl.MultiTerm.TMO.Interop.SearchInfo
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("34006FF0-484A-4293-8150-F84FD66CF306")]
+      [Guid("566D87BB-6724-44AE-89B4-714016F1D2C3")]
 
       public interface SearchInfo : ISearchInfo
     content.vb: >-
-      <Guid("34006FF0-484A-4293-8150-F84FD66CF306")>
+      <Guid("566D87BB-6724-44AE-89B4-714016F1D2C3")>
 
-      Public Interface SearchInfo
-          Inherits ISearchInfo
+      Public Interface SearchInfo Inherits ISearchInfo
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
   - Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
@@ -42,24 +38,60 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 34006FF0-484A-4293-8150-F84FD66CF306
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 566D87BB-6724-44AE-89B4-714016F1D2C3
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html#Sdl_MultiTerm_TMO_Interop_ISearchInfo_TermbaseName
   name: TermbaseName
   nameWithType: ISearchInfo.TermbaseName
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TermbaseName
@@ -67,6 +99,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html#Sdl_MultiTerm_TMO_Interop_ISearchInfo_SourceIndex
   name: SourceIndex
   nameWithType: ISearchInfo.SourceIndex
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceIndex
@@ -74,6 +107,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html#Sdl_MultiTerm_TMO_Interop_ISearchInfo_SourceLocale
   name: SourceLocale
   nameWithType: ISearchInfo.SourceLocale
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.SourceLocale
@@ -81,6 +115,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html#Sdl_MultiTerm_TMO_Interop_ISearchInfo_TargetIndex
   name: TargetIndex
   nameWithType: ISearchInfo.TargetIndex
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetIndex
@@ -88,6 +123,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html#Sdl_MultiTerm_TMO_Interop_ISearchInfo_TargetLocale
   name: TargetLocale
   nameWithType: ISearchInfo.TargetLocale
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.TargetLocale
@@ -95,6 +131,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html#Sdl_MultiTerm_TMO_Interop_ISearchInfo_HitsFound
   name: HitsFound
   nameWithType: ISearchInfo.HitsFound
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.HitsFound
@@ -102,6 +139,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html#Sdl_MultiTerm_TMO_Interop_ISearchInfo_ErrorMessage
   name: ErrorMessage
   nameWithType: ISearchInfo.ErrorMessage
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorMessage
@@ -109,6 +147,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
   parent: Sdl.MultiTerm.TMO.Interop.ISearchInfo
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html#Sdl_MultiTerm_TMO_Interop_ISearchInfo_ErrorCode
   name: ErrorCode
   nameWithType: ISearchInfo.ErrorCode
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo.ErrorCode
@@ -116,6 +155,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ISearchInfo
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ISearchInfo.html
   name: ISearchInfo
   nameWithType: ISearchInfo
   fullName: Sdl.MultiTerm.TMO.Interop.ISearchInfo

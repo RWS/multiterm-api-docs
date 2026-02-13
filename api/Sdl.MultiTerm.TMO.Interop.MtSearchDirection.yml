@@ -14,19 +14,16 @@ items:
   nameWithType: MtSearchDirection
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
   type: Enum
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("A4864F1C-DF8C-4FC0-A59D-8C324AFC03ED")]
+      [Guid("46BBE6A4-84ED-4824-A9C3-1532E2FEB455")]
 
       public enum MtSearchDirection
     content.vb: >-
-      <Guid("A4864F1C-DF8C-4FC0-A59D-8C324AFC03ED")>
+      <Guid("46BBE6A4-84ED-4824-A9C3-1532E2FEB455")>
 
       Public Enum MtSearchDirection
   attributes:
@@ -34,13 +31,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: A4864F1C-DF8C-4FC0-A59D-8C324AFC03ED
-  modifiers.csharp:
-  - public
-  - enum
-  modifiers.vb:
-  - Public
-  - Enum
+      value: 46BBE6A4-84ED-4824-A9C3-1532E2FEB455
 - uid: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchUp
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchUp
   id: mtSearchUp
@@ -52,9 +43,6 @@ items:
   nameWithType: MtSearchDirection.mtSearchUp
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchUp
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -62,12 +50,6 @@ items:
     content: mtSearchUp = 1
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 - uid: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchDown
   commentId: F:Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchDown
   id: mtSearchDown
@@ -79,9 +61,6 @@ items:
   nameWithType: MtSearchDirection.mtSearchDown
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.mtSearchDown
   type: Field
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -89,23 +68,59 @@ items:
     content: mtSearchDown = 2
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchDirection
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.html
   name: MtSearchDirection
   nameWithType: MtSearchDirection
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection

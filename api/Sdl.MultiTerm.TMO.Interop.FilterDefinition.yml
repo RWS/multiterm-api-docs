@@ -12,22 +12,18 @@ items:
   nameWithType: FilterDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.FilterDefinition
   type: Interface
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
   syntax:
     content: >-
-      [Guid("C01F2685-E732-4823-BE9C-9BC91D749B11")]
+      [Guid("8AC4141B-01ED-4734-A576-68F24A42D4D1")]
 
       public interface FilterDefinition : IFilterDefinition
     content.vb: >-
-      <Guid("C01F2685-E732-4823-BE9C-9BC91D749B11")>
+      <Guid("8AC4141B-01ED-4734-A576-68F24A42D4D1")>
 
-      Public Interface FilterDefinition
-          Inherits IFilterDefinition
+      Public Interface FilterDefinition Inherits IFilterDefinition
   inheritedMembers:
   - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
   - Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
@@ -47,178 +43,181 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: C01F2685-E732-4823-BE9C-9BC91D749B11
-  modifiers.csharp:
-  - public
-  - interface
-  modifiers.vb:
-  - Public
-  - Interface
+      value: 8AC4141B-01ED-4734-A576-68F24A42D4D1
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
-  name: StartWizard(String)
-  nameWithType: IFilterDefinition.StartWizard(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_StartWizard_System_String_
+  name: StartWizard(string)
+  nameWithType: IFilterDefinition.StartWizard(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(string)
+  nameWithType.vb: IFilterDefinition.StartWizard(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(String)
+  name.vb: StartWizard(String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
     name: StartWizard
-    nameWithType: IFilterDefinition.StartWizard
-    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_StartWizard_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard(System.String)
     name: StartWizard
-    nameWithType: IFilterDefinition.StartWizard
-    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.StartWizard
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_StartWizard_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
   commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Delete
   name: Delete()
   nameWithType: IFilterDefinition.Delete()
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
     name: Delete
-    nameWithType: IFilterDefinition.Delete
-    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Delete
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
     name: Delete
-    nameWithType: IFilterDefinition.Delete
-    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Delete
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Delete
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
-  name: Save(String)
-  nameWithType: IFilterDefinition.Save(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Save_System_String_
+  name: Save(string)
+  nameWithType: IFilterDefinition.Save(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(string)
+  nameWithType.vb: IFilterDefinition.Save(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(String)
+  name.vb: Save(String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
     name: Save
-    nameWithType: IFilterDefinition.Save
-    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Save_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save(System.String)
     name: Save
-    nameWithType: IFilterDefinition.Save
-    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Save
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Save_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
   commentId: M:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
-  name: Load(String)
-  nameWithType: IFilterDefinition.Load(String)
-  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Load_System_String_
+  name: Load(string)
+  nameWithType: IFilterDefinition.Load(string)
+  fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(string)
+  nameWithType.vb: IFilterDefinition.Load(String)
+  fullName.vb: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(String)
+  name.vb: Load(String)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
     name: Load
-    nameWithType: IFilterDefinition.Load
-    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Load_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
+    name: string
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load(System.String)
     name: Load
-    nameWithType: IFilterDefinition.Load
-    fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Load
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Load_System_String_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.String
     name: String
-    nameWithType: String
-    fullName: System.String
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Name
   name: Name
   nameWithType: IFilterDefinition.Name
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Name
@@ -226,6 +225,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Active
   name: Active
   nameWithType: IFilterDefinition.Active
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Active
@@ -233,6 +233,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Description
   name: Description
   nameWithType: IFilterDefinition.Description
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Description
@@ -240,6 +241,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Content
   name: Content
   nameWithType: IFilterDefinition.Content
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Content
@@ -247,6 +249,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_ReadOnly
   name: ReadOnly
   nameWithType: IFilterDefinition.ReadOnly
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ReadOnly
@@ -254,6 +257,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_ID
   name: ID
   nameWithType: IFilterDefinition.ID
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.ID
@@ -261,6 +265,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Owner
   name: Owner
   nameWithType: IFilterDefinition.Owner
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Owner
@@ -268,6 +273,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_IsSytemObject
   name: IsSytemObject
   nameWithType: IFilterDefinition.IsSytemObject
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.IsSytemObject
@@ -275,6 +281,7 @@ references:
   commentId: P:Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability
   parent: Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html#Sdl_MultiTerm_TMO_Interop_IFilterDefinition_Usability
   name: Usability
   nameWithType: IFilterDefinition.Usability
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.Usability
@@ -282,6 +289,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.IFilterDefinition
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.IFilterDefinition.html
   name: IFilterDefinition
   nameWithType: IFilterDefinition
   fullName: Sdl.MultiTerm.TMO.Interop.IFilterDefinition

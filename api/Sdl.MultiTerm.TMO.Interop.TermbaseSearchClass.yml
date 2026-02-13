@@ -25,9 +25,6 @@ items:
   nameWithType: TermbaseSearchClass
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass
   type: Class
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
@@ -35,16 +32,15 @@ items:
     content: >-
       [ClassInterface(ClassInterfaceType.None)]
 
-      [Guid("3F9C1C88-74B7-44A9-8925-D59CD29B4A38")]
+      [Guid("850F8257-8661-4EAA-8242-D96774A22B64")]
 
       public class TermbaseSearchClass : TermbaseSearch, ITermbaseSearch
     content.vb: >-
       <ClassInterface(ClassInterfaceType.None)>
 
-      <Guid("3F9C1C88-74B7-44A9-8925-D59CD29B4A38")>
+      <Guid("850F8257-8661-4EAA-8242-D96774A22B64")>
 
-      Public Class TermbaseSearchClass
-          Implements TermbaseSearch, ITermbaseSearch
+      Public Class TermbaseSearchClass Implements TermbaseSearch, ITermbaseSearch
   inheritance:
   - System.Object
   implements:
@@ -68,13 +64,7 @@ items:
     ctor: System.Runtime.InteropServices.GuidAttribute.#ctor(System.String)
     arguments:
     - type: System.String
-      value: 3F9C1C88-74B7-44A9-8925-D59CD29B4A38
-  modifiers.csharp:
-  - public
-  - class
-  modifiers.vb:
-  - Public
-  - Class
+      value: 850F8257-8661-4EAA-8242-D96774A22B64
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute
   id: Execute
@@ -83,33 +73,22 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.Execute()
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.Execute()
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute()
+  name: Execute()
+  nameWithType: TermbaseSearchClass.Execute()
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual HitTerms ITermbaseSearch.Execute()
+    content: virtual HitTerms Execute()
     return:
       type: Sdl.MultiTerm.TMO.Interop.HitTerms
-    content.vb: Public Overridable Function Execute As HitTerms Implements ITermbaseSearch.Execute
+    content.vb: Overridable Function Execute() As HitTerms
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
-  nameWithType.vb: TermbaseSearchClass.Execute()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute()
-  name.vb: Execute()
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
   id: Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
@@ -118,34 +97,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.Advise(MultiSearch)
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.Advise(MultiSearch)
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
+  name: Advise(MultiSearch)
+  nameWithType: TermbaseSearchClass.Advise(MultiSearch)
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual void ITermbaseSearch.Advise(MultiSearch AdvancedSearchObject)
+    content: virtual void Advise(MultiSearch AdvancedSearchObject)
     parameters:
     - id: AdvancedSearchObject
       type: Sdl.MultiTerm.TMO.Interop.MultiSearch
-    content.vb: Public Overridable Sub Advise(AdvancedSearchObject As MultiSearch) Implements ITermbaseSearch.Advise
+    content.vb: Overridable Sub Advise(AdvancedSearchObject As MultiSearch)
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
-  nameWithType.vb: TermbaseSearchClass.Advise(MultiSearch)
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
-  name.vb: Advise(MultiSearch)
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise
   id: Unadvise
@@ -154,31 +122,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.Unadvise()
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.Unadvise()
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise()
+  name: Unadvise()
+  nameWithType: TermbaseSearchClass.Unadvise()
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual void ITermbaseSearch.Unadvise()
-    content.vb: Public Overridable Sub Unadvise Implements ITermbaseSearch.Unadvise
+    content: virtual void Unadvise()
+    content.vb: Overridable Sub Unadvise()
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
-  nameWithType.vb: TermbaseSearchClass.Unadvise()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise()
-  name.vb: Unadvise()
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch
   commentId: M:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch
   id: CancelSearch
@@ -187,31 +144,20 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.CancelSearch()
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.CancelSearch()
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch()
+  name: CancelSearch()
+  nameWithType: TermbaseSearchClass.CancelSearch()
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch()
   type: Method
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual void ITermbaseSearch.CancelSearch()
-    content.vb: Public Overridable Sub CancelSearch Implements ITermbaseSearch.CancelSearch
+    content: virtual void CancelSearch()
+    content.vb: Overridable Sub CancelSearch()
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
-  nameWithType.vb: TermbaseSearchClass.CancelSearch()
-  modifiers.csharp:
-  - public
-  - virtual
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch()
-  name.vb: CancelSearch()
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression
   id: SearchExpression
@@ -220,36 +166,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.SearchExpression
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.SearchExpression
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
+  name: SearchExpression
+  nameWithType: TermbaseSearchClass.SearchExpression
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbaseSearch.SearchExpression { get; set; }
+    content: virtual string SearchExpression { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property SearchExpression As String Implements ITermbaseSearch.SearchExpression
+    content.vb: Overridable Property SearchExpression As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
-  nameWithType.vb: TermbaseSearchClass.SearchExpression
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression
-  name.vb: SearchExpression
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex
   id: SourceIndex
@@ -258,36 +191,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.SourceIndex
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.SourceIndex
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
+  name: SourceIndex
+  nameWithType: TermbaseSearchClass.SourceIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbaseSearch.SourceIndex { get; set; }
+    content: virtual string SourceIndex { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property SourceIndex As String Implements ITermbaseSearch.SourceIndex
+    content.vb: Overridable Property SourceIndex As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
-  nameWithType.vb: TermbaseSearchClass.SourceIndex
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex
-  name.vb: SourceIndex
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction
   id: Direction
@@ -296,36 +216,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.Direction
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.Direction
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
+  name: Direction
+  nameWithType: TermbaseSearchClass.Direction
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual MtSearchDirection ITermbaseSearch.Direction { get; set; }
+    content: virtual MtSearchDirection Direction { get; set; }
     parameters: []
     return:
       type: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
-    content.vb: Public Overridable Property Direction As MtSearchDirection Implements ITermbaseSearch.Direction
+    content.vb: Overridable Property Direction As MtSearchDirection
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
-  nameWithType.vb: TermbaseSearchClass.Direction
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction
-  name.vb: Direction
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits
   id: MaximumHits
@@ -334,36 +241,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.MaximumHits
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.MaximumHits
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
+  name: MaximumHits
+  nameWithType: TermbaseSearchClass.MaximumHits
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int ITermbaseSearch.MaximumHits { get; set; }
+    content: virtual int MaximumHits { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property MaximumHits As Integer Implements ITermbaseSearch.MaximumHits
+    content.vb: Overridable Property MaximumHits As Integer
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
-  nameWithType.vb: TermbaseSearchClass.MaximumHits
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits
-  name.vb: MaximumHits
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm
   id: LastTerm
@@ -372,36 +266,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.LastTerm
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.LastTerm
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
+  name: LastTerm
+  nameWithType: TermbaseSearchClass.LastTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbaseSearch.LastTerm { set; }
+    content: virtual string LastTerm { set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable WriteOnly Property LastTerm As String Implements ITermbaseSearch.LastTerm
+    content.vb: Overridable WriteOnly Property LastTerm As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
-  nameWithType.vb: TermbaseSearchClass.LastTerm
-  modifiers.csharp:
-  - public
-  - virtual
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  - WriteOnly
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm
-  name.vb: LastTerm
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID
   id: StartingEntryID
@@ -410,36 +291,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.StartingEntryID
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.StartingEntryID
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
+  name: StartingEntryID
+  nameWithType: TermbaseSearchClass.StartingEntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual int ITermbaseSearch.StartingEntryID { get; set; }
+    content: virtual int StartingEntryID { get; set; }
     parameters: []
     return:
       type: System.Int32
-    content.vb: Public Overridable Property StartingEntryID As Integer Implements ITermbaseSearch.StartingEntryID
+    content.vb: Overridable Property StartingEntryID As Integer
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
-  nameWithType.vb: TermbaseSearchClass.StartingEntryID
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID
-  name.vb: StartingEntryID
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex
   id: TargetIndex
@@ -448,36 +316,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.TargetIndex
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.TargetIndex
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
+  name: TargetIndex
+  nameWithType: TermbaseSearchClass.TargetIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual string ITermbaseSearch.TargetIndex { get; set; }
+    content: virtual string TargetIndex { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Overridable Property TargetIndex As String Implements ITermbaseSearch.TargetIndex
+    content.vb: Overridable Property TargetIndex As String
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
-  nameWithType.vb: TermbaseSearchClass.TargetIndex
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex
-  name.vb: TargetIndex
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch
   id: FuzzySearch
@@ -486,36 +341,23 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.FuzzySearch
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.FuzzySearch
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
+  name: FuzzySearch
+  nameWithType: TermbaseSearchClass.FuzzySearch
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual bool ITermbaseSearch.FuzzySearch { get; set; }
+    content: virtual bool FuzzySearch { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property FuzzySearch As Boolean Implements ITermbaseSearch.FuzzySearch
+    content.vb: Overridable Property FuzzySearch As Boolean
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
-  nameWithType.vb: TermbaseSearchClass.FuzzySearch
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch
-  name.vb: FuzzySearch
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget
   commentId: P:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget
   id: SearchExistTarget
@@ -524,54 +366,87 @@ items:
   langs:
   - csharp
   - vb
-  name: ITermbaseSearch.SearchExistTarget
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.SearchExistTarget
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
+  name: SearchExistTarget
+  nameWithType: TermbaseSearchClass.SearchExistTarget
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget
   type: Property
-  source:
-    path: Sdl.MultiTerm.TMO.Interop
-    isExternal: true
   assemblies:
   - Sdl.MultiTerm.TMO.Interop
   namespace: Sdl.MultiTerm.TMO.Interop
+  example: []
   syntax:
-    content: public virtual bool ITermbaseSearch.SearchExistTarget { get; set; }
+    content: virtual bool SearchExistTarget { get; set; }
     parameters: []
     return:
       type: System.Boolean
-    content.vb: Public Overridable Property SearchExistTarget As Boolean Implements ITermbaseSearch.SearchExistTarget
+    content.vb: Overridable Property SearchExistTarget As Boolean
   overload: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget*
   implements:
   - Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
-  nameWithType.vb: TermbaseSearchClass.SearchExistTarget
-  modifiers.csharp:
-  - public
-  - virtual
-  - get
-  - set
-  modifiers.vb:
-  - Public
-  - Overridable
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget
-  name.vb: SearchExistTarget
 references:
 - uid: Sdl.MultiTerm.TMO.Interop
   commentId: N:Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.html
   name: Sdl.MultiTerm.TMO.Interop
   nameWithType: Sdl.MultiTerm.TMO.Interop
   fullName: Sdl.MultiTerm.TMO.Interop
+  spec.csharp:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
+  spec.vb:
+  - uid: Sdl
+    name: Sdl
+    isExternal: true
+    href: Sdl.html
+  - name: .
+  - uid: Sdl.MultiTerm
+    name: MultiTerm
+    isExternal: true
+    href: Sdl.MultiTerm.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO
+    name: TMO
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.html
+  - name: .
+  - uid: Sdl.MultiTerm.TMO.Interop
+    name: Interop
+    isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.html
 - uid: System.Object
   commentId: T:System.Object
   parent: System
   isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearch
   commentId: T:Sdl.MultiTerm.TMO.Interop.TermbaseSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearch.html
   name: TermbaseSearch
   nameWithType: TermbaseSearch
   fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearch
@@ -579,6 +454,7 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html
   name: ITermbaseSearch
   nameWithType: ITermbaseSearch
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
@@ -586,484 +462,380 @@ references:
   commentId: M:System.Object.ToString
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
   spec.csharp:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ToString
     name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.Equals(System.Object,System.Object)
   commentId: M:System.Object.Equals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
   spec.csharp:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.Equals(System.Object,System.Object)
     name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.ReferenceEquals(System.Object,System.Object)
   commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
   parent: System.Object
   isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
   spec.csharp:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
+    name: object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.ReferenceEquals(System.Object,System.Object)
     name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
   - uid: System.Object
     name: Object
-    nameWithType: Object
-    fullName: System.Object
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetHashCode
   commentId: M:System.Object.GetHashCode
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
   spec.csharp:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetHashCode
     name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.GetType
   commentId: M:System.Object.GetType
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
   spec.csharp:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.GetType
     name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System.Object.MemberwiseClone
   commentId: M:System.Object.MemberwiseClone
   parent: System.Object
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
   spec.csharp:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: System.Object.MemberwiseClone
     name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
     isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
   name: System
   nameWithType: System
   fullName: System
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute
   isExternal: true
-  name: ITermbaseSearch.Execute
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.Execute
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
-  nameWithType.vb: TermbaseSearchClass.Execute
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute
-  name.vb: Execute
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_Execute
+  name: Execute
+  nameWithType: TermbaseSearchClass.Execute
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Execute
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Execute
   name: Execute()
   nameWithType: ITermbaseSearch.Execute()
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
     name: Execute
-    nameWithType: ITermbaseSearch.Execute
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Execute
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
     name: Execute
-    nameWithType: ITermbaseSearch.Execute
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Execute
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Execute
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.HitTerms
   commentId: T:Sdl.MultiTerm.TMO.Interop.HitTerms
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.HitTerms.html
   name: HitTerms
   nameWithType: HitTerms
   fullName: Sdl.MultiTerm.TMO.Interop.HitTerms
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise
   isExternal: true
-  name: ITermbaseSearch.Advise
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.Advise
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise
-  nameWithType.vb: TermbaseSearchClass.Advise
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise
-  name.vb: Advise
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_Advise_Sdl_MultiTerm_TMO_Interop_MultiSearch_
+  name: Advise
+  nameWithType: TermbaseSearchClass.Advise
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Advise
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Advise_Sdl_MultiTerm_TMO_Interop_MultiSearch_
   name: Advise(MultiSearch)
   nameWithType: ITermbaseSearch.Advise(MultiSearch)
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
     name: Advise
-    nameWithType: ITermbaseSearch.Advise
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Advise_Sdl_MultiTerm_TMO_Interop_MultiSearch_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: Sdl.MultiTerm.TMO.Interop.MultiSearch
     name: MultiSearch
-    nameWithType: MultiSearch
-    fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.MultiSearch.html
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise(Sdl.MultiTerm.TMO.Interop.MultiSearch)
     name: Advise
-    nameWithType: ITermbaseSearch.Advise
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Advise
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Advise_Sdl_MultiTerm_TMO_Interop_MultiSearch_
   - name: (
-    nameWithType: (
-    fullName: (
   - uid: Sdl.MultiTerm.TMO.Interop.MultiSearch
     name: MultiSearch
-    nameWithType: MultiSearch
-    fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.MultiSearch.html
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.MultiSearch
   commentId: T:Sdl.MultiTerm.TMO.Interop.MultiSearch
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MultiSearch.html
   name: MultiSearch
   nameWithType: MultiSearch
   fullName: Sdl.MultiTerm.TMO.Interop.MultiSearch
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise
   isExternal: true
-  name: ITermbaseSearch.Unadvise
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.Unadvise
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
-  nameWithType.vb: TermbaseSearchClass.Unadvise
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise
-  name.vb: Unadvise
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_Unadvise
+  name: Unadvise
+  nameWithType: TermbaseSearchClass.Unadvise
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Unadvise
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Unadvise
   name: Unadvise()
   nameWithType: ITermbaseSearch.Unadvise()
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
     name: Unadvise
-    nameWithType: ITermbaseSearch.Unadvise
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Unadvise
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
     name: Unadvise
-    nameWithType: ITermbaseSearch.Unadvise
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Unadvise
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Unadvise
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch
   isExternal: true
-  name: ITermbaseSearch.CancelSearch
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.CancelSearch
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
-  nameWithType.vb: TermbaseSearchClass.CancelSearch
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch
-  name.vb: CancelSearch
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_CancelSearch
+  name: CancelSearch
+  nameWithType: TermbaseSearchClass.CancelSearch
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.CancelSearch
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
   commentId: M:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_CancelSearch
   name: CancelSearch()
   nameWithType: ITermbaseSearch.CancelSearch()
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch()
   spec.csharp:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
     name: CancelSearch
-    nameWithType: ITermbaseSearch.CancelSearch
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_CancelSearch
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
   spec.vb:
   - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
     name: CancelSearch
-    nameWithType: ITermbaseSearch.CancelSearch
-    fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.CancelSearch
     isExternal: true
+    href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_CancelSearch
   - name: (
-    nameWithType: (
-    fullName: (
   - name: )
-    nameWithType: )
-    fullName: )
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression
   isExternal: true
-  name: ITermbaseSearch.SearchExpression
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.SearchExpression
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
-  nameWithType.vb: TermbaseSearchClass.SearchExpression
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression
-  name.vb: SearchExpression
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_SearchExpression
+  name: SearchExpression
+  nameWithType: TermbaseSearchClass.SearchExpression
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExpression
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_SearchExpression
   name: SearchExpression
   nameWithType: ITermbaseSearch.SearchExpression
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExpression
@@ -1071,38 +843,40 @@ references:
   commentId: T:System.String
   parent: System
   isExternal: true
-  name: String
-  nameWithType: String
-  fullName: System.String
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex
   isExternal: true
-  name: ITermbaseSearch.SourceIndex
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.SourceIndex
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
-  nameWithType.vb: TermbaseSearchClass.SourceIndex
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex
-  name.vb: SourceIndex
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_SourceIndex
+  name: SourceIndex
+  nameWithType: TermbaseSearchClass.SourceIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SourceIndex
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_SourceIndex
   name: SourceIndex
   nameWithType: ITermbaseSearch.SourceIndex
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SourceIndex
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction
   isExternal: true
-  name: ITermbaseSearch.Direction
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.Direction
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
-  nameWithType.vb: TermbaseSearchClass.Direction
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction
-  name.vb: Direction
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_Direction
+  name: Direction
+  nameWithType: TermbaseSearchClass.Direction
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Direction
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_Direction
   name: Direction
   nameWithType: ITermbaseSearch.Direction
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.Direction
@@ -1110,22 +884,22 @@ references:
   commentId: T:Sdl.MultiTerm.TMO.Interop.MtSearchDirection
   parent: Sdl.MultiTerm.TMO.Interop
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.MtSearchDirection.html
   name: MtSearchDirection
   nameWithType: MtSearchDirection
   fullName: Sdl.MultiTerm.TMO.Interop.MtSearchDirection
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits
   isExternal: true
-  name: ITermbaseSearch.MaximumHits
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.MaximumHits
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
-  nameWithType.vb: TermbaseSearchClass.MaximumHits
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits
-  name.vb: MaximumHits
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_MaximumHits
+  name: MaximumHits
+  nameWithType: TermbaseSearchClass.MaximumHits
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.MaximumHits
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_MaximumHits
   name: MaximumHits
   nameWithType: ITermbaseSearch.MaximumHits
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.MaximumHits
@@ -1133,70 +907,70 @@ references:
   commentId: T:System.Int32
   parent: System
   isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm
   isExternal: true
-  name: ITermbaseSearch.LastTerm
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.LastTerm
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
-  nameWithType.vb: TermbaseSearchClass.LastTerm
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm
-  name.vb: LastTerm
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_LastTerm
+  name: LastTerm
+  nameWithType: TermbaseSearchClass.LastTerm
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.LastTerm
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_LastTerm
   name: LastTerm
   nameWithType: ITermbaseSearch.LastTerm
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.LastTerm
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID
   isExternal: true
-  name: ITermbaseSearch.StartingEntryID
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.StartingEntryID
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
-  nameWithType.vb: TermbaseSearchClass.StartingEntryID
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID
-  name.vb: StartingEntryID
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_StartingEntryID
+  name: StartingEntryID
+  nameWithType: TermbaseSearchClass.StartingEntryID
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.StartingEntryID
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_StartingEntryID
   name: StartingEntryID
   nameWithType: ITermbaseSearch.StartingEntryID
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.StartingEntryID
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex
   isExternal: true
-  name: ITermbaseSearch.TargetIndex
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.TargetIndex
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
-  nameWithType.vb: TermbaseSearchClass.TargetIndex
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex
-  name.vb: TargetIndex
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_TargetIndex
+  name: TargetIndex
+  nameWithType: TermbaseSearchClass.TargetIndex
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.TargetIndex
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_TargetIndex
   name: TargetIndex
   nameWithType: ITermbaseSearch.TargetIndex
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.TargetIndex
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch
   isExternal: true
-  name: ITermbaseSearch.FuzzySearch
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.FuzzySearch
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
-  nameWithType.vb: TermbaseSearchClass.FuzzySearch
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch
-  name.vb: FuzzySearch
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_FuzzySearch
+  name: FuzzySearch
+  nameWithType: TermbaseSearchClass.FuzzySearch
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.FuzzySearch
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_FuzzySearch
   name: FuzzySearch
   nameWithType: ITermbaseSearch.FuzzySearch
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.FuzzySearch
@@ -1204,22 +978,25 @@ references:
   commentId: T:System.Boolean
   parent: System
   isExternal: true
-  name: Boolean
-  nameWithType: Boolean
-  fullName: System.Boolean
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
 - uid: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget*
   commentId: Overload:Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget
   isExternal: true
-  name: ITermbaseSearch.SearchExistTarget
-  nameWithType: TermbaseSearchClass.ITermbaseSearch.SearchExistTarget
-  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
-  nameWithType.vb: TermbaseSearchClass.SearchExistTarget
-  fullName.vb: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget
-  name.vb: SearchExistTarget
+  href: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.html#Sdl_MultiTerm_TMO_Interop_TermbaseSearchClass_SearchExistTarget
+  name: SearchExistTarget
+  nameWithType: TermbaseSearchClass.SearchExistTarget
+  fullName: Sdl.MultiTerm.TMO.Interop.TermbaseSearchClass.SearchExistTarget
 - uid: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
   commentId: P:Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
   parent: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch
   isExternal: true
+  href: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.html#Sdl_MultiTerm_TMO_Interop_ITermbaseSearch_SearchExistTarget
   name: SearchExistTarget
   nameWithType: ITermbaseSearch.SearchExistTarget
   fullName: Sdl.MultiTerm.TMO.Interop.ITermbaseSearch.SearchExistTarget
