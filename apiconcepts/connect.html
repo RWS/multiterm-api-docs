@@ -93,8 +93,8 @@ Debug.WriteLine(&quot;Connection successful: &quot; + oLocalRep.IsConnected);
 <p>Connecting to a remote, i.e. server repository requires you to enter a 'real' user name and password. In addition you need to specify the server name (location), e.g.:</p>
 <pre><code class="lang-cs">Sdl.MultiTerm.TMO.Interop.Application oMt = new Sdl.MultiTerm.TMO.Interop.ApplicationClass();
 TermbaseRepository oServerRep = oMt.ServerRepository;
-oServerRep.Connect(&quot;guest&quot;,&quot;guest&quot;);
 oServerRep.Location = &quot;http://termserver&quot;;
+oServerRep.Connect(&quot;guest&quot;,&quot;guest&quot;);
 Debug.WriteLine(&quot;Connection successful: &quot; + oServerRep.IsConnected);
 </code></pre>
 
